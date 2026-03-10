@@ -1,51 +1,56 @@
-# Telecom Customer Churn Analysis
+# Estimation du Prix de Vehicules d'Occasion
 
 ## Description
-Analysis of telecom customer data to predict and understand customer churn using Machine Learning (Logistic Regression and Random Forest).
+Modele de Machine Learning (Random Forest) pour estimer le prix de revente de vehicules d'occasion en France. Le modele prend en compte le kilometrage, l'age, la motorisation, la puissance et la marque pour predire la decote.
 
-## Objectives
-- Understand key factors driving customer churn
-- Build predictive models to identify at-risk customers
-- Provide data-driven business recommendations
+## Objectifs
+- Analyser les facteurs influencant le prix des vehicules d'occasion
+- Construire un modele predictif performant (Random Forest)
+- Identifier les variables les plus impactantes (Feature Importance)
+- Fournir un outil d'estimation fiable
+
+## Dataset
+Le dataset contient 2 000 vehicules avec les informations suivantes :
+- Marque et modele (8 marques, 36 modeles)
+- Annee de mise en circulation (2015-2024)
+- Kilometrage
+- Type de carburant (Essence, Diesel, Hybride, Electrique)
+- Transmission (Manuelle, Automatique)
+- Puissance (CV)
+- Nombre de proprietaires
 
 ## Technologies
 - Python
-- Pandas
-- Scikit-learn
-- Matplotlib
-- Seaborn
+- Pandas (manipulation des donnees)
+- NumPy (calculs numeriques)
+- Scikit-learn (Machine Learning)
+- Matplotlib (visualisations)
+- Seaborn (visualisations statistiques)
 
-## Results
-| Model | Accuracy | AUC |
-|-------|----------|-----|
-| Logistic Regression | ~79% | ~0.82 |
-| Random Forest | ~82% | ~0.85 |
+## Resultats
+| Metrique | Valeur |
+|----------|--------|
+| R2 Score | 0.74 |
+| MAE | 3 592 EUR |
+| RMSE | 4 765 EUR |
+| MAPE | 20.3% |
 
-## Visualizations
+## Visualisations
 
-### Churn Distribution
-![Churn](outputs/churn_distribution.png)
+### Distribution des prix
+![Distribution](outputs/distribution_prix.png)
 
-### Monthly Charges vs Churn
-![Charges](outputs/monthly_charges_churn.png)
+### Prix vs Kilometrage
+![Prix vs KM](outputs/prix_vs_kilometrage.png)
 
-### Churn by Contract Type
-![Contract](outputs/churn_by_contract.png)
+### Matrice de correlation
+![Correlation](outputs/correlation_matrix.png)
 
-### Churn by Tenure
-![Tenure](outputs/churn_by_tenure.png)
+### Importance des variables
+![Feature Importance](outputs/feature_importance.png)
 
-### Feature Importance
-![Features](outputs/feature_importance.png)
-
-### ROC Curve
-![ROC](outputs/roc_curve.png)
-
-### Correlation Heatmap
-![Correlation](outputs/correlation_heatmap.png)
-
-### Confusion Matrix
-![Confusion](outputs/confusion_matrix.png)
+### Predictions vs Reel
+![Predictions](outputs/predictions_vs_reel.png)
 
 ## Installation
 ```bash

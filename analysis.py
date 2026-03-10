@@ -3,14 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.metrics import (
-    accuracy_score, precision_score, recall_score,
-    f1_score, roc_auc_score, roc_curve,
-    confusion_matrix, classification_report
-)
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import joblib
 import os
 import warnings
@@ -28,9 +23,6 @@ COLORS = {
     'success': '#10b981',
     'warning': '#f59e0b',
     'danger': '#ef4444',
-    'info': '#06b6d4',
-    'churn': '#ef4444',
-    'no_churn': '#10b981',
     'palette': ['#3b82f6', '#8b5cf6', '#10b981', '#f59e0b',
                 '#ef4444', '#06b6d4', '#ec4899', '#84cc16']
 }
@@ -45,430 +37,309 @@ def separator(title):
     print(f"{'=' * 60}\n")
 
 
-# ==========================================
-# 1. DATA LOADING
-# ==========================================
-separator("1. DATA LOADING")
+separator("1. CHARGEMENT DES DONNEES")
 
-df = pd.read_csv('data/telecom_churn.csv')
+df = pd.read_csv('data/vehicules.csv')
 
-print(f"Shape: {df.shape[0]} rows x {df.shape[1]} columns")
-print(f"Missing values: {df.isnull().sum().sum()}")
-print(f"Duplicates: {df.duplicated().sum()}")
+print(f"Shape : {df.shape[0]} lignes x {df.shape[1]} colonnes")
+print(f"\nColonnes :")
+for col in df.columns:
+    dtype = df[col].dtype
+    n_unique = df[col].nunique()
+    n_null = df[col].isnull().sum()
+    print(f"   > {col:<20} | Type: {str(dtype):<10} | Uniques: {n_unique:<6} | Nulls: {n_null}")
 
-print(f"\nDescriptive statistics:")
-print(df.describe().round(2).to_string())
+print(f"\nStatistiques descriptives :")
+print(df.describe().round(1).to_string())
 
 
-# ==========================================
-# 2. EXPLORATORY DATA ANALYSIS
-# ==========================================
-separator("2. EXPLORATORY DATA ANALYSIS")
+separator("2. ANALYSE EXPLORATOIRE (EDA)")
 
-# Churn Distribution
 fig, axes = plt.subplots(1, 2, figsize=(14, 6))
 
-churn_counts = df['churn'].value_counts()
-colors_churn = [COLORS['no_churn'], COLORS['churn']]
+axes[0].hist(df['prix'], bins=50, color=COLORS['primary'],
+             alpha=0.7, edgecolor='white')
+axes[0].axvline(df['prix'].mean(), color=COLORS['danger'],
+                linestyle='--', linewidth=2,
+                label=f"Moyenne: {df['prix'].mean():,.0f} EUR")
+axes[0].axvline(df['prix'].median(), color=COLORS['warning'],
+                linestyle='--', linewidth=2,
+                label=f"Mediane: {df['prix'].median():,.0f} EUR")
+axes[0].set_xlabel('Prix (EUR)', fontsize=12)
+axes[0].set_ylabel('Frequence', fontsize=12)
+axes[0].set_title('Distribution des Prix', fontsize=14, fontweight='bold')
+axes[0].legend(fontsize=10)
 
-axes[0].bar(churn_counts.index, churn_counts.values, color=colors_churn,
-            edgecolor='white', linewidth=2, width=0.5)
-
-for i, (label, val) in enumerate(zip(churn_counts.index, churn_counts.values)):
-    axes[0].text(i, val + 50, f'{val:,}\n({val/len(df)*100:.1f}%)',
-                 ha='center', fontsize=13, fontweight='bold')
-
-axes[0].set_xlabel('Churn Status', fontsize=13)
-axes[0].set_ylabel('Number of Customers', fontsize=13)
-axes[0].set_title('Customer Churn Distribution', fontsize=15, fontweight='bold')
-axes[0].set_ylim(0, max(churn_counts.values) * 1.2)
-
-axes[1].pie(churn_counts.values, labels=['Retained', 'Churned'],
-            colors=colors_churn, autopct='%1.1f%%',
-            startangle=90, pctdistance=0.85,
-            wedgeprops={'edgecolor': 'white', 'linewidth': 3},
-            textprops={'fontsize': 13, 'fontweight': 'bold'})
-
-centre = plt.Circle((0, 0), 0.55, fc='white')
-axes[1].add_artist(centre)
-axes[1].set_title('Churn Rate', fontsize=15, fontweight='bold')
+df_sorted = df.groupby('marque')['prix'].median().sort_values()
+order = df_sorted.index.tolist()
+sns.boxplot(data=df, x='marque', y='prix', order=order,
+            palette=COLORS['palette'], ax=axes[1])
+axes[1].set_xlabel('Marque', fontsize=12)
+axes[1].set_ylabel('Prix (EUR)', fontsize=12)
+axes[1].set_title('Prix par Marque', fontsize=14, fontweight='bold')
+axes[1].tick_params(axis='x', rotation=45)
 
 plt.tight_layout()
-plt.savefig('outputs/churn_distribution.png', dpi=150, bbox_inches='tight')
+plt.savefig('outputs/distribution_prix.png', dpi=150, bbox_inches='tight')
 plt.close()
-print("Saved: outputs/churn_distribution.png")
-
-churn_rate = (df['churn'] == 'Yes').mean() * 100
-print(f"Overall churn rate: {churn_rate:.1f}%")
+print("Graphique sauvegarde : outputs/distribution_prix.png")
 
 
-# Monthly Charges vs Churn
-fig, axes = plt.subplots(1, 2, figsize=(16, 7))
+fig, ax = plt.subplots(figsize=(12, 7))
 
-for label, color in zip(['No', 'Yes'], [COLORS['no_churn'], COLORS['churn']]):
-    subset = df[df['churn'] == label]['monthly_charges']
-    axes[0].hist(subset, bins=40, alpha=0.6, color=color,
-                 label=f'Churn: {label}', edgecolor='white')
-
-axes[0].set_xlabel('Monthly Charges (EUR)', fontsize=13)
-axes[0].set_ylabel('Frequency', fontsize=13)
-axes[0].set_title('Monthly Charges by Churn', fontsize=14, fontweight='bold')
-axes[0].legend(fontsize=12)
-
-churn_data = [
-    df[df['churn'] == 'No']['monthly_charges'],
-    df[df['churn'] == 'Yes']['monthly_charges']
-]
-bp = axes[1].boxplot(churn_data, labels=['Retained', 'Churned'],
-                     patch_artist=True, widths=0.5)
-
-bp['boxes'][0].set_facecolor(COLORS['no_churn'])
-bp['boxes'][1].set_facecolor(COLORS['churn'])
-for box in bp['boxes']:
-    box.set_alpha(0.7)
-
-axes[1].set_ylabel('Monthly Charges (EUR)', fontsize=13)
-axes[1].set_title('Monthly Charges: Retained vs Churned', fontsize=14, fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('outputs/monthly_charges_churn.png', dpi=150, bbox_inches='tight')
-plt.close()
-print("Saved: outputs/monthly_charges_churn.png")
-
-
-# Churn by Contract Type
-fig, axes = plt.subplots(1, 2, figsize=(16, 7))
-
-contract_churn = df.groupby('contract_type')['churn'].apply(
-    lambda x: (x == 'Yes').mean() * 100
-).sort_values(ascending=False)
-
-bars = axes[0].bar(range(len(contract_churn)), contract_churn.values,
-                   color=[COLORS['danger'], COLORS['warning'], COLORS['success']],
-                   edgecolor='white', linewidth=2, width=0.5)
-
-axes[0].set_xticks(range(len(contract_churn)))
-axes[0].set_xticklabels(contract_churn.index, fontsize=11)
-axes[0].set_ylabel('Churn Rate (%)', fontsize=13)
-axes[0].set_title('Churn Rate by Contract Type', fontsize=14, fontweight='bold')
-
-for bar, val in zip(bars, contract_churn.values):
-    axes[0].text(bar.get_x() + bar.get_width()/2, val + 1,
-                 f'{val:.1f}%', ha='center', fontsize=12, fontweight='bold')
-
-internet_churn = df.groupby('internet_service')['churn'].apply(
-    lambda x: (x == 'Yes').mean() * 100
-).sort_values(ascending=False)
-
-bars2 = axes[1].bar(range(len(internet_churn)), internet_churn.values,
-                    color=COLORS['palette'][:len(internet_churn)],
-                    edgecolor='white', linewidth=2, width=0.5)
-
-axes[1].set_xticks(range(len(internet_churn)))
-axes[1].set_xticklabels(internet_churn.index, fontsize=11)
-axes[1].set_ylabel('Churn Rate (%)', fontsize=13)
-axes[1].set_title('Churn Rate by Internet Service', fontsize=14, fontweight='bold')
-
-for bar, val in zip(bars2, internet_churn.values):
-    axes[1].text(bar.get_x() + bar.get_width()/2, val + 1,
-                 f'{val:.1f}%', ha='center', fontsize=12, fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('outputs/churn_by_contract.png', dpi=150, bbox_inches='tight')
-plt.close()
-print("Saved: outputs/churn_by_contract.png")
-
-
-# Churn by Tenure
-fig, ax = plt.subplots(figsize=(14, 7))
-
-df['tenure_group'] = pd.cut(
-    df['tenure_months'],
-    bins=[0, 6, 12, 24, 36, 48, 72],
-    labels=['0-6', '7-12', '13-24', '25-36', '37-48', '49-72']
+segments = df['marque'].map(
+    lambda x: 'Premium' if x in ['BMW', 'Mercedes', 'Audi'] else 'Generaliste'
 )
 
-tenure_churn = df.groupby('tenure_group', observed=True)['churn'].apply(
-    lambda x: (x == 'Yes').mean() * 100
-)
+for segment, color in zip(['Generaliste', 'Premium'],
+                           [COLORS['primary'], COLORS['secondary']]):
+    mask = segments == segment
+    ax.scatter(df.loc[mask, 'kilometrage'], df.loc[mask, 'prix'],
+               alpha=0.4, s=30, c=color, label=segment,
+               edgecolors='white', linewidth=0.5)
 
-bars = ax.bar(range(len(tenure_churn)), tenure_churn.values,
-              color=COLORS['primary'], alpha=0.8, edgecolor='white', width=0.6)
+z = np.polyfit(df['kilometrage'], df['prix'], 2)
+p = np.poly1d(z)
+x_line = np.linspace(df['kilometrage'].min(), df['kilometrage'].max(), 100)
+ax.plot(x_line, p(x_line), color=COLORS['danger'], linewidth=2.5,
+        linestyle='--', label='Tendance')
 
-for bar, val in zip(bars, tenure_churn.values):
-    if val > 40:
-        bar.set_color(COLORS['danger'])
-    elif val > 25:
-        bar.set_color(COLORS['warning'])
-    else:
-        bar.set_color(COLORS['success'])
-    ax.text(bar.get_x() + bar.get_width()/2, val + 1,
-            f'{val:.1f}%', ha='center', fontsize=11, fontweight='bold')
-
-ax.set_xticks(range(len(tenure_churn)))
-ax.set_xticklabels(tenure_churn.index, fontsize=10)
-ax.set_xlabel('Tenure (months)', fontsize=13)
-ax.set_ylabel('Churn Rate (%)', fontsize=13)
-ax.set_title('Churn Rate by Customer Tenure', fontsize=15, fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('outputs/churn_by_tenure.png', dpi=150, bbox_inches='tight')
-plt.close()
-print("Saved: outputs/churn_by_tenure.png")
-
-
-# Correlation Heatmap
-fig, ax = plt.subplots(figsize=(12, 10))
-
-df_encoded = df.copy()
-label_cols = ['gender', 'has_partner', 'has_dependents', 'contract_type',
-              'internet_service', 'phone_service', 'online_security',
-              'online_backup', 'streaming_tv', 'payment_method', 'churn']
-
-for col in label_cols:
-    le = LabelEncoder()
-    df_encoded[col] = le.fit_transform(df_encoded[col])
-
-numeric_df = df_encoded.select_dtypes(include=[np.number])
-cols_to_drop = [c for c in numeric_df.columns if 'customer' in c.lower()]
-numeric_df = numeric_df.drop(columns=cols_to_drop, errors='ignore')
-
-corr_matrix = numeric_df.corr()
-mask = np.triu(np.ones_like(corr_matrix, dtype=bool))
-
-sns.heatmap(corr_matrix, mask=mask, annot=True, fmt='.2f',
-            cmap='RdBu_r', center=0, square=True,
-            linewidths=0.5, linecolor='white',
-            cbar_kws={'shrink': 0.8, 'label': 'Correlation'},
-            ax=ax, vmin=-1, vmax=1)
-
-ax.set_title('Feature Correlation Heatmap', fontsize=16, fontweight='bold', pad=20)
-plt.xticks(rotation=45, ha='right', fontsize=9)
-plt.yticks(fontsize=9)
-
-plt.tight_layout()
-plt.savefig('outputs/correlation_heatmap.png', dpi=150, bbox_inches='tight')
-plt.close()
-print("Saved: outputs/correlation_heatmap.png")
-
-churn_corr = corr_matrix['churn'].drop('churn').abs().sort_values(ascending=False)
-print("\nTop correlations with churn:")
-for feature, corr_val in churn_corr.head(10).items():
-    print(f"   {feature:<25} : {corr_val:.3f}")
-
-
-# ==========================================
-# 3. DATA PREPARATION
-# ==========================================
-separator("3. DATA PREPARATION")
-
-df_ml = df.copy()
-df_ml = df_ml.drop(['customer_id', 'tenure_group'], axis=1)
-df_ml['churn'] = (df_ml['churn'] == 'Yes').astype(int)
-
-categorical_features = ['gender', 'has_partner', 'has_dependents', 'contract_type',
-                        'internet_service', 'phone_service', 'online_security',
-                        'online_backup', 'streaming_tv', 'payment_method']
-
-label_encoders = {}
-for col in categorical_features:
-    le = LabelEncoder()
-    df_ml[col] = le.fit_transform(df_ml[col])
-    label_encoders[col] = le
-    print(f"   Encoded: {col}")
-
-X = df_ml.drop('churn', axis=1)
-y = df_ml['churn']
-
-scaler = StandardScaler()
-X_scaled = pd.DataFrame(scaler.fit_transform(X), columns=X.columns)
-
-X_train, X_test, y_train, y_test = train_test_split(
-    X_scaled, y, test_size=0.2, random_state=42, stratify=y
-)
-
-print(f"\nX_train: {X_train.shape}")
-print(f"X_test:  {X_test.shape}")
-print(f"Churn rate train: {y_train.mean()*100:.1f}%")
-print(f"Churn rate test:  {y_test.mean()*100:.1f}%")
-
-
-# ==========================================
-# 4. MODEL TRAINING
-# ==========================================
-separator("4. MODEL TRAINING")
-
-print("> Training Logistic Regression...")
-lr_model = LogisticRegression(max_iter=1000, random_state=42, class_weight='balanced')
-lr_model.fit(X_train, y_train)
-lr_pred = lr_model.predict(X_test)
-lr_proba = lr_model.predict_proba(X_test)[:, 1]
-
-lr_cv = cross_val_score(lr_model, X_train, y_train, cv=5, scoring='roc_auc')
-print(f"   CV AUC: {lr_cv.mean():.4f}")
-
-print("\n> Training Random Forest...")
-rf_model = RandomForestClassifier(
-    n_estimators=200, max_depth=12, min_samples_split=5,
-    min_samples_leaf=2, class_weight='balanced', random_state=42, n_jobs=-1
-)
-rf_model.fit(X_train, y_train)
-rf_pred = rf_model.predict(X_test)
-rf_proba = rf_model.predict_proba(X_test)[:, 1]
-
-rf_cv = cross_val_score(rf_model, X_train, y_train, cv=5, scoring='roc_auc')
-print(f"   CV AUC: {rf_cv.mean():.4f}")
-
-
-# ==========================================
-# 5. EVALUATION
-# ==========================================
-separator("5. MODEL EVALUATION")
-
-def evaluate_model(name, y_true, y_pred, y_proba):
-    acc = accuracy_score(y_true, y_pred)
-    prec = precision_score(y_true, y_pred)
-    rec = recall_score(y_true, y_pred)
-    f1 = f1_score(y_true, y_pred)
-    auc = roc_auc_score(y_true, y_proba)
-
-    print(f"\n{name}:")
-    print(f"{'-' * 45}")
-    print(f"   Accuracy  : {acc*100:.1f}%")
-    print(f"   Precision : {prec*100:.1f}%")
-    print(f"   Recall    : {rec*100:.1f}%")
-    print(f"   F1-Score  : {f1*100:.1f}%")
-    print(f"   AUC-ROC   : {auc:.4f}")
-    print(f"{'-' * 45}")
-
-    return {'accuracy': acc, 'precision': prec, 'recall': rec, 'f1': f1, 'auc': auc}
-
-lr_metrics = evaluate_model("LOGISTIC REGRESSION", y_test, lr_pred, lr_proba)
-rf_metrics = evaluate_model("RANDOM FOREST", y_test, rf_pred, rf_proba)
-
-print("\nClassification Report (Random Forest):")
-print(classification_report(y_test, rf_pred, target_names=['Retained', 'Churned']))
-
-
-# Confusion Matrix
-fig, axes = plt.subplots(1, 2, figsize=(14, 6))
-
-for ax, pred, name in zip(axes, [lr_pred, rf_pred],
-                            ['Logistic Regression', 'Random Forest']):
-    cm = confusion_matrix(y_test, pred)
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
-                xticklabels=['Retained', 'Churned'],
-                yticklabels=['Retained', 'Churned'],
-                linewidths=2, linecolor='white',
-                annot_kws={'size': 16, 'fontweight': 'bold'}, ax=ax)
-    ax.set_xlabel('Predicted', fontsize=12)
-    ax.set_ylabel('Actual', fontsize=12)
-    ax.set_title(f'{name}\nAccuracy: {accuracy_score(y_test, pred)*100:.1f}%',
-                 fontsize=13, fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('outputs/confusion_matrix.png', dpi=150, bbox_inches='tight')
-plt.close()
-print("Saved: outputs/confusion_matrix.png")
-
-
-# ROC Curve
-fig, ax = plt.subplots(figsize=(10, 8))
-
-for name, proba, color in zip(
-    ['Logistic Regression', 'Random Forest'],
-    [lr_proba, rf_proba],
-    [COLORS['primary'], COLORS['secondary']]
-):
-    fpr, tpr, _ = roc_curve(y_test, proba)
-    auc_val = roc_auc_score(y_test, proba)
-    ax.plot(fpr, tpr, color=color, linewidth=2.5,
-            label=f'{name} (AUC = {auc_val:.3f})')
-
-ax.plot([0, 1], [0, 1], color='gray', linewidth=1.5, linestyle='--', label='Random')
-ax.set_xlabel('False Positive Rate', fontsize=13)
-ax.set_ylabel('True Positive Rate', fontsize=13)
-ax.set_title('ROC Curve', fontsize=15, fontweight='bold')
-ax.legend(fontsize=12)
+ax.set_xlabel('Kilometrage (km)', fontsize=13)
+ax.set_ylabel('Prix (EUR)', fontsize=13)
+ax.set_title('Relation Prix vs Kilometrage', fontsize=15, fontweight='bold')
+ax.legend(fontsize=11)
 ax.grid(True, alpha=0.3)
 
 plt.tight_layout()
-plt.savefig('outputs/roc_curve.png', dpi=150, bbox_inches='tight')
+plt.savefig('outputs/prix_vs_kilometrage.png', dpi=150, bbox_inches='tight')
 plt.close()
-print("Saved: outputs/roc_curve.png")
+print("Graphique sauvegarde : outputs/prix_vs_kilometrage.png")
 
 
-# Feature Importance
-fig, ax = plt.subplots(figsize=(12, 8))
+fig, ax = plt.subplots(figsize=(10, 8))
 
-rf_importance = pd.Series(rf_model.feature_importances_, index=X.columns)
-rf_importance = rf_importance.sort_values(ascending=True)
+numeric_cols = df.select_dtypes(include=[np.number]).columns
+corr_matrix = df[numeric_cols].corr()
 
-colors_imp = [COLORS['danger'] if v > rf_importance.mean() * 1.5
-              else COLORS['primary'] if v > rf_importance.mean()
-              else COLORS['palette'][2] for v in rf_importance]
+mask = np.triu(np.ones_like(corr_matrix, dtype=bool))
+sns.heatmap(corr_matrix, mask=mask, annot=True, fmt='.2f',
+            cmap='RdBu_r', center=0, square=True,
+            linewidths=1, linecolor='white',
+            cbar_kws={'shrink': 0.8, 'label': 'Correlation'},
+            ax=ax)
 
-rf_importance.plot(kind='barh', ax=ax, color=colors_imp, edgecolor='white', linewidth=0.5)
-ax.set_xlabel('Feature Importance', fontsize=12)
-ax.set_title('Random Forest - Feature Importance', fontsize=14, fontweight='bold')
-ax.axvline(rf_importance.mean(), color=COLORS['warning'], linestyle='--', linewidth=2,
-           label=f'Mean: {rf_importance.mean():.3f}')
-ax.legend(fontsize=10)
+ax.set_title('Matrice de Correlation', fontsize=15, fontweight='bold', pad=20)
+
+plt.tight_layout()
+plt.savefig('outputs/correlation_matrix.png', dpi=150, bbox_inches='tight')
+plt.close()
+print("Graphique sauvegarde : outputs/correlation_matrix.png")
+
+print("\nPrix moyen par carburant :")
+print(df.groupby('carburant')['prix'].agg(['mean', 'median', 'count'])
+      .sort_values('mean', ascending=False).round(0).to_string())
+
+print("\nPrix moyen par marque :")
+print(df.groupby('marque')['prix'].agg(['mean', 'median', 'count'])
+      .sort_values('mean', ascending=False).round(0).to_string())
+
+
+separator("3. FEATURE ENGINEERING")
+
+df['age'] = 2024 - df['annee']
+df['km_par_an'] = df['kilometrage'] / (df['age'] + 1)
+
+segment_map = {
+    'BMW': 'Premium', 'Mercedes': 'Premium', 'Audi': 'Premium',
+    'Volkswagen': 'Premium_Accessible',
+    'Renault': 'Generaliste', 'Peugeot': 'Generaliste',
+    'Citroen': 'Generaliste', 'Toyota': 'Generaliste'
+}
+df['segment'] = df['marque'].map(segment_map)
+
+df['puissance_categorie'] = pd.cut(
+    df['puissance_cv'],
+    bins=[0, 100, 150, 200, 400],
+    labels=['Faible', 'Moyenne', 'Forte', 'Tres forte']
+)
+
+df['log_km'] = np.log1p(df['kilometrage'])
+
+print("Nouvelles features creees :")
+print(f"   > age")
+print(f"   > km_par_an")
+print(f"   > segment")
+print(f"   > puissance_categorie")
+print(f"   > log_km")
+print(f"\nShape apres feature engineering : {df.shape}")
+
+
+separator("4. PREPARATION DES DONNEES")
+
+features = [
+    'annee', 'kilometrage', 'puissance_cv', 'nb_portes',
+    'nb_proprietaires', 'age', 'km_par_an', 'log_km',
+    'marque', 'carburant', 'transmission', 'segment'
+]
+
+df_model = df[features + ['prix']].copy()
+
+label_encoders = {}
+categorical_cols = ['marque', 'carburant', 'transmission', 'segment']
+
+for col in categorical_cols:
+    le = LabelEncoder()
+    df_model[col] = le.fit_transform(df_model[col])
+    label_encoders[col] = le
+    print(f"   > {col} encode : {le.classes_}")
+
+X = df_model.drop('prix', axis=1)
+y = df_model['prix']
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+
+print(f"\nDimensions :")
+print(f"   > X_train : {X_train.shape}")
+print(f"   > X_test  : {X_test.shape}")
+
+
+separator("5. MODELISATION - RANDOM FOREST")
+
+print("> Entrainement du modele Random Forest...")
+
+rf_model = RandomForestRegressor(
+    n_estimators=200,
+    max_depth=15,
+    min_samples_split=5,
+    min_samples_leaf=2,
+    max_features='sqrt',
+    random_state=42,
+    n_jobs=-1
+)
+
+rf_model.fit(X_train, y_train)
+print("Modele entraine avec succes !")
+
+print("\n> Validation croisee (5-fold)...")
+cv_scores = cross_val_score(rf_model, X_train, y_train, cv=5, scoring='r2')
+print(f"   R2 scores : {cv_scores.round(4)}")
+print(f"   R2 moyen  : {cv_scores.mean():.4f} (+/- {cv_scores.std():.4f})")
+
+
+separator("6. EVALUATION DU MODELE")
+
+y_pred = rf_model.predict(X_test)
+
+mae = mean_absolute_error(y_test, y_pred)
+mse = mean_squared_error(y_test, y_pred)
+rmse = np.sqrt(mse)
+r2 = r2_score(y_test, y_pred)
+mape = np.mean(np.abs((y_test - y_pred) / y_test)) * 100
+
+print(f"Metriques de performance :")
+print(f"{'-' * 40}")
+print(f"   R2 Score  : {r2:.4f}")
+print(f"   MAE       : {mae:,.0f} EUR")
+print(f"   RMSE      : {rmse:,.0f} EUR")
+print(f"   MAPE      : {mape:.1f} %")
+print(f"{'-' * 40}")
+
+
+fig, ax = plt.subplots(figsize=(10, 8))
+
+importance = pd.Series(rf_model.feature_importances_, index=X.columns)
+importance = importance.sort_values(ascending=True)
+
+colors = [COLORS['primary'] if v > importance.mean()
+          else COLORS['palette'][2] for v in importance]
+
+importance.plot(kind='barh', ax=ax, color=colors, edgecolor='white', linewidth=0.5)
+
+ax.set_xlabel('Importance', fontsize=13)
+ax.set_title('Importance des Variables (Random Forest)',
+             fontsize=15, fontweight='bold')
+ax.axvline(importance.mean(), color=COLORS['danger'], linestyle='--',
+           alpha=0.7, label=f'Moyenne: {importance.mean():.3f}')
+ax.legend(fontsize=11)
 
 plt.tight_layout()
 plt.savefig('outputs/feature_importance.png', dpi=150, bbox_inches='tight')
 plt.close()
-print("Saved: outputs/feature_importance.png")
-
-print("\nTop 5 features:")
-for feat, imp in rf_importance.tail(5).items():
-    print(f"   > {feat:<25} : {imp:.4f}")
+print("\nGraphique sauvegarde : outputs/feature_importance.png")
 
 
-# ==========================================
-# 6. SAVE MODELS
-# ==========================================
-separator("6. SAVING MODELS")
+fig, axes = plt.subplots(1, 2, figsize=(16, 7))
 
-joblib.dump({'model': lr_model, 'scaler': scaler, 'metrics': lr_metrics},
-            'models/logistic_regression.pkl')
-print("Saved: models/logistic_regression.pkl")
+axes[0].scatter(y_test, y_pred, alpha=0.5, s=20,
+                c=COLORS['primary'], edgecolors='white', linewidth=0.3)
+lim_min = min(y_test.min(), y_pred.min()) * 0.9
+lim_max = max(y_test.max(), y_pred.max()) * 1.1
+axes[0].plot([lim_min, lim_max], [lim_min, lim_max],
+             color=COLORS['danger'], linewidth=2, linestyle='--',
+             label='Prediction parfaite')
+axes[0].set_xlabel('Prix Reel (EUR)', fontsize=13)
+axes[0].set_ylabel('Prix Predit (EUR)', fontsize=13)
+axes[0].set_title(f'Predictions vs Reel (R2 = {r2:.3f})',
+                  fontsize=14, fontweight='bold')
+axes[0].legend(fontsize=11)
+axes[0].grid(True, alpha=0.3)
 
-joblib.dump({'model': rf_model, 'scaler': scaler, 'metrics': rf_metrics},
-            'models/random_forest.pkl')
-print("Saved: models/random_forest.pkl")
+erreurs = y_test - y_pred
+axes[1].hist(erreurs, bins=50, color=COLORS['secondary'],
+             alpha=0.7, edgecolor='white')
+axes[1].axvline(0, color=COLORS['danger'], linewidth=2, linestyle='--')
+axes[1].axvline(erreurs.mean(), color=COLORS['warning'], linewidth=2,
+                linestyle='--', label=f'Erreur moyenne: {erreurs.mean():,.0f} EUR')
+axes[1].set_xlabel('Erreur (EUR)', fontsize=13)
+axes[1].set_ylabel('Frequence', fontsize=13)
+axes[1].set_title('Distribution des Erreurs', fontsize=14, fontweight='bold')
+axes[1].legend(fontsize=11)
+
+plt.tight_layout()
+plt.savefig('outputs/predictions_vs_reel.png', dpi=150, bbox_inches='tight')
+plt.close()
+print("Graphique sauvegarde : outputs/predictions_vs_reel.png")
 
 
-# ==========================================
-# 7. BUSINESS INSIGHTS
-# ==========================================
-separator("7. BUSINESS INSIGHTS")
+separator("7. SAUVEGARDE")
 
-print(f"""
-KEY FINDINGS:
-{'-' * 50}
+model_path = 'models/random_forest_model.pkl'
+joblib.dump({
+    'model': rf_model,
+    'label_encoders': label_encoders,
+    'features': features,
+    'metrics': {'r2': r2, 'mae': mae, 'rmse': rmse, 'mape': mape}
+}, model_path)
 
-1. Overall churn rate: {churn_rate:.1f}%
+print(f"Modele sauvegarde : {model_path}")
 
-2. TOP CHURN FACTORS:
-   - Month-to-month contracts have highest churn
-   - Short tenure customers leave more often
-   - Fiber optic users churn more despite paying more
-   - No online security = higher churn
-   - Electronic check payment linked to higher churn
 
-3. RECOMMENDATIONS:
-   a) Target high-risk customers with retention offers
-   b) Offer contract upgrades with discounts
-   c) Bundle online security for free in first 6 months
-   d) Investigate fiber optic service quality
-   e) Implement early warning system using ML model
+separator("8. EXEMPLE DE PREDICTION")
 
-{'=' * 60}
-  ANALYSIS COMPLETED SUCCESSFULLY
-{'=' * 60}
-""")
+exemple = pd.DataFrame([{
+    'annee': 2020,
+    'kilometrage': 45000,
+    'puissance_cv': 130,
+    'nb_portes': 5,
+    'nb_proprietaires': 1,
+    'age': 4,
+    'km_par_an': 11250,
+    'log_km': np.log1p(45000),
+    'marque': label_encoders['marque'].transform(['Peugeot'])[0],
+    'carburant': label_encoders['carburant'].transform(['Essence'])[0],
+    'transmission': label_encoders['transmission'].transform(['Manuelle'])[0],
+    'segment': label_encoders['segment'].transform(['Generaliste'])[0]
+}])
 
-print("Outputs generated:")
-for f in sorted(os.listdir('outputs')):
-    print(f"   > outputs/{f}")
+prediction = rf_model.predict(exemple)[0]
+
+print(f"Vehicule : Peugeot 308 Essence Manuelle")
+print(f"   Annee       : 2020")
+print(f"   Kilometrage : 45,000 km")
+print(f"   Puissance   : 130 CV")
+print(f"\nPrix estime : {prediction:,.0f} EUR")
+print(f"\n{'=' * 60}")
+print(f"  ANALYSE TERMINEE AVEC SUCCES")
+print(f"{'=' * 60}")
