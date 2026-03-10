@@ -1,0 +1,2001 @@
+marque,modele,annee,kilometrage,carburant,transmission,puissance_cv,nb_portes,couleur,nb_proprietaires,prix
+Mercedes,GLC,2022,19837,Essence,Manuelle,193,5,Argent,1,47200
+Audi,Q3,2020,93863,Essence,Manuelle,70,3,Bleu,1,18400
+BMW,Serie 3,2017,109882,Diesel,Automatique,153,3,Blanc,4,22400
+Peugeot,308,2023,15592,Diesel,Automatique,98,5,Bleu,1,20000
+BMW,Serie 3,2024,199,Hybride,Manuelle,214,5,Vert,1,47700
+Mercedes,GLC,2023,21242,Diesel,Automatique,104,5,Rouge,1,44000
+Mercedes,Classe A,2022,11982,Essence,Manuelle,226,5,Noir,1,31400
+Renault,Kadjar,2021,45971,Essence,Manuelle,146,5,Argent,3,19500
+Renault,Captur,2019,54008,Essence,Manuelle,91,5,Gris,1,11900
+Mercedes,Classe A,2018,145570,Essence,Automatique,109,5,Vert,1,15700
+BMW,X3,2016,63999,Essence,Manuelle,159,5,Noir,1,18900
+Renault,Clio,2015,112964,Hybride,Automatique,110,5,Rouge,2,7300
+Peugeot,3008,2022,29599,Diesel,Automatique,117,5,Argent,2,25200
+Citroen,C3,2019,83895,Essence,Manuelle,104,3,Bleu,2,8700
+BMW,X3,2021,64398,Essence,Automatique,250,5,Gris,3,31400
+Audi,A1,2023,8348,Essence,Automatique,102,5,Bleu,3,23500
+Audi,A3,2022,23460,Essence,Automatique,162,5,Noir,4,26000
+Volkswagen,Tiguan,2015,119780,Hybride,Automatique,89,5,Gris,3,14800
+BMW,X3,2015,105095,Essence,Automatique,194,3,Argent,2,18900
+BMW,X1,2023,8273,Essence,Automatique,132,5,Gris,1,38300
+Mercedes,Classe C,2020,61011,Electrique,Manuelle,245,5,Blanc,1,34800
+Toyota,RAV4,2017,157985,Essence,Automatique,70,5,Bleu,1,13200
+Audi,Q5,2015,234989,Electrique,Manuelle,132,5,Gris,1,18100
+Renault,Megane,2020,77890,Essence,Automatique,141,5,Blanc,1,15700
+BMW,X3,2021,56765,Hybride,Automatique,181,5,Rouge,1,47100
+Audi,Q3,2017,60157,Essence,Automatique,178,5,Rouge,3,17000
+Peugeot,208,2018,31531,Hybride,Manuelle,108,5,Bleu,2,10800
+Citroen,C3 Aircross,2022,10559,Hybride,Manuelle,86,3,Rouge,1,18100
+Mercedes,Classe A,2019,35249,Essence,Manuelle,189,5,Vert,2,21000
+Toyota,C-HR,2017,75584,Hybride,Manuelle,102,3,Rouge,2,14900
+Renault,Scenic,2021,41707,Essence,Automatique,205,5,Vert,3,22400
+Volkswagen,T-Roc,2018,36920,Diesel,Manuelle,164,5,Blanc,2,14700
+Citroen,C5 Aircross,2016,123121,Essence,Automatique,156,5,Gris,1,12100
+Volkswagen,Golf,2019,87684,Essence,Manuelle,141,5,Gris,4,14400
+Audi,Q3,2016,135103,Hybride,Automatique,218,5,Gris,1,17900
+Renault,Clio,2018,77151,Hybride,Manuelle,101,5,Bleu,2,8800
+Mercedes,GLC,2019,77633,Diesel,Manuelle,270,5,Blanc,3,34000
+Volkswagen,Polo,2020,63378,Essence,Automatique,123,3,Gris,2,13200
+Toyota,Yaris,2020,44990,Hybride,Automatique,135,3,Gris,1,13900
+Peugeot,3008,2024,2305,Hybride,Automatique,76,5,Bleu,1,34800
+Audi,A1,2020,86317,Electrique,Automatique,166,5,Bleu,1,21100
+Citroen,C3 Aircross,2018,66044,Electrique,Automatique,153,5,Noir,4,12700
+Audi,Q3,2022,17823,Essence,Manuelle,231,3,Blanc,1,27200
+Citroen,C4,2015,101158,Diesel,Manuelle,106,5,Blanc,2,8700
+Audi,A3,2019,72313,Hybride,Automatique,194,5,Argent,3,20500
+Renault,Scenic,2015,42296,Essence,Manuelle,117,5,Argent,3,10400
+Mercedes,Classe A,2019,62377,Essence,Automatique,111,5,Noir,1,19900
+Audi,A3,2024,347,Diesel,Automatique,283,5,Blanc,2,45100
+Mercedes,GLA,2021,58786,Hybride,Manuelle,232,5,Gris,1,26900
+Peugeot,3008,2023,22734,Essence,Automatique,70,5,Noir,2,22400
+Peugeot,5008,2017,41096,Diesel,Manuelle,82,5,Blanc,3,15300
+Citroen,C3 Aircross,2016,66885,Hybride,Manuelle,102,5,Rouge,2,9600
+Peugeot,308,2015,223518,Essence,Automatique,89,5,Vert,1,8200
+Renault,Megane,2018,110697,Essence,Manuelle,101,5,Vert,2,8800
+Peugeot,5008,2024,933,Diesel,Manuelle,106,5,Vert,1,29300
+Mercedes,Classe A,2024,670,Essence,Manuelle,144,5,Noir,3,26300
+Toyota,Corolla,2018,164273,Hybride,Manuelle,98,5,Noir,2,11300
+Citroen,C5 Aircross,2020,33717,Essence,Manuelle,90,5,Argent,3,15900
+Audi,A1,2021,50333,Electrique,Manuelle,179,5,Argent,3,24100
+Mercedes,GLA,2022,42162,Essence,Automatique,134,5,Bleu,1,30200
+Peugeot,5008,2018,111403,Essence,Manuelle,169,5,Noir,1,20600
+Mercedes,Classe A,2023,21973,Diesel,Manuelle,208,5,Bleu,2,27800
+Toyota,RAV4,2023,8732,Electrique,Automatique,125,5,Gris,1,42400
+Toyota,C-HR,2024,1824,Diesel,Automatique,163,5,Rouge,1,28800
+Mercedes,GLA,2015,149054,Essence,Manuelle,191,3,Argent,1,16200
+Citroen,C5 Aircross,2024,100,Diesel,Manuelle,115,5,Blanc,2,27200
+Citroen,C3 Aircross,2015,136787,Hybride,Automatique,141,3,Bleu,2,9100
+Volkswagen,Passat,2022,24067,Hybride,Automatique,188,5,Gris,2,39300
+Volkswagen,T-Roc,2024,100,Diesel,Manuelle,166,3,Noir,2,26300
+Mercedes,GLC,2018,75826,Essence,Manuelle,148,5,Vert,3,23200
+Mercedes,Classe C,2021,48990,Essence,Automatique,210,5,Gris,1,34000
+Renault,Megane,2020,30315,Hybride,Manuelle,102,3,Blanc,2,14100
+BMW,Serie 1,2022,38293,Essence,Manuelle,183,5,Blanc,1,22300
+BMW,Serie 3,2022,55911,Essence,Automatique,189,5,Rouge,2,31100
+Toyota,Corolla,2022,15595,Hybride,Manuelle,70,5,Gris,1,25800
+Renault,Scenic,2021,44335,Essence,Automatique,99,5,Noir,3,19100
+Audi,A1,2023,9292,Diesel,Manuelle,184,5,Blanc,2,26000
+Audi,A3,2017,130663,Hybride,Automatique,262,5,Vert,1,19400
+Peugeot,308,2021,56732,Essence,Automatique,151,5,Rouge,1,19800
+Peugeot,308,2017,52336,Diesel,Manuelle,70,5,Bleu,4,11300
+Volkswagen,Polo,2024,115,Diesel,Manuelle,219,5,Noir,2,16800
+Mercedes,Classe A,2020,45547,Essence,Automatique,235,5,Rouge,3,25800
+Renault,Megane,2015,124161,Hybride,Manuelle,97,5,Gris,2,8500
+Volkswagen,Passat,2023,28156,Hybride,Manuelle,125,5,Argent,2,34500
+Citroen,C3,2018,86872,Electrique,Automatique,126,5,Argent,1,11100
+Audi,A1,2024,366,Diesel,Automatique,237,3,Blanc,1,30900
+Renault,Clio,2022,13219,Hybride,Automatique,77,5,Gris,1,17100
+Citroen,C3 Aircross,2015,74950,Diesel,Automatique,134,5,Argent,2,9400
+Audi,A1,2016,58764,Electrique,Automatique,220,3,Rouge,2,17100
+Citroen,C5 Aircross,2022,41049,Hybride,Manuelle,70,3,Noir,3,20400
+Citroen,C5 Aircross,2024,404,Essence,Manuelle,90,5,Rouge,2,26600
+BMW,Serie 3,2021,48782,Essence,Manuelle,212,3,Argent,1,30600
+BMW,Serie 1,2019,137991,Essence,Manuelle,166,5,Blanc,1,15300
+Citroen,C3,2022,16786,Essence,Manuelle,70,5,Bleu,4,9800
+Toyota,Yaris,2019,68380,Hybride,Automatique,179,5,Bleu,1,12800
+Audi,Q3,2020,73149,Essence,Manuelle,148,5,Argent,3,19700
+BMW,X1,2021,64595,Diesel,Manuelle,152,5,Vert,1,25700
+Volkswagen,Passat,2016,37364,Essence,Manuelle,137,5,Gris,1,15500
+Audi,Q3,2020,74829,Diesel,Manuelle,214,3,Blanc,1,23000
+Toyota,RAV4,2017,91002,Diesel,Automatique,127,5,Bleu,3,15600
+Citroen,C5 Aircross,2023,6927,Electrique,Manuelle,82,5,Rouge,3,29400
+Citroen,C3 Aircross,2021,47987,Essence,Automatique,85,5,Rouge,2,15200
+Renault,Clio,2015,119614,Essence,Automatique,98,3,Blanc,4,5600
+Mercedes,GLC,2019,64421,Essence,Automatique,186,5,Noir,1,30600
+Peugeot,308,2018,128286,Essence,Manuelle,96,5,Gris,2,10900
+Peugeot,308,2016,70272,Hybride,Automatique,143,5,Blanc,4,13000
+Audi,Q3,2019,27130,Essence,Automatique,140,5,Bleu,2,22600
+Volkswagen,T-Roc,2022,24365,Essence,Manuelle,196,3,Rouge,1,17400
+Toyota,RAV4,2024,1474,Diesel,Manuelle,121,5,Argent,1,30400
+Volkswagen,Passat,2019,44560,Electrique,Manuelle,208,5,Vert,2,27900
+Audi,A4,2023,18297,Essence,Manuelle,166,5,Vert,2,32200
+BMW,X3,2018,123520,Electrique,Manuelle,231,3,Rouge,1,31200
+BMW,X1,2016,158429,Essence,Automatique,190,5,Vert,2,16200
+Peugeot,3008,2022,33028,Hybride,Automatique,173,5,Argent,3,28600
+Peugeot,2008,2023,10246,Hybride,Automatique,101,5,Gris,4,26100
+Volkswagen,Passat,2022,31267,Essence,Manuelle,157,5,Bleu,1,24300
+Citroen,C3,2020,81488,Hybride,Automatique,70,5,Bleu,2,9300
+Peugeot,208,2017,56341,Hybride,Manuelle,70,5,Argent,1,8700
+Citroen,C3,2016,177403,Essence,Automatique,119,5,Argent,1,6200
+Toyota,C-HR,2022,50771,Essence,Automatique,83,5,Rouge,1,16200
+Audi,Q3,2022,14279,Essence,Automatique,84,5,Bleu,3,24900
+Renault,Scenic,2018,107978,Essence,Manuelle,152,5,Bleu,2,12600
+Renault,Kadjar,2022,41019,Essence,Manuelle,107,5,Bleu,1,17800
+Renault,Captur,2020,61135,Diesel,Manuelle,169,3,Blanc,2,14400
+Renault,Captur,2016,130851,Essence,Manuelle,88,5,Vert,2,8500
+Audi,Q5,2020,72446,Electrique,Manuelle,189,5,Gris,3,36800
+BMW,X3,2015,163234,Hybride,Automatique,87,5,Argent,1,22000
+Renault,Clio,2023,17872,Diesel,Automatique,102,5,Argent,2,16700
+Peugeot,308,2023,17775,Essence,Manuelle,70,5,Noir,1,20400
+Toyota,C-HR,2023,27056,Diesel,Manuelle,74,5,Noir,2,19700
+Citroen,C3,2024,512,Diesel,Manuelle,158,5,Gris,1,17000
+Mercedes,GLA,2021,48079,Essence,Manuelle,110,5,Bleu,1,25500
+Volkswagen,T-Roc,2017,76477,Hybride,Manuelle,102,5,Vert,2,12600
+Mercedes,GLA,2022,25917,Electrique,Manuelle,203,3,Rouge,2,32100
+BMW,Serie 1,2020,87771,Diesel,Manuelle,216,5,Blanc,1,19800
+Toyota,RAV4,2016,149080,Diesel,Automatique,92,5,Rouge,1,15100
+Citroen,C5 Aircross,2016,213045,Essence,Manuelle,88,5,Blanc,1,9400
+Toyota,Yaris,2023,15898,Diesel,Automatique,127,5,Argent,1,19800
+Toyota,Yaris,2018,69505,Essence,Manuelle,111,3,Rouge,1,8300
+Audi,Q5,2022,35809,Diesel,Manuelle,241,5,Noir,1,38700
+Citroen,C4,2021,34257,Diesel,Automatique,126,5,Noir,1,16500
+Renault,Kadjar,2015,43502,Essence,Automatique,87,5,Bleu,2,10800
+Peugeot,208,2019,89340,Hybride,Manuelle,77,5,Rouge,1,10000
+Renault,Clio,2015,92032,Diesel,Automatique,135,5,Argent,2,7400
+Volkswagen,Golf,2015,138385,Essence,Automatique,149,5,Bleu,3,10500
+Mercedes,Classe A,2017,121082,Essence,Automatique,234,3,Argent,1,19000
+Mercedes,Classe C,2015,199232,Essence,Manuelle,126,5,Rouge,1,13800
+Renault,Kadjar,2018,61387,Diesel,Manuelle,155,5,Gris,2,16400
+Peugeot,308,2023,14732,Electrique,Manuelle,91,5,Bleu,2,22800
+Volkswagen,Polo,2019,39379,Diesel,Manuelle,103,5,Argent,2,11400
+Citroen,C3 Aircross,2020,73106,Hybride,Manuelle,92,3,Vert,2,10900
+Mercedes,Classe C,2022,15760,Essence,Manuelle,179,3,Bleu,2,37700
+Toyota,RAV4,2021,40817,Diesel,Automatique,140,5,Noir,3,25600
+Renault,Clio,2022,38060,Diesel,Manuelle,107,5,Noir,1,14400
+BMW,X3,2015,106682,Diesel,Manuelle,184,5,Rouge,1,22600
+Mercedes,GLA,2015,102784,Essence,Manuelle,214,5,Gris,2,16700
+Toyota,Corolla,2020,47004,Essence,Manuelle,128,5,Noir,1,17000
+Volkswagen,Tiguan,2023,23774,Essence,Automatique,117,5,Argent,2,28400
+Audi,Q3,2016,102884,Electrique,Manuelle,127,5,Blanc,1,14700
+Volkswagen,Tiguan,2019,79981,Essence,Automatique,97,5,Bleu,3,19700
+Peugeot,5008,2019,43363,Essence,Manuelle,85,5,Rouge,1,19700
+Toyota,Yaris,2018,75900,Diesel,Automatique,119,5,Gris,1,11600
+Citroen,C3 Aircross,2021,60644,Diesel,Manuelle,149,5,Gris,4,13100
+Audi,A4,2024,3233,Hybride,Automatique,257,5,Blanc,2,54800
+BMW,Serie 3,2024,957,Essence,Automatique,218,5,Vert,1,49700
+Audi,A4,2019,64985,Diesel,Automatique,157,5,Argent,2,23700
+Toyota,Corolla,2020,50884,Essence,Manuelle,110,5,Rouge,2,15800
+Mercedes,GLC,2018,87401,Diesel,Automatique,130,5,Bleu,3,27500
+BMW,Serie 1,2018,32402,Essence,Manuelle,137,5,Gris,3,15200
+Mercedes,GLA,2023,17679,Diesel,Automatique,162,5,Argent,2,38300
+Mercedes,Classe A,2024,1045,Essence,Manuelle,153,5,Rouge,3,31300
+Citroen,C4,2017,140568,Hybride,Manuelle,104,5,Argent,2,11200
+BMW,X1,2021,14517,Hybride,Automatique,197,3,Vert,3,30800
+Renault,Kadjar,2019,47913,Essence,Automatique,84,5,Noir,3,13800
+BMW,X3,2023,12327,Essence,Automatique,185,5,Vert,1,43200
+Mercedes,Classe C,2022,19783,Hybride,Manuelle,204,5,Rouge,4,41900
+Peugeot,5008,2017,77511,Essence,Manuelle,91,3,Argent,2,15700
+Renault,Scenic,2016,153630,Hybride,Manuelle,70,5,Noir,1,12800
+Peugeot,208,2016,184523,Essence,Automatique,100,5,Gris,3,6100
+Audi,Q5,2018,138307,Hybride,Manuelle,197,5,Argent,1,24500
+Renault,Megane,2024,6056,Essence,Manuelle,87,5,Vert,2,17100
+Renault,Captur,2016,112283,Essence,Manuelle,102,5,Rouge,2,7900
+Mercedes,Classe A,2022,13190,Diesel,Manuelle,101,5,Gris,4,26500
+Renault,Kadjar,2015,129798,Hybride,Automatique,140,5,Gris,3,11100
+Volkswagen,T-Roc,2021,45162,Electrique,Automatique,102,5,Vert,2,23200
+Audi,A4,2019,112453,Hybride,Automatique,189,5,Rouge,1,25200
+BMW,Serie 3,2020,43288,Diesel,Automatique,73,5,Gris,3,23200
+BMW,Serie 3,2019,64963,Electrique,Automatique,202,5,Argent,2,29300
+Volkswagen,T-Roc,2017,91858,Essence,Automatique,156,5,Vert,1,12000
+Mercedes,GLA,2018,81218,Essence,Manuelle,154,5,Bleu,3,20900
+Mercedes,Classe A,2017,136112,Essence,Manuelle,101,5,Rouge,2,12100
+Citroen,C3 Aircross,2018,87609,Essence,Automatique,121,5,Gris,3,10000
+Renault,Kadjar,2018,91628,Diesel,Automatique,175,5,Argent,1,17000
+Volkswagen,Polo,2023,13993,Essence,Automatique,103,5,Bleu,1,16300
+Volkswagen,Golf,2023,5190,Electrique,Automatique,183,5,Bleu,2,34100
+Audi,A3,2019,56763,Hybride,Automatique,193,5,Blanc,1,25100
+Mercedes,GLA,2022,17967,Hybride,Automatique,173,5,Gris,2,42400
+Renault,Scenic,2017,102834,Essence,Manuelle,175,5,Noir,2,13200
+Renault,Clio,2022,24357,Essence,Manuelle,91,3,Bleu,2,12100
+Renault,Scenic,2015,116517,Diesel,Manuelle,138,5,Blanc,1,13300
+Citroen,C5 Aircross,2015,182068,Diesel,Manuelle,121,5,Rouge,1,9700
+Renault,Scenic,2017,114815,Essence,Automatique,108,5,Rouge,1,12900
+Volkswagen,T-Roc,2022,34197,Diesel,Manuelle,123,5,Vert,1,20800
+Volkswagen,Golf,2016,106585,Diesel,Manuelle,132,5,Blanc,2,10300
+Citroen,C3 Aircross,2023,17169,Diesel,Manuelle,107,5,Argent,1,18200
+Mercedes,GLC,2017,84649,Electrique,Manuelle,122,3,Argent,2,27200
+Citroen,C3,2021,37047,Essence,Automatique,147,5,Bleu,1,11600
+Citroen,C4,2018,56948,Essence,Automatique,151,5,Bleu,2,12800
+Renault,Captur,2024,100,Essence,Manuelle,71,5,Rouge,3,17700
+Renault,Kadjar,2017,106251,Diesel,Manuelle,105,5,Argent,3,10900
+Audi,A3,2018,141546,Essence,Manuelle,181,3,Noir,1,15900
+BMW,X1,2024,100,Essence,Manuelle,182,5,Bleu,1,36300
+Mercedes,Classe C,2018,90898,Essence,Automatique,179,5,Rouge,3,24300
+Citroen,C3 Aircross,2017,140775,Hybride,Manuelle,170,5,Gris,2,10200
+Citroen,C3,2022,26475,Hybride,Automatique,78,5,Gris,1,13000
+Toyota,RAV4,2019,136599,Essence,Automatique,117,5,Bleu,1,18500
+BMW,X1,2021,48007,Essence,Automatique,198,5,Argent,2,28800
+Peugeot,3008,2020,116340,Diesel,Automatique,103,5,Rouge,4,17900
+Peugeot,3008,2017,163199,Hybride,Manuelle,79,5,Gris,2,12100
+Toyota,C-HR,2021,43553,Diesel,Automatique,86,5,Bleu,3,19100
+Audi,A4,2022,44892,Electrique,Manuelle,240,3,Rouge,3,31800
+Toyota,RAV4,2023,19271,Diesel,Manuelle,85,5,Argent,1,28000
+Citroen,C3 Aircross,2022,30663,Electrique,Manuelle,110,5,Blanc,2,19900
+Peugeot,3008,2020,25560,Essence,Manuelle,134,5,Rouge,3,18600
+Renault,Clio,2019,110595,Essence,Automatique,105,5,Argent,1,9800
+Audi,A3,2016,155413,Hybride,Automatique,122,5,Noir,2,15400
+Mercedes,Classe C,2016,130567,Essence,Automatique,148,5,Argent,3,18300
+Audi,A3,2022,24792,Essence,Manuelle,216,5,Bleu,3,24600
+Citroen,C3,2017,99349,Electrique,Manuelle,108,5,Gris,3,9700
+Mercedes,Classe C,2021,52171,Essence,Manuelle,199,5,Blanc,1,30600
+Citroen,C3 Aircross,2019,70163,Electrique,Manuelle,70,5,Argent,3,10300
+Renault,Kadjar,2021,42558,Hybride,Automatique,128,5,Argent,1,20800
+Toyota,C-HR,2016,146422,Essence,Automatique,99,5,Rouge,1,13000
+Citroen,C3,2023,19341,Diesel,Manuelle,77,5,Noir,1,14300
+Volkswagen,Golf,2017,34426,Diesel,Automatique,139,5,Bleu,1,14300
+Renault,Kadjar,2021,57885,Diesel,Automatique,130,3,Argent,2,21300
+Audi,Q5,2023,20156,Essence,Manuelle,188,5,Blanc,2,37200
+Audi,A1,2021,46121,Essence,Manuelle,174,5,Vert,2,16600
+Volkswagen,Golf,2022,30900,Electrique,Manuelle,95,5,Noir,3,21800
+Renault,Megane,2017,115291,Diesel,Manuelle,74,5,Bleu,1,10700
+BMW,X3,2023,18510,Essence,Manuelle,125,5,Gris,3,37600
+Audi,Q5,2024,673,Essence,Automatique,289,5,Argent,2,46800
+BMW,Serie 1,2022,35591,Essence,Automatique,182,5,Blanc,3,26300
+Mercedes,GLA,2020,63379,Essence,Automatique,181,5,Vert,1,28800
+Peugeot,3008,2015,201202,Electrique,Automatique,119,5,Bleu,1,14600
+Audi,Q3,2024,1405,Diesel,Automatique,137,5,Bleu,2,33400
+Peugeot,3008,2023,16809,Diesel,Manuelle,88,3,Gris,4,23900
+Citroen,C4,2015,106563,Diesel,Manuelle,73,5,Rouge,4,7800
+Mercedes,Classe C,2023,15501,Essence,Automatique,102,5,Gris,1,44100
+Citroen,C3 Aircross,2021,44928,Hybride,Manuelle,70,5,Blanc,1,15300
+Audi,Q3,2023,5177,Hybride,Manuelle,147,5,Noir,3,37400
+Mercedes,Classe A,2022,33146,Essence,Manuelle,301,3,Argent,1,33200
+Peugeot,5008,2018,106934,Hybride,Automatique,70,5,Blanc,1,18100
+Citroen,C4,2023,18162,Hybride,Automatique,92,5,Blanc,1,25600
+Mercedes,GLA,2024,1567,Hybride,Automatique,212,5,Blanc,1,43600
+Toyota,Corolla,2015,234134,Essence,Automatique,126,5,Gris,3,8900
+Mercedes,GLA,2024,1264,Essence,Automatique,152,5,Bleu,1,36300
+Renault,Clio,2021,18272,Diesel,Manuelle,133,3,Gris,3,12200
+Audi,A3,2015,133651,Essence,Automatique,189,5,Gris,2,14500
+Toyota,C-HR,2020,67502,Hybride,Automatique,70,5,Blanc,3,19200
+Mercedes,Classe C,2022,30576,Essence,Manuelle,118,5,Argent,1,31300
+Renault,Kadjar,2019,56482,Diesel,Manuelle,105,5,Rouge,3,13600
+Mercedes,GLA,2021,35625,Hybride,Manuelle,131,5,Blanc,1,28100
+BMW,Serie 1,2024,100,Hybride,Automatique,87,5,Gris,2,29900
+Peugeot,208,2017,69723,Diesel,Automatique,88,3,Argent,1,9300
+Renault,Kadjar,2017,161193,Essence,Manuelle,145,5,Blanc,2,11700
+Citroen,C5 Aircross,2016,112233,Diesel,Automatique,84,3,Bleu,3,13200
+Renault,Kadjar,2017,102650,Hybride,Manuelle,84,5,Vert,3,12100
+Mercedes,GLA,2018,138846,Essence,Automatique,258,5,Bleu,1,24400
+Mercedes,Classe A,2019,85683,Essence,Manuelle,145,5,Gris,2,16800
+Citroen,C4,2024,4902,Essence,Manuelle,101,5,Vert,2,21400
+BMW,X1,2024,277,Electrique,Manuelle,160,5,Gris,2,48000
+Renault,Kadjar,2015,150836,Hybride,Manuelle,70,5,Noir,2,10600
+Peugeot,3008,2019,69278,Diesel,Automatique,71,5,Vert,1,18400
+BMW,X3,2018,66866,Hybride,Manuelle,216,3,Rouge,1,30700
+Peugeot,3008,2019,99274,Hybride,Manuelle,106,5,Blanc,1,18200
+Mercedes,Classe C,2018,93697,Essence,Automatique,208,5,Noir,3,26900
+Renault,Clio,2019,66231,Diesel,Automatique,100,5,Argent,2,10800
+BMW,Serie 1,2019,112951,Essence,Manuelle,259,5,Rouge,2,17000
+Peugeot,208,2015,204009,Hybride,Manuelle,143,3,Noir,2,7800
+BMW,X1,2021,30072,Essence,Automatique,192,5,Blanc,2,30100
+Citroen,C3 Aircross,2024,100,Essence,Manuelle,177,3,Vert,1,23300
+Renault,Scenic,2021,49084,Essence,Manuelle,106,5,Rouge,3,18200
+BMW,Serie 1,2023,15595,Hybride,Manuelle,211,5,Blanc,2,33400
+Renault,Scenic,2023,14675,Essence,Manuelle,141,5,Blanc,3,29200
+Citroen,C3 Aircross,2019,115718,Essence,Manuelle,70,5,Vert,1,9600
+Renault,Clio,2016,166527,Diesel,Automatique,70,5,Argent,2,6700
+Audi,A4,2021,29312,Hybride,Automatique,212,5,Bleu,2,33900
+Peugeot,5008,2022,22904,Hybride,Automatique,131,5,Noir,3,31900
+Citroen,C3,2017,156211,Essence,Manuelle,118,5,Vert,2,6600
+Toyota,RAV4,2024,2823,Diesel,Manuelle,164,5,Gris,1,33800
+Toyota,C-HR,2016,153555,Diesel,Manuelle,116,5,Noir,2,10500
+BMW,X3,2015,173401,Essence,Automatique,108,5,Bleu,2,19400
+BMW,Serie 1,2018,110005,Diesel,Automatique,213,5,Blanc,2,20000
+Renault,Scenic,2020,62298,Essence,Automatique,130,5,Vert,3,17700
+Audi,Q5,2020,63530,Hybride,Automatique,210,3,Gris,1,42800
+Mercedes,GLC,2015,124981,Essence,Manuelle,128,3,Gris,1,19800
+Citroen,C5 Aircross,2019,84367,Diesel,Automatique,99,5,Gris,2,19000
+Audi,A4,2021,44214,Essence,Automatique,211,5,Gris,3,32000
+Toyota,Corolla,2021,49987,Essence,Automatique,158,5,Blanc,1,19800
+Volkswagen,Golf,2015,120945,Essence,Automatique,194,5,Argent,2,12000
+BMW,X1,2022,42741,Diesel,Manuelle,159,5,Bleu,1,28000
+Audi,A3,2015,177704,Hybride,Automatique,201,5,Gris,2,13500
+Audi,A1,2017,81978,Diesel,Automatique,209,5,Argent,1,15500
+Mercedes,Classe A,2021,66534,Hybride,Manuelle,251,5,Noir,1,27800
+Volkswagen,Golf,2020,77027,Electrique,Manuelle,125,5,Rouge,1,19800
+Volkswagen,Golf,2021,19875,Essence,Automatique,169,5,Argent,3,23300
+Audi,A4,2021,41291,Essence,Automatique,174,5,Rouge,1,28800
+Peugeot,2008,2022,20976,Essence,Manuelle,155,5,Noir,1,19700
+Peugeot,5008,2023,593,Hybride,Manuelle,101,5,Bleu,2,34700
+Audi,Q5,2015,140965,Hybride,Manuelle,166,5,Blanc,2,21300
+Citroen,C4,2020,56354,Hybride,Manuelle,135,5,Argent,4,14800
+Audi,A1,2020,82819,Essence,Manuelle,238,5,Argent,4,16000
+Mercedes,Classe A,2019,67600,Essence,Manuelle,194,5,Rouge,1,20400
+Volkswagen,Polo,2015,102060,Diesel,Automatique,117,5,Vert,1,7700
+Volkswagen,Polo,2021,13500,Diesel,Automatique,121,5,Rouge,2,17600
+BMW,Serie 1,2021,28688,Diesel,Manuelle,158,5,Argent,2,24100
+Volkswagen,Polo,2020,46532,Essence,Manuelle,144,5,Gris,1,12800
+Renault,Captur,2022,51716,Essence,Automatique,116,5,Argent,1,16300
+Toyota,Yaris,2017,159098,Essence,Manuelle,125,5,Blanc,2,7200
+Audi,Q3,2016,180285,Diesel,Manuelle,167,5,Noir,2,14300
+Renault,Kadjar,2021,64938,Essence,Manuelle,135,3,Blanc,3,15200
+Audi,A3,2018,74350,Essence,Automatique,135,5,Vert,2,15100
+Peugeot,308,2023,21571,Diesel,Automatique,126,3,Vert,2,21200
+Renault,Scenic,2024,1329,Essence,Automatique,78,3,Argent,1,24500
+BMW,X1,2024,873,Hybride,Manuelle,128,5,Noir,1,38800
+Volkswagen,Polo,2019,33982,Essence,Manuelle,108,5,Vert,2,11200
+Audi,A3,2024,1519,Essence,Automatique,128,5,Rouge,1,31500
+Citroen,C5 Aircross,2016,143175,Essence,Manuelle,70,5,Argent,2,10900
+BMW,Serie 1,2021,45362,Essence,Manuelle,186,5,Rouge,2,21600
+Renault,Clio,2024,100,Hybride,Manuelle,71,5,Blanc,2,14600
+Toyota,Yaris,2020,21116,Hybride,Manuelle,146,5,Gris,3,12600
+Mercedes,Classe A,2022,33251,Diesel,Manuelle,70,5,Noir,4,20600
+Renault,Clio,2021,29939,Diesel,Automatique,92,5,Bleu,2,13200
+Peugeot,3008,2022,18058,Hybride,Automatique,157,5,Argent,1,30900
+Mercedes,GLA,2018,76452,Electrique,Manuelle,184,5,Gris,1,22800
+Audi,A4,2023,17980,Essence,Manuelle,104,5,Argent,3,27200
+Peugeot,308,2019,66830,Diesel,Automatique,117,5,Noir,3,13600
+Audi,A3,2023,13070,Essence,Manuelle,255,5,Argent,3,28200
+Citroen,C4,2015,194177,Essence,Automatique,112,5,Blanc,2,7500
+Citroen,C3,2023,13761,Essence,Manuelle,70,5,Rouge,2,13500
+Mercedes,Classe A,2024,100,Essence,Automatique,123,5,Gris,3,31400
+BMW,Serie 1,2021,37873,Hybride,Automatique,150,3,Blanc,1,26800
+Citroen,C3,2024,100,Diesel,Manuelle,106,3,Gris,2,15000
+Mercedes,GLC,2021,42278,Essence,Manuelle,121,5,Blanc,1,33100
+Toyota,RAV4,2019,77032,Essence,Manuelle,146,5,Rouge,2,16700
+Citroen,C3 Aircross,2018,110580,Essence,Manuelle,125,5,Blanc,1,10300
+Volkswagen,Golf,2020,58167,Hybride,Automatique,177,5,Argent,1,21000
+BMW,X3,2018,66795,Essence,Automatique,194,3,Bleu,1,29200
+Toyota,RAV4,2021,37288,Diesel,Manuelle,136,5,Gris,4,25500
+Audi,A3,2018,150569,Diesel,Manuelle,173,5,Blanc,1,16000
+Toyota,RAV4,2021,52778,Essence,Automatique,96,5,Blanc,3,23900
+Renault,Megane,2020,25294,Hybride,Manuelle,78,5,Blanc,2,16400
+Mercedes,Classe A,2020,62711,Hybride,Manuelle,137,5,Noir,2,25000
+Renault,Kadjar,2024,5734,Diesel,Manuelle,140,5,Rouge,3,22500
+Toyota,RAV4,2018,98980,Essence,Manuelle,70,5,Bleu,1,16700
+BMW,X3,2018,118539,Electrique,Automatique,223,5,Argent,1,31800
+Audi,Q5,2019,108977,Diesel,Manuelle,134,5,Argent,1,26700
+BMW,X3,2015,101652,Diesel,Automatique,161,3,Vert,1,21200
+Volkswagen,T-Roc,2020,65235,Hybride,Manuelle,121,5,Bleu,1,16300
+Citroen,C3 Aircross,2020,80907,Hybride,Automatique,148,5,Vert,1,15400
+Peugeot,5008,2018,58811,Essence,Automatique,116,5,Rouge,1,17200
+Mercedes,GLC,2017,166640,Diesel,Manuelle,284,5,Gris,1,23900
+Audi,A3,2024,100,Diesel,Manuelle,189,5,Argent,1,31200
+Peugeot,2008,2020,25408,Essence,Automatique,81,5,Gris,1,15500
+Mercedes,GLC,2021,43704,Essence,Automatique,78,5,Argent,2,35400
+Audi,A1,2023,15038,Electrique,Automatique,190,5,Bleu,3,32700
+Mercedes,Classe A,2021,51283,Essence,Automatique,139,5,Gris,2,23700
+Renault,Captur,2018,61448,Hybride,Manuelle,157,5,Bleu,1,12600
+Audi,A1,2024,1231,Essence,Manuelle,189,3,Gris,1,23400
+Renault,Kadjar,2019,70170,Diesel,Automatique,86,3,Gris,1,15600
+Volkswagen,T-Roc,2023,4706,Essence,Manuelle,209,3,Argent,3,21500
+Mercedes,Classe A,2018,68266,Hybride,Automatique,110,5,Rouge,1,18100
+Peugeot,308,2021,25396,Diesel,Automatique,70,5,Argent,2,16100
+Renault,Megane,2019,92057,Essence,Automatique,70,5,Vert,1,13500
+BMW,Serie 3,2017,94723,Hybride,Automatique,158,5,Gris,2,23700
+Renault,Megane,2022,43330,Diesel,Automatique,70,5,Argent,1,18700
+Audi,Q3,2017,149408,Essence,Manuelle,250,5,Noir,2,16700
+Peugeot,5008,2017,85254,Essence,Manuelle,118,5,Vert,1,11900
+Mercedes,GLC,2017,170042,Hybride,Automatique,188,5,Blanc,1,24400
+Audi,A1,2023,20460,Diesel,Manuelle,187,5,Blanc,1,22600
+Toyota,C-HR,2016,83019,Essence,Manuelle,95,5,Bleu,1,12100
+BMW,Serie 1,2016,141331,Essence,Manuelle,116,5,Rouge,2,12300
+Mercedes,GLC,2016,182469,Hybride,Manuelle,185,5,Blanc,2,22000
+Citroen,C3 Aircross,2020,68404,Essence,Automatique,161,5,Gris,1,12700
+BMW,Serie 1,2019,56384,Diesel,Manuelle,205,5,Bleu,2,15500
+Volkswagen,Passat,2022,40174,Diesel,Manuelle,179,5,Blanc,2,23600
+Mercedes,GLA,2016,107651,Essence,Automatique,239,5,Rouge,2,17700
+Audi,Q5,2015,115247,Diesel,Automatique,87,3,Argent,3,17000
+Toyota,Corolla,2020,60203,Electrique,Manuelle,83,5,Blanc,1,17900
+Audi,Q5,2017,103814,Essence,Automatique,226,5,Gris,3,24400
+Renault,Captur,2023,9510,Essence,Manuelle,85,5,Argent,2,16300
+BMW,X3,2023,11475,Essence,Manuelle,241,3,Vert,3,43000
+Toyota,Yaris,2024,100,Diesel,Automatique,80,5,Vert,1,19300
+Renault,Scenic,2017,87163,Essence,Automatique,110,5,Bleu,1,13000
+Audi,Q5,2021,17713,Hybride,Manuelle,157,3,Rouge,2,35800
+Toyota,Corolla,2021,68270,Essence,Manuelle,90,5,Argent,2,13000
+Citroen,C4,2022,36443,Essence,Automatique,122,5,Argent,1,17400
+Renault,Captur,2022,29540,Diesel,Manuelle,88,5,Noir,3,16800
+Toyota,Corolla,2023,14555,Essence,Manuelle,98,5,Rouge,1,19900
+Peugeot,5008,2020,86387,Hybride,Automatique,134,3,Blanc,2,21900
+Audi,Q3,2017,102954,Essence,Automatique,239,5,Blanc,3,18200
+Peugeot,5008,2015,159587,Diesel,Automatique,148,5,Bleu,3,13300
+Citroen,C5 Aircross,2015,98585,Diesel,Manuelle,94,5,Noir,2,10000
+Audi,A4,2023,14949,Essence,Manuelle,115,5,Vert,3,30200
+Mercedes,GLC,2023,13773,Diesel,Automatique,98,5,Gris,3,36900
+Peugeot,308,2015,114046,Essence,Automatique,146,5,Blanc,2,10000
+Volkswagen,T-Roc,2023,18959,Hybride,Manuelle,164,5,Noir,1,32700
+BMW,X1,2015,149979,Diesel,Manuelle,71,5,Blanc,2,12600
+Renault,Kadjar,2020,53705,Hybride,Manuelle,88,5,Blanc,2,17700
+Mercedes,Classe A,2024,1291,Diesel,Manuelle,152,5,Noir,4,30000
+Audi,A3,2015,126937,Hybride,Manuelle,236,5,Noir,1,15500
+Citroen,C4,2018,55716,Essence,Manuelle,117,5,Gris,1,10600
+Toyota,Corolla,2018,110762,Diesel,Automatique,148,5,Argent,1,13400
+Renault,Captur,2022,16802,Essence,Automatique,161,3,Gris,3,18500
+Audi,A3,2015,139191,Essence,Automatique,182,5,Noir,1,13700
+Volkswagen,T-Roc,2016,96809,Diesel,Automatique,167,5,Rouge,2,13500
+Citroen,C4,2020,49646,Essence,Automatique,105,3,Rouge,3,14400
+Citroen,C3,2019,83438,Essence,Automatique,149,5,Vert,2,9300
+Toyota,Corolla,2015,150140,Hybride,Manuelle,72,5,Vert,2,8500
+Peugeot,308,2018,43846,Diesel,Automatique,133,5,Blanc,2,16100
+BMW,X1,2015,125015,Diesel,Manuelle,70,5,Bleu,1,13300
+Mercedes,Classe C,2015,157407,Essence,Manuelle,190,5,Blanc,1,15200
+Toyota,Yaris,2016,60798,Hybride,Manuelle,115,5,Noir,2,7800
+Toyota,Corolla,2021,37969,Hybride,Automatique,134,5,Argent,3,17600
+Mercedes,GLC,2016,227313,Diesel,Manuelle,179,5,Vert,2,16700
+Volkswagen,Golf,2023,12167,Diesel,Automatique,76,5,Vert,2,24100
+Renault,Megane,2017,49916,Diesel,Manuelle,99,3,Argent,2,12000
+Peugeot,5008,2021,60661,Essence,Automatique,70,5,Noir,1,20900
+Volkswagen,T-Roc,2018,32134,Diesel,Automatique,219,5,Bleu,1,18400
+Volkswagen,Tiguan,2022,33964,Hybride,Automatique,156,5,Bleu,2,30200
+Audi,Q3,2017,144734,Essence,Automatique,162,5,Argent,1,14900
+Audi,A4,2020,68007,Essence,Manuelle,122,5,Rouge,2,24500
+Toyota,Yaris,2017,82843,Essence,Manuelle,143,5,Gris,1,8500
+Mercedes,Classe C,2024,2306,Essence,Manuelle,149,5,Gris,2,41200
+Mercedes,GLC,2024,100,Diesel,Automatique,197,5,Noir,1,58600
+Toyota,C-HR,2023,21258,Diesel,Manuelle,70,5,Bleu,1,19900
+Volkswagen,Passat,2020,76920,Essence,Manuelle,131,5,Noir,2,23400
+BMW,Serie 1,2020,71240,Essence,Automatique,174,3,Rouge,2,24100
+Toyota,Yaris,2021,13110,Essence,Manuelle,95,5,Argent,3,12400
+Peugeot,308,2024,100,Diesel,Manuelle,154,5,Blanc,3,21400
+Peugeot,208,2019,71816,Diesel,Automatique,72,3,Bleu,1,9600
+Mercedes,GLC,2015,150672,Hybride,Manuelle,143,5,Vert,1,25000
+Audi,A1,2022,19902,Essence,Manuelle,126,5,Noir,2,19600
+Volkswagen,Golf,2016,169903,Essence,Automatique,144,3,Argent,3,10800
+Audi,Q5,2019,87742,Essence,Manuelle,175,5,Bleu,2,29100
+Mercedes,GLA,2018,89962,Essence,Automatique,175,5,Rouge,2,21000
+Mercedes,GLC,2021,44120,Electrique,Automatique,150,3,Noir,3,48400
+Audi,A1,2023,19537,Essence,Automatique,125,5,Bleu,2,23800
+Mercedes,GLC,2023,16207,Hybride,Manuelle,104,5,Bleu,3,41400
+Audi,Q3,2023,6220,Diesel,Automatique,202,5,Blanc,1,40600
+Renault,Kadjar,2023,11469,Essence,Automatique,87,5,Noir,1,21300
+Citroen,C3 Aircross,2022,40200,Essence,Automatique,83,5,Blanc,2,16200
+Mercedes,Classe C,2015,186982,Essence,Manuelle,177,5,Blanc,2,15100
+Audi,A1,2018,86448,Diesel,Automatique,219,5,Bleu,1,17800
+Mercedes,Classe A,2022,37389,Essence,Manuelle,137,5,Rouge,3,20600
+BMW,Serie 1,2016,118196,Hybride,Automatique,170,5,Vert,4,14100
+Peugeot,208,2021,46443,Hybride,Automatique,80,5,Rouge,1,15600
+Renault,Scenic,2024,100,Diesel,Manuelle,105,5,Noir,1,29200
+Mercedes,Classe C,2023,15672,Diesel,Automatique,180,5,Argent,3,43800
+Toyota,RAV4,2019,35642,Essence,Manuelle,86,5,Vert,1,18600
+Toyota,C-HR,2018,71802,Essence,Automatique,105,5,Vert,3,13600
+Toyota,Corolla,2017,93858,Essence,Manuelle,142,5,Rouge,4,11200
+Mercedes,Classe A,2021,26353,Electrique,Automatique,305,5,Gris,1,39700
+Toyota,Corolla,2024,100,Essence,Manuelle,84,5,Bleu,3,17300
+BMW,X1,2017,146242,Essence,Automatique,152,5,Vert,2,15500
+Peugeot,2008,2016,155342,Essence,Manuelle,116,5,Bleu,2,9300
+Mercedes,Classe A,2023,17922,Electrique,Manuelle,194,5,Vert,1,31800
+Toyota,Corolla,2021,41446,Essence,Manuelle,70,5,Argent,3,14600
+Mercedes,Classe C,2016,199192,Electrique,Manuelle,237,5,Vert,2,23800
+Peugeot,308,2020,89438,Hybride,Manuelle,121,5,Gris,1,15000
+Volkswagen,Passat,2015,178206,Essence,Manuelle,113,5,Noir,1,11100
+Toyota,C-HR,2019,82139,Electrique,Automatique,75,5,Rouge,3,16300
+BMW,Serie 1,2020,40833,Essence,Automatique,179,5,Gris,3,21500
+BMW,X1,2021,49805,Electrique,Automatique,188,5,Noir,1,34000
+Audi,Q5,2017,34047,Diesel,Automatique,277,5,Vert,1,32400
+Mercedes,Classe A,2016,102468,Diesel,Automatique,159,5,Vert,1,13400
+BMW,Serie 3,2016,132613,Diesel,Manuelle,259,5,Noir,2,19800
+Mercedes,Classe C,2020,22048,Essence,Manuelle,189,5,Noir,2,27400
+Renault,Captur,2019,98302,Hybride,Automatique,97,5,Vert,3,11700
+Toyota,C-HR,2024,804,Electrique,Automatique,102,5,Rouge,3,27400
+Renault,Megane,2015,160144,Diesel,Manuelle,106,3,Gris,1,9100
+BMW,X3,2024,100,Diesel,Automatique,110,5,Blanc,1,53300
+Audi,A1,2017,33994,Diesel,Automatique,130,5,Argent,2,15000
+Audi,A1,2019,83578,Electrique,Automatique,235,5,Noir,1,23200
+Citroen,C4,2023,14797,Diesel,Manuelle,126,3,Noir,2,20900
+Peugeot,208,2023,15044,Diesel,Manuelle,95,3,Vert,1,14800
+Toyota,RAV4,2020,60134,Hybride,Manuelle,142,5,Noir,2,20400
+Renault,Captur,2022,41919,Essence,Manuelle,135,5,Noir,2,15300
+Renault,Scenic,2017,50538,Hybride,Manuelle,142,5,Bleu,3,15700
+Audi,Q3,2015,131831,Essence,Automatique,211,5,Argent,2,14000
+Toyota,Corolla,2015,162626,Essence,Automatique,70,5,Noir,1,9700
+Citroen,C3,2017,45839,Hybride,Manuelle,70,5,Rouge,3,8000
+Volkswagen,Passat,2015,99991,Hybride,Manuelle,158,5,Rouge,1,19400
+BMW,X3,2018,98483,Essence,Manuelle,116,5,Bleu,2,21700
+Mercedes,Classe A,2020,51068,Diesel,Manuelle,87,5,Argent,2,17900
+Renault,Captur,2024,2382,Hybride,Manuelle,113,5,Bleu,2,22500
+BMW,X1,2017,74493,Diesel,Automatique,156,5,Argent,3,21500
+Toyota,Corolla,2023,16465,Essence,Manuelle,79,5,Gris,2,19600
+Citroen,C4,2024,1302,Hybride,Automatique,89,5,Bleu,1,23400
+Audi,Q3,2016,105179,Electrique,Automatique,154,3,Bleu,3,17200
+Peugeot,208,2023,14576,Essence,Automatique,93,3,Blanc,2,16400
+Mercedes,GLC,2016,84724,Diesel,Manuelle,188,5,Noir,2,22400
+Mercedes,GLA,2020,28225,Essence,Automatique,160,5,Blanc,3,28400
+Renault,Kadjar,2016,132804,Essence,Automatique,112,5,Argent,1,11300
+Mercedes,Classe A,2022,33533,Diesel,Manuelle,187,5,Gris,2,28600
+Peugeot,5008,2021,36873,Hybride,Manuelle,108,5,Rouge,2,25300
+Toyota,Yaris,2015,63859,Hybride,Automatique,89,5,Argent,3,5900
+Toyota,C-HR,2015,36503,Diesel,Automatique,103,5,Gris,2,12100
+Volkswagen,Golf,2015,61559,Electrique,Manuelle,141,5,Argent,3,12900
+Audi,A3,2023,16769,Hybride,Manuelle,163,5,Gris,3,27600
+Citroen,C4,2017,64653,Diesel,Manuelle,72,5,Rouge,4,10100
+Volkswagen,Passat,2016,118028,Essence,Manuelle,146,5,Noir,1,13300
+Citroen,C5 Aircross,2020,57864,Essence,Automatique,78,5,Vert,3,15500
+Peugeot,5008,2017,152000,Essence,Manuelle,133,5,Rouge,3,13200
+Toyota,C-HR,2024,100,Essence,Manuelle,146,5,Gris,3,26200
+Volkswagen,Golf,2022,35080,Essence,Automatique,149,5,Vert,2,19800
+BMW,Serie 3,2019,76744,Diesel,Manuelle,186,5,Bleu,2,23600
+Toyota,RAV4,2020,44832,Hybride,Manuelle,139,5,Rouge,3,21800
+Volkswagen,Polo,2023,16779,Essence,Automatique,166,5,Rouge,3,17400
+Toyota,RAV4,2022,25605,Diesel,Manuelle,105,5,Vert,4,22100
+Audi,Q3,2023,17515,Electrique,Automatique,166,5,Noir,3,37600
+Renault,Megane,2021,36498,Essence,Manuelle,106,5,Vert,2,13600
+Renault,Scenic,2015,43779,Essence,Manuelle,150,5,Noir,2,11400
+BMW,Serie 1,2021,81027,Electrique,Automatique,211,5,Noir,1,34100
+Toyota,C-HR,2024,100,Essence,Automatique,98,3,Gris,2,26300
+Peugeot,2008,2018,63245,Diesel,Manuelle,100,5,Argent,2,11400
+BMW,X1,2015,140370,Electrique,Automatique,246,5,Vert,1,20700
+Peugeot,2008,2024,100,Essence,Manuelle,116,5,Gris,3,18200
+Peugeot,308,2019,104011,Electrique,Manuelle,98,3,Gris,1,14500
+Citroen,C3 Aircross,2015,141743,Essence,Manuelle,84,5,Noir,1,6400
+Volkswagen,Golf,2018,81399,Electrique,Automatique,134,5,Gris,2,19700
+Citroen,C3,2016,118053,Diesel,Automatique,113,5,Rouge,2,7500
+Audi,Q3,2021,52389,Electrique,Automatique,220,3,Vert,1,36200
+Volkswagen,Tiguan,2022,31800,Essence,Manuelle,145,3,Gris,1,25100
+BMW,Serie 3,2017,114412,Essence,Automatique,156,3,Argent,1,27000
+Renault,Captur,2022,44059,Hybride,Automatique,84,5,Bleu,1,18300
+Citroen,C5 Aircross,2022,27110,Electrique,Automatique,85,5,Noir,3,23600
+Toyota,RAV4,2018,124283,Hybride,Manuelle,70,5,Noir,1,14100
+Audi,Q3,2021,31997,Diesel,Manuelle,246,5,Gris,2,24000
+Mercedes,Classe C,2024,3004,Diesel,Automatique,184,5,Gris,2,44200
+Audi,Q5,2024,415,Essence,Manuelle,166,3,Bleu,2,40600
+Mercedes,Classe C,2015,134820,Diesel,Manuelle,225,3,Argent,1,18700
+Audi,Q3,2016,211819,Diesel,Manuelle,231,5,Rouge,2,14300
+Citroen,C3,2018,95637,Hybride,Manuelle,108,3,Gris,4,8600
+Mercedes,Classe A,2020,46179,Hybride,Manuelle,165,5,Blanc,1,27200
+Audi,Q5,2022,37302,Hybride,Automatique,268,5,Blanc,3,48800
+Toyota,Yaris,2019,60247,Diesel,Automatique,90,5,Noir,2,10400
+Renault,Captur,2024,5347,Diesel,Manuelle,88,5,Bleu,3,19900
+Volkswagen,T-Roc,2018,122917,Diesel,Manuelle,195,3,Bleu,1,14200
+Citroen,C3 Aircross,2021,21126,Electrique,Automatique,108,5,Rouge,2,18200
+Peugeot,3008,2022,42924,Diesel,Manuelle,131,5,Gris,1,23200
+Toyota,RAV4,2023,19844,Hybride,Manuelle,102,5,Bleu,3,29200
+BMW,Serie 1,2024,100,Hybride,Manuelle,174,5,Argent,1,37200
+Volkswagen,Polo,2017,89871,Diesel,Manuelle,112,5,Vert,1,9800
+Renault,Megane,2023,21083,Essence,Automatique,98,5,Blanc,1,16900
+Peugeot,208,2024,100,Essence,Manuelle,115,5,Vert,1,15700
+Citroen,C3,2020,86099,Electrique,Manuelle,112,5,Vert,1,10400
+BMW,Serie 3,2021,29232,Essence,Manuelle,224,5,Noir,2,29200
+Audi,A3,2015,170348,Hybride,Automatique,181,3,Argent,2,15900
+Audi,A4,2017,185867,Essence,Manuelle,212,5,Vert,1,17400
+Renault,Kadjar,2024,2364,Essence,Manuelle,103,3,Noir,3,24300
+BMW,X1,2015,138270,Essence,Automatique,135,5,Blanc,3,12200
+Mercedes,GLA,2016,123053,Hybride,Automatique,208,5,Rouge,4,19500
+Volkswagen,Tiguan,2017,95280,Hybride,Manuelle,128,5,Blanc,1,16300
+BMW,X1,2021,61903,Electrique,Automatique,192,5,Blanc,2,26800
+Citroen,C4,2016,156846,Essence,Manuelle,79,3,Vert,1,7300
+Mercedes,Classe C,2018,58577,Diesel,Manuelle,248,5,Rouge,1,25700
+Peugeot,3008,2015,143500,Electrique,Manuelle,141,5,Blanc,3,11300
+BMW,X3,2024,5193,Diesel,Manuelle,207,5,Gris,1,49600
+Mercedes,Classe A,2017,83446,Essence,Automatique,230,5,Bleu,1,21700
+Renault,Clio,2016,149157,Essence,Automatique,86,3,Argent,2,7300
+Renault,Clio,2024,100,Diesel,Automatique,131,5,Noir,3,18200
+Citroen,C5 Aircross,2024,4826,Hybride,Manuelle,107,5,Rouge,1,28000
+Volkswagen,Golf,2020,66140,Diesel,Manuelle,79,5,Argent,2,15700
+Peugeot,308,2021,36718,Diesel,Manuelle,128,3,Argent,1,20800
+Citroen,C3,2016,163787,Essence,Automatique,96,5,Bleu,1,6000
+BMW,Serie 3,2015,175392,Essence,Automatique,276,5,Argent,2,20600
+Audi,A1,2015,267740,Diesel,Manuelle,128,5,Noir,1,9700
+Mercedes,Classe C,2024,3673,Essence,Automatique,209,5,Bleu,1,41700
+BMW,Serie 3,2015,108296,Essence,Manuelle,178,5,Noir,3,12300
+Citroen,C3 Aircross,2023,14973,Essence,Manuelle,137,5,Argent,2,17900
+Renault,Megane,2020,46085,Electrique,Automatique,70,5,Bleu,2,16800
+Toyota,Yaris,2016,117104,Essence,Automatique,127,5,Noir,4,7900
+Toyota,Yaris,2017,46574,Diesel,Manuelle,146,5,Vert,2,8900
+Toyota,Yaris,2015,120729,Essence,Automatique,123,5,Rouge,3,6500
+BMW,X3,2020,86254,Essence,Manuelle,219,3,Blanc,2,25300
+Renault,Kadjar,2018,103303,Diesel,Automatique,85,5,Vert,1,12500
+Mercedes,GLA,2015,104079,Essence,Manuelle,70,5,Vert,4,10500
+Audi,Q5,2016,75947,Essence,Automatique,201,5,Noir,3,23300
+Peugeot,308,2016,119003,Essence,Automatique,132,5,Bleu,3,9600
+BMW,Serie 1,2016,84715,Diesel,Manuelle,265,5,Noir,1,17700
+Renault,Captur,2024,100,Diesel,Automatique,70,5,Gris,1,19300
+Mercedes,Classe A,2023,18397,Essence,Automatique,85,5,Noir,1,28700
+Renault,Kadjar,2017,160121,Essence,Manuelle,104,5,Argent,3,8400
+Volkswagen,Passat,2023,21142,Essence,Automatique,214,5,Rouge,3,31100
+Mercedes,Classe C,2016,79768,Essence,Automatique,93,5,Bleu,2,22300
+Citroen,C3 Aircross,2020,71919,Hybride,Manuelle,120,5,Gris,2,14300
+BMW,X1,2018,112004,Diesel,Manuelle,195,5,Rouge,2,18100
+Volkswagen,Tiguan,2023,24078,Essence,Manuelle,103,5,Rouge,1,24300
+Volkswagen,Passat,2016,41243,Hybride,Automatique,128,5,Blanc,3,18300
+BMW,Serie 1,2016,132163,Essence,Manuelle,195,5,Blanc,2,14100
+Citroen,C3,2017,163775,Electrique,Automatique,81,3,Argent,2,7900
+Renault,Kadjar,2023,9430,Diesel,Manuelle,83,5,Blanc,1,25900
+Mercedes,Classe A,2023,16001,Hybride,Automatique,246,5,Bleu,2,35700
+Renault,Megane,2017,137385,Essence,Automatique,70,5,Rouge,1,8300
+Mercedes,Classe A,2021,31826,Essence,Automatique,137,5,Rouge,1,23300
+Toyota,RAV4,2017,97760,Hybride,Manuelle,122,5,Vert,1,18300
+BMW,X3,2015,109976,Diesel,Manuelle,159,5,Gris,2,19600
+BMW,Serie 3,2023,22192,Hybride,Manuelle,242,5,Gris,2,39300
+BMW,Serie 3,2016,118391,Diesel,Manuelle,163,5,Argent,2,17400
+Mercedes,GLA,2017,54437,Electrique,Manuelle,171,5,Bleu,2,23400
+Volkswagen,Golf,2017,54634,Essence,Manuelle,147,3,Bleu,1,13600
+Toyota,Corolla,2016,71259,Electrique,Manuelle,92,5,Blanc,1,11600
+Audi,Q5,2021,33773,Essence,Automatique,201,5,Vert,1,36200
+Peugeot,5008,2021,60858,Diesel,Manuelle,104,5,Gris,3,19200
+Peugeot,308,2022,22030,Diesel,Automatique,119,5,Rouge,3,20700
+Citroen,C3,2019,59082,Electrique,Automatique,86,5,Blanc,1,12100
+Citroen,C3,2019,68641,Hybride,Manuelle,70,5,Noir,1,9300
+Peugeot,3008,2021,72325,Diesel,Manuelle,85,5,Gris,3,18900
+Citroen,C3,2024,100,Electrique,Automatique,110,5,Bleu,1,17600
+Citroen,C3,2018,42093,Diesel,Automatique,90,5,Rouge,3,10600
+Citroen,C3 Aircross,2018,99296,Electrique,Automatique,81,5,Argent,3,12200
+Citroen,C4,2019,56412,Essence,Automatique,71,5,Argent,1,12500
+Volkswagen,T-Roc,2019,82554,Electrique,Automatique,120,5,Argent,1,18600
+Toyota,Yaris,2024,100,Diesel,Manuelle,70,5,Gris,2,16500
+BMW,Serie 3,2023,20608,Electrique,Manuelle,89,3,Gris,2,35900
+Mercedes,Classe C,2015,152238,Electrique,Manuelle,165,5,Bleu,4,19800
+Peugeot,5008,2023,9353,Diesel,Manuelle,96,5,Vert,3,25400
+Peugeot,3008,2016,126693,Diesel,Automatique,112,5,Blanc,2,14500
+Audi,A1,2022,37166,Essence,Manuelle,117,5,Blanc,2,19500
+Citroen,C3,2016,84909,Diesel,Manuelle,138,3,Argent,2,6500
+Renault,Captur,2021,47208,Essence,Manuelle,99,5,Bleu,2,14600
+BMW,X1,2020,71443,Essence,Automatique,202,5,Rouge,1,26100
+Toyota,Corolla,2021,64450,Essence,Manuelle,155,5,Gris,1,17300
+Renault,Captur,2018,95124,Essence,Automatique,80,5,Bleu,2,11400
+Toyota,Corolla,2015,104420,Hybride,Manuelle,119,5,Gris,2,9500
+Toyota,Yaris,2015,134931,Diesel,Automatique,105,5,Noir,3,6400
+Peugeot,308,2016,93188,Electrique,Manuelle,165,3,Argent,2,11500
+BMW,X3,2019,84839,Essence,Manuelle,213,5,Rouge,2,33100
+Citroen,C5 Aircross,2017,59616,Diesel,Manuelle,108,5,Bleu,1,15300
+Renault,Kadjar,2024,6286,Essence,Automatique,115,5,Bleu,1,24000
+Mercedes,Classe C,2022,22337,Essence,Manuelle,199,5,Gris,1,37300
+Renault,Kadjar,2024,4501,Hybride,Automatique,127,5,Bleu,2,31100
+Citroen,C3 Aircross,2019,75354,Diesel,Manuelle,101,5,Bleu,1,11300
+Citroen,C4,2015,153808,Essence,Automatique,142,5,Gris,2,9100
+Renault,Clio,2019,25938,Diesel,Automatique,70,3,Bleu,1,9900
+Toyota,RAV4,2015,143530,Electrique,Automatique,83,5,Rouge,1,16100
+Toyota,Yaris,2022,24008,Electrique,Manuelle,90,5,Vert,1,17300
+Peugeot,208,2015,107941,Diesel,Automatique,107,5,Noir,1,8200
+Peugeot,208,2017,143652,Diesel,Automatique,81,5,Noir,1,8400
+Mercedes,Classe A,2017,97205,Diesel,Manuelle,199,5,Blanc,1,17500
+BMW,X3,2024,100,Electrique,Automatique,188,5,Blanc,2,58700
+Toyota,Yaris,2015,66043,Diesel,Automatique,112,5,Vert,2,7300
+Volkswagen,T-Roc,2022,27067,Hybride,Manuelle,144,5,Argent,1,24200
+Volkswagen,Passat,2018,71276,Hybride,Automatique,136,5,Noir,3,24800
+Renault,Clio,2020,62636,Essence,Manuelle,83,5,Noir,2,10500
+Renault,Megane,2023,18852,Hybride,Automatique,70,5,Argent,2,22900
+Audi,Q3,2015,157762,Essence,Automatique,246,5,Blanc,2,14100
+Peugeot,5008,2021,37346,Diesel,Automatique,114,5,Rouge,1,23400
+Peugeot,5008,2020,68913,Essence,Manuelle,88,3,Argent,2,19200
+Audi,A4,2015,175154,Diesel,Manuelle,162,5,Rouge,1,15500
+BMW,Serie 1,2020,73208,Diesel,Automatique,239,5,Argent,4,21400
+Peugeot,3008,2024,2238,Essence,Manuelle,153,5,Argent,3,32400
+Citroen,C3 Aircross,2015,202999,Diesel,Automatique,79,5,Rouge,2,7200
+Volkswagen,Polo,2018,74101,Essence,Automatique,174,5,Argent,3,11500
+Citroen,C3 Aircross,2023,13525,Essence,Manuelle,117,5,Gris,1,17500
+Audi,Q5,2016,147765,Diesel,Manuelle,215,5,Bleu,2,21800
+Audi,Q3,2019,80901,Electrique,Manuelle,150,3,Noir,2,23900
+Renault,Kadjar,2023,30965,Diesel,Automatique,146,3,Rouge,1,27800
+Volkswagen,Passat,2023,16207,Hybride,Automatique,93,5,Argent,1,40000
+Audi,Q5,2024,100,Diesel,Automatique,216,5,Bleu,3,50900
+Volkswagen,T-Roc,2020,100561,Essence,Manuelle,144,5,Blanc,1,15300
+BMW,Serie 3,2021,31932,Essence,Automatique,278,5,Rouge,1,34800
+Volkswagen,Tiguan,2016,110904,Essence,Manuelle,145,5,Blanc,2,14500
+Mercedes,Classe C,2020,82256,Electrique,Manuelle,135,5,Noir,3,28800
+BMW,Serie 3,2019,67443,Diesel,Automatique,228,5,Noir,2,27500
+Citroen,C4,2022,37669,Hybride,Manuelle,142,5,Gris,2,18300
+Peugeot,308,2021,36212,Essence,Manuelle,70,5,Noir,2,15800
+Volkswagen,Polo,2021,67054,Hybride,Manuelle,173,3,Bleu,1,15600
+Renault,Kadjar,2020,56755,Diesel,Automatique,95,5,Argent,1,16000
+Renault,Captur,2021,46839,Diesel,Automatique,108,5,Gris,2,16500
+Citroen,C3 Aircross,2021,47843,Essence,Manuelle,136,3,Gris,2,13500
+Citroen,C3 Aircross,2015,183227,Hybride,Manuelle,175,3,Vert,2,8000
+Audi,Q3,2021,37419,Hybride,Automatique,95,5,Vert,1,30300
+Toyota,Yaris,2020,101684,Essence,Manuelle,73,5,Noir,2,10000
+Audi,A4,2020,101774,Hybride,Manuelle,141,5,Rouge,1,24200
+Mercedes,Classe A,2024,100,Essence,Manuelle,168,5,Blanc,2,32700
+Mercedes,Classe C,2019,88568,Essence,Manuelle,213,5,Argent,2,27500
+Mercedes,Classe A,2020,66327,Diesel,Automatique,111,5,Noir,1,23600
+BMW,Serie 3,2024,100,Essence,Automatique,193,3,Argent,2,40700
+Toyota,RAV4,2017,36664,Essence,Automatique,138,5,Vert,3,15100
+Volkswagen,Golf,2023,8304,Hybride,Manuelle,188,5,Noir,1,30100
+Renault,Scenic,2023,14679,Essence,Automatique,114,5,Noir,1,25700
+Mercedes,GLA,2015,146750,Essence,Automatique,228,5,Argent,1,18200
+Toyota,Yaris,2020,104277,Essence,Automatique,109,5,Blanc,1,10400
+Mercedes,Classe C,2016,106697,Essence,Manuelle,264,5,Noir,2,20900
+Mercedes,GLA,2015,170280,Hybride,Manuelle,70,5,Bleu,1,15800
+Toyota,RAV4,2018,100923,Diesel,Automatique,171,5,Noir,3,16800
+Renault,Captur,2018,48822,Diesel,Automatique,118,3,Argent,2,12200
+Citroen,C4,2021,57267,Diesel,Automatique,87,5,Blanc,3,15500
+Citroen,C4,2023,29588,Diesel,Automatique,97,5,Rouge,2,17300
+Peugeot,308,2024,100,Diesel,Automatique,99,5,Vert,1,22900
+Citroen,C4,2018,75011,Hybride,Manuelle,150,5,Noir,2,12800
+Renault,Clio,2015,64310,Essence,Automatique,70,5,Noir,1,6400
+Citroen,C3 Aircross,2021,26955,Essence,Automatique,87,5,Rouge,1,14900
+Volkswagen,Golf,2020,24184,Essence,Manuelle,179,5,Gris,2,16400
+Citroen,C3 Aircross,2015,129223,Diesel,Manuelle,84,5,Rouge,3,6800
+Volkswagen,Polo,2018,97543,Electrique,Automatique,122,5,Noir,2,12400
+Peugeot,2008,2020,59738,Essence,Manuelle,70,5,Argent,2,12300
+Peugeot,2008,2015,184514,Hybride,Manuelle,78,5,Gris,3,8400
+Volkswagen,Tiguan,2016,91683,Electrique,Manuelle,131,5,Rouge,1,16800
+Mercedes,GLA,2024,100,Diesel,Manuelle,178,3,Rouge,2,43100
+Audi,A3,2017,64825,Essence,Manuelle,222,5,Rouge,2,17300
+Peugeot,308,2019,90853,Diesel,Automatique,89,5,Vert,1,15200
+Renault,Kadjar,2020,46597,Diesel,Manuelle,70,3,Noir,3,14800
+Volkswagen,T-Roc,2021,33878,Diesel,Automatique,162,5,Rouge,3,18200
+Mercedes,GLA,2020,38832,Diesel,Manuelle,139,5,Rouge,3,23900
+Citroen,C5 Aircross,2021,52590,Hybride,Manuelle,129,5,Blanc,2,22900
+BMW,X1,2023,24995,Diesel,Automatique,172,3,Rouge,2,35400
+BMW,Serie 1,2016,50373,Essence,Manuelle,91,5,Rouge,2,13700
+Mercedes,GLC,2015,127210,Electrique,Manuelle,139,5,Argent,4,21300
+Citroen,C5 Aircross,2017,131748,Diesel,Manuelle,133,5,Noir,1,13700
+Toyota,RAV4,2020,20577,Diesel,Automatique,90,3,Bleu,3,18300
+Audi,A4,2023,12758,Essence,Manuelle,144,5,Blanc,1,32300
+BMW,X1,2019,64947,Diesel,Manuelle,137,5,Blanc,1,20400
+Volkswagen,Polo,2022,16895,Essence,Automatique,187,5,Vert,2,19500
+Citroen,C5 Aircross,2015,162058,Diesel,Automatique,175,5,Rouge,2,12800
+Citroen,C3 Aircross,2017,84160,Essence,Automatique,95,5,Rouge,1,10000
+Toyota,Corolla,2023,3938,Essence,Manuelle,112,5,Argent,1,21800
+Volkswagen,Golf,2018,56802,Essence,Automatique,214,5,Argent,1,18600
+Citroen,C4,2015,170393,Essence,Manuelle,149,5,Rouge,1,9300
+Toyota,Yaris,2019,75383,Hybride,Manuelle,75,5,Noir,2,10200
+Audi,A1,2018,133256,Electrique,Manuelle,107,5,Noir,1,12700
+Toyota,Corolla,2018,122763,Essence,Automatique,70,5,Vert,1,12000
+Volkswagen,Passat,2015,52988,Diesel,Manuelle,189,5,Rouge,2,16100
+Renault,Scenic,2023,17908,Diesel,Automatique,106,5,Blanc,1,28700
+Volkswagen,Golf,2017,142741,Essence,Manuelle,123,3,Vert,2,9700
+Mercedes,GLA,2021,56911,Diesel,Manuelle,202,5,Rouge,2,28100
+Citroen,C3 Aircross,2019,68636,Diesel,Manuelle,159,5,Bleu,2,12500
+BMW,X1,2023,8795,Essence,Manuelle,265,5,Argent,4,30200
+Volkswagen,Golf,2019,80974,Diesel,Automatique,119,5,Gris,2,17700
+Peugeot,5008,2015,153064,Hybride,Automatique,110,5,Noir,3,14700
+Toyota,RAV4,2019,133175,Diesel,Manuelle,114,5,Rouge,1,18300
+Citroen,C4,2016,80183,Diesel,Manuelle,70,3,Bleu,3,7800
+BMW,Serie 3,2017,76294,Essence,Automatique,105,3,Vert,1,18900
+Volkswagen,Polo,2017,89411,Diesel,Manuelle,79,3,Rouge,2,9100
+Renault,Kadjar,2024,2509,Essence,Manuelle,123,5,Bleu,2,24200
+Renault,Kadjar,2023,15290,Essence,Manuelle,160,5,Argent,1,23900
+Toyota,Corolla,2016,92505,Hybride,Automatique,168,5,Blanc,3,12700
+Audi,Q5,2016,94970,Hybride,Automatique,112,5,Bleu,2,21200
+Citroen,C5 Aircross,2024,100,Essence,Automatique,88,3,Rouge,1,26800
+Citroen,C3 Aircross,2016,176372,Diesel,Automatique,140,5,Blanc,1,9500
+Citroen,C4,2024,100,Hybride,Manuelle,93,5,Vert,3,22500
+Peugeot,2008,2020,60312,Electrique,Automatique,93,5,Argent,1,18200
+Peugeot,5008,2023,17360,Essence,Automatique,82,5,Vert,2,26700
+Toyota,Corolla,2017,101909,Essence,Automatique,179,5,Bleu,2,12800
+Peugeot,3008,2016,114084,Hybride,Manuelle,117,5,Bleu,2,13600
+Toyota,Yaris,2022,31706,Diesel,Manuelle,113,5,Bleu,2,13400
+Volkswagen,T-Roc,2021,41590,Diesel,Manuelle,88,5,Bleu,2,16100
+BMW,Serie 3,2016,226967,Electrique,Manuelle,235,5,Blanc,1,21600
+Volkswagen,Golf,2019,81489,Diesel,Manuelle,137,3,Blanc,3,15900
+BMW,Serie 3,2022,52612,Diesel,Automatique,196,3,Argent,3,35000
+Audi,A4,2021,68332,Essence,Manuelle,185,5,Vert,1,27300
+Mercedes,GLA,2015,141822,Essence,Manuelle,174,5,Bleu,1,14100
+Citroen,C3 Aircross,2022,27195,Essence,Manuelle,87,5,Blanc,1,15300
+BMW,X1,2018,112041,Diesel,Automatique,223,5,Noir,1,27400
+Audi,A3,2022,28207,Electrique,Automatique,153,5,Gris,2,33600
+Audi,A1,2020,83088,Essence,Manuelle,260,3,Argent,2,16500
+BMW,X3,2022,30525,Essence,Automatique,228,5,Gris,3,40500
+Mercedes,Classe A,2024,1668,Hybride,Manuelle,84,5,Noir,2,33600
+Audi,A3,2024,2020,Diesel,Manuelle,181,5,Rouge,2,31600
+Audi,A4,2021,45725,Essence,Manuelle,260,5,Argent,2,25300
+Audi,Q3,2023,25642,Diesel,Manuelle,133,5,Noir,2,30200
+Citroen,C3,2017,132050,Diesel,Manuelle,140,3,Noir,2,6400
+Toyota,Yaris,2023,19394,Diesel,Manuelle,171,5,Argent,1,16500
+Citroen,C4,2015,65589,Diesel,Automatique,112,3,Gris,1,9000
+Volkswagen,Passat,2021,61864,Essence,Automatique,201,3,Blanc,2,25300
+Volkswagen,Golf,2015,112865,Electrique,Manuelle,123,5,Argent,2,11800
+Peugeot,308,2022,35864,Essence,Manuelle,127,5,Argent,2,17900
+BMW,X1,2017,90579,Diesel,Manuelle,181,3,Blanc,3,15100
+Renault,Captur,2019,80383,Hybride,Automatique,91,5,Rouge,1,14500
+Audi,Q5,2016,109599,Hybride,Automatique,197,3,Bleu,1,26300
+BMW,Serie 3,2022,38331,Hybride,Manuelle,186,5,Vert,2,41700
+BMW,X3,2016,99956,Essence,Automatique,149,3,Gris,2,22200
+BMW,X3,2017,136474,Essence,Manuelle,229,5,Argent,4,22200
+Peugeot,2008,2024,195,Essence,Automatique,70,5,Blanc,3,20100
+Mercedes,Classe C,2016,124341,Diesel,Manuelle,201,5,Argent,2,18000
+Toyota,Corolla,2016,97571,Diesel,Automatique,70,5,Vert,2,11000
+Renault,Kadjar,2019,51508,Electrique,Manuelle,109,5,Gris,1,16700
+Renault,Scenic,2019,59227,Essence,Automatique,151,5,Vert,3,19000
+Audi,Q5,2017,33479,Essence,Automatique,232,5,Rouge,1,29100
+Renault,Clio,2018,104305,Essence,Automatique,112,5,Vert,3,8700
+Volkswagen,T-Roc,2015,132658,Diesel,Automatique,169,5,Rouge,1,11500
+Citroen,C5 Aircross,2020,77715,Hybride,Manuelle,115,5,Bleu,3,17600
+Citroen,C3 Aircross,2020,26318,Essence,Manuelle,86,3,Gris,1,13600
+Volkswagen,T-Roc,2019,68889,Hybride,Manuelle,126,5,Rouge,2,15300
+Toyota,Corolla,2023,16768,Hybride,Automatique,128,5,Argent,1,25000
+Renault,Kadjar,2021,44111,Essence,Manuelle,131,5,Rouge,1,19500
+BMW,Serie 3,2024,2320,Essence,Manuelle,113,5,Rouge,2,38000
+Toyota,RAV4,2023,25930,Diesel,Automatique,184,5,Argent,3,26900
+Toyota,Corolla,2020,42920,Essence,Automatique,85,3,Argent,1,14100
+Peugeot,308,2020,47920,Essence,Manuelle,82,5,Rouge,2,14900
+Mercedes,Classe A,2022,45703,Essence,Automatique,120,5,Blanc,4,25100
+Citroen,C3 Aircross,2016,160716,Diesel,Automatique,161,5,Rouge,2,8500
+Volkswagen,Passat,2020,46403,Diesel,Manuelle,156,3,Gris,2,25000
+Audi,A1,2023,20844,Essence,Manuelle,167,3,Noir,2,21500
+Citroen,C5 Aircross,2020,71282,Diesel,Automatique,70,5,Gris,3,16900
+Peugeot,5008,2024,1223,Essence,Manuelle,134,5,Noir,1,28800
+Mercedes,Classe A,2017,123365,Essence,Manuelle,166,5,Rouge,2,13000
+Mercedes,GLA,2023,15449,Essence,Manuelle,135,3,Noir,1,24900
+Citroen,C5 Aircross,2015,120477,Essence,Automatique,117,3,Blanc,1,10700
+Toyota,RAV4,2017,87819,Hybride,Manuelle,125,5,Rouge,3,14600
+Toyota,RAV4,2019,72768,Hybride,Automatique,127,5,Blanc,1,21400
+BMW,Serie 1,2018,66977,Essence,Manuelle,156,3,Blanc,2,12600
+Peugeot,5008,2018,98784,Essence,Manuelle,91,5,Vert,3,14700
+Renault,Clio,2016,121377,Hybride,Automatique,70,5,Argent,1,8100
+Volkswagen,T-Roc,2019,60093,Essence,Manuelle,183,5,Vert,1,16100
+BMW,X1,2018,79746,Diesel,Manuelle,127,5,Rouge,2,17800
+BMW,Serie 3,2021,77104,Essence,Automatique,181,5,Vert,1,29800
+Peugeot,208,2020,47263,Electrique,Manuelle,137,5,Bleu,2,13200
+Audi,A3,2015,100811,Diesel,Automatique,153,5,Rouge,3,13600
+Volkswagen,Golf,2019,105846,Electrique,Manuelle,114,3,Gris,2,15100
+Mercedes,Classe A,2021,31997,Hybride,Manuelle,174,5,Noir,2,25600
+Audi,A4,2015,201512,Hybride,Manuelle,276,5,Vert,3,16600
+Renault,Kadjar,2019,109539,Essence,Manuelle,108,5,Blanc,1,14300
+Peugeot,208,2020,82204,Hybride,Manuelle,88,5,Blanc,1,10200
+Toyota,Corolla,2024,1465,Diesel,Manuelle,111,3,Noir,1,26500
+Toyota,C-HR,2024,308,Essence,Manuelle,141,3,Bleu,1,24500
+Peugeot,208,2022,11895,Electrique,Automatique,78,5,Vert,2,19200
+BMW,X1,2017,153660,Essence,Manuelle,229,3,Rouge,4,15700
+Audi,Q5,2016,130032,Essence,Manuelle,161,5,Blanc,2,18900
+Peugeot,3008,2021,64335,Hybride,Manuelle,70,5,Bleu,1,20600
+Peugeot,5008,2022,36746,Essence,Automatique,117,5,Gris,1,30000
+Audi,A1,2024,2113,Diesel,Automatique,125,5,Noir,3,25700
+BMW,X1,2021,14180,Hybride,Manuelle,177,5,Vert,1,33800
+Peugeot,208,2017,31457,Hybride,Manuelle,70,5,Gris,2,9000
+Mercedes,Classe A,2021,52716,Hybride,Manuelle,77,5,Noir,1,22500
+Renault,Megane,2016,59987,Essence,Manuelle,138,5,Noir,3,9900
+Audi,Q5,2024,100,Diesel,Manuelle,94,5,Argent,3,39100
+Citroen,C4,2021,81056,Essence,Automatique,70,5,Rouge,1,11500
+Peugeot,5008,2023,15661,Essence,Manuelle,88,5,Noir,1,28300
+Renault,Clio,2023,23223,Hybride,Manuelle,85,5,Blanc,1,15200
+Renault,Scenic,2022,32594,Diesel,Automatique,159,5,Bleu,1,23000
+Volkswagen,Passat,2023,23444,Essence,Manuelle,125,5,Rouge,2,26800
+Audi,Q5,2023,30111,Electrique,Automatique,215,5,Argent,4,48000
+Peugeot,208,2018,35206,Essence,Automatique,104,3,Noir,3,9400
+Mercedes,GLC,2023,3108,Essence,Automatique,220,5,Gris,4,53900
+Citroen,C4,2024,623,Diesel,Manuelle,134,5,Gris,3,19700
+BMW,X3,2024,1044,Diesel,Automatique,240,5,Vert,3,47400
+Peugeot,5008,2021,47549,Essence,Manuelle,70,5,Argent,3,17900
+BMW,X1,2023,11730,Essence,Manuelle,144,5,Argent,1,33200
+Peugeot,3008,2021,40925,Hybride,Automatique,159,5,Rouge,1,23100
+Citroen,C5 Aircross,2024,100,Diesel,Manuelle,128,5,Rouge,2,28900
+Renault,Megane,2023,8818,Diesel,Automatique,142,3,Argent,1,23000
+Audi,A1,2020,61238,Essence,Manuelle,172,5,Rouge,3,17200
+Audi,A1,2023,10751,Diesel,Automatique,147,5,Rouge,1,25800
+Audi,Q5,2015,125657,Essence,Automatique,306,5,Gris,1,20800
+Volkswagen,Golf,2022,40358,Hybride,Automatique,156,5,Argent,3,19800
+Audi,Q3,2019,61169,Hybride,Manuelle,113,5,Rouge,1,21200
+Mercedes,GLA,2017,141007,Essence,Automatique,188,5,Argent,2,19200
+Audi,A1,2017,87351,Hybride,Manuelle,173,5,Vert,2,15000
+Peugeot,5008,2017,150988,Hybride,Automatique,119,5,Gris,2,16400
+Audi,Q5,2019,78592,Hybride,Automatique,171,3,Blanc,1,33800
+Volkswagen,T-Roc,2020,55423,Electrique,Automatique,117,5,Rouge,1,19500
+Toyota,Yaris,2015,144663,Hybride,Automatique,104,5,Rouge,2,8600
+Volkswagen,Golf,2024,100,Diesel,Manuelle,89,3,Rouge,1,25600
+Volkswagen,Passat,2018,119301,Electrique,Automatique,90,5,Vert,2,21900
+Peugeot,2008,2021,71578,Diesel,Manuelle,112,5,Noir,1,14100
+BMW,Serie 1,2022,15275,Diesel,Automatique,175,5,Blanc,1,30900
+Renault,Megane,2018,89629,Diesel,Manuelle,70,5,Gris,1,10900
+Renault,Clio,2017,59096,Diesel,Automatique,142,3,Vert,3,9900
+Audi,A3,2022,49113,Electrique,Manuelle,144,3,Bleu,2,31700
+Audi,Q3,2022,26957,Essence,Automatique,163,3,Bleu,3,30200
+Audi,A1,2018,115998,Essence,Manuelle,107,5,Blanc,1,12600
+Citroen,C5 Aircross,2021,43747,Diesel,Manuelle,82,5,Argent,2,21300
+Audi,A4,2023,7123,Essence,Manuelle,159,5,Noir,2,38700
+Mercedes,Classe C,2015,197856,Diesel,Automatique,176,3,Noir,1,17300
+Renault,Kadjar,2016,110695,Electrique,Automatique,88,5,Gris,2,14100
+Audi,Q3,2017,71777,Essence,Automatique,191,5,Vert,2,18700
+Toyota,Corolla,2021,51069,Essence,Automatique,79,5,Rouge,1,15800
+BMW,Serie 1,2016,159924,Essence,Manuelle,76,5,Gris,2,10200
+Volkswagen,Passat,2017,65815,Essence,Manuelle,141,5,Gris,1,15100
+Mercedes,Classe A,2018,78623,Hybride,Automatique,206,5,Noir,3,20800
+Peugeot,2008,2021,47021,Diesel,Automatique,108,5,Noir,1,16600
+BMW,X3,2024,2764,Diesel,Manuelle,151,5,Argent,2,47300
+Peugeot,308,2021,31187,Diesel,Manuelle,103,5,Bleu,1,17500
+Toyota,C-HR,2021,42653,Essence,Automatique,136,5,Bleu,1,18600
+Toyota,Corolla,2016,123369,Diesel,Manuelle,131,5,Argent,3,9200
+BMW,Serie 3,2015,150448,Essence,Automatique,112,3,Bleu,3,13200
+Peugeot,3008,2018,63524,Hybride,Automatique,147,5,Argent,3,18200
+BMW,X1,2016,63654,Essence,Automatique,81,5,Argent,1,15200
+BMW,Serie 3,2018,112877,Essence,Automatique,102,5,Bleu,1,19200
+BMW,X3,2019,93167,Diesel,Manuelle,179,5,Rouge,1,30400
+Citroen,C5 Aircross,2016,150133,Essence,Automatique,107,3,Rouge,1,12300
+Volkswagen,Passat,2021,78257,Diesel,Manuelle,141,5,Blanc,4,24900
+Renault,Captur,2015,157873,Diesel,Manuelle,128,5,Bleu,1,8900
+Volkswagen,Tiguan,2016,75919,Diesel,Manuelle,134,5,Rouge,3,12200
+BMW,Serie 1,2018,111004,Essence,Manuelle,242,5,Noir,2,18500
+Mercedes,Classe A,2024,1291,Electrique,Manuelle,142,5,Blanc,1,43400
+BMW,Serie 3,2021,53449,Essence,Manuelle,145,5,Rouge,2,26500
+Toyota,Yaris,2019,61598,Diesel,Manuelle,113,5,Vert,3,10900
+Renault,Captur,2017,135397,Essence,Manuelle,84,5,Rouge,1,9900
+Citroen,C5 Aircross,2024,1261,Diesel,Manuelle,157,5,Noir,2,30100
+Toyota,Corolla,2022,44570,Essence,Manuelle,88,5,Rouge,2,15700
+Mercedes,Classe A,2022,35764,Essence,Automatique,146,5,Blanc,2,29100
+Volkswagen,Passat,2024,1854,Electrique,Manuelle,144,5,Argent,1,42800
+Toyota,Corolla,2019,75574,Hybride,Manuelle,139,5,Blanc,1,15400
+Renault,Scenic,2020,46811,Essence,Automatique,106,5,Vert,2,21400
+Volkswagen,T-Roc,2021,69294,Diesel,Manuelle,124,5,Bleu,1,17800
+Mercedes,Classe C,2020,62744,Diesel,Manuelle,100,5,Noir,3,23400
+BMW,Serie 3,2022,19930,Diesel,Automatique,157,5,Bleu,4,36700
+Renault,Megane,2015,129418,Essence,Manuelle,122,5,Bleu,2,7900
+Citroen,C4,2023,13082,Essence,Manuelle,98,5,Noir,1,18900
+BMW,Serie 1,2016,65746,Diesel,Automatique,208,5,Vert,1,17000
+Renault,Scenic,2019,73918,Electrique,Automatique,104,5,Vert,1,20500
+Audi,Q3,2021,61246,Diesel,Manuelle,312,5,Rouge,1,31000
+Peugeot,3008,2023,21833,Hybride,Manuelle,137,5,Noir,1,27600
+Peugeot,208,2017,116921,Essence,Manuelle,130,5,Vert,3,7500
+Volkswagen,Golf,2022,45402,Diesel,Manuelle,134,5,Blanc,2,20500
+Peugeot,208,2020,45361,Essence,Manuelle,123,5,Vert,4,10400
+BMW,Serie 1,2023,17811,Essence,Manuelle,220,3,Noir,1,27300
+Audi,Q5,2019,61406,Essence,Manuelle,171,5,Argent,2,25100
+Renault,Megane,2021,48653,Hybride,Automatique,133,5,Rouge,4,16400
+Peugeot,2008,2022,9765,Diesel,Manuelle,70,5,Bleu,1,19700
+Peugeot,208,2023,16201,Diesel,Manuelle,96,5,Noir,3,14000
+Audi,Q5,2022,40613,Hybride,Manuelle,177,5,Noir,2,36900
+Audi,A1,2015,87617,Hybride,Manuelle,174,5,Rouge,1,12700
+Volkswagen,Polo,2015,205254,Essence,Automatique,170,5,Bleu,3,6400
+Peugeot,308,2017,63317,Diesel,Automatique,120,5,Rouge,3,11700
+Toyota,RAV4,2019,103737,Essence,Automatique,139,5,Gris,3,19200
+Mercedes,GLA,2016,129155,Hybride,Manuelle,114,5,Vert,2,16000
+Citroen,C3 Aircross,2019,62894,Diesel,Manuelle,111,3,Gris,1,13900
+BMW,Serie 1,2017,88837,Essence,Manuelle,206,5,Argent,1,15400
+Mercedes,GLC,2022,32549,Hybride,Manuelle,226,5,Argent,2,49200
+Toyota,Yaris,2019,69145,Essence,Manuelle,111,5,Argent,3,10500
+Renault,Kadjar,2023,16940,Hybride,Manuelle,127,5,Noir,1,23700
+Audi,A1,2021,51359,Essence,Manuelle,133,5,Gris,2,18200
+Citroen,C5 Aircross,2020,74342,Diesel,Manuelle,135,3,Rouge,1,18000
+Peugeot,2008,2020,110883,Essence,Manuelle,127,5,Bleu,2,13500
+BMW,X3,2019,82904,Electrique,Manuelle,166,5,Blanc,3,29700
+Peugeot,2008,2016,105486,Electrique,Automatique,109,5,Noir,3,11300
+Peugeot,208,2020,42368,Essence,Manuelle,70,5,Noir,3,11100
+Volkswagen,Golf,2018,90897,Diesel,Manuelle,100,5,Noir,1,12200
+Peugeot,2008,2023,9962,Hybride,Automatique,153,5,Gris,3,23500
+Audi,A3,2016,196297,Essence,Manuelle,239,5,Argent,3,13400
+Volkswagen,Tiguan,2024,100,Diesel,Manuelle,197,5,Vert,1,33500
+Renault,Clio,2019,53530,Diesel,Automatique,134,5,Vert,2,11300
+Citroen,C3,2015,61566,Essence,Automatique,136,5,Blanc,1,7000
+Peugeot,5008,2020,70815,Essence,Automatique,108,5,Noir,3,21900
+Mercedes,Classe A,2015,204877,Hybride,Automatique,107,5,Gris,4,12300
+Peugeot,3008,2022,31455,Essence,Manuelle,91,5,Rouge,1,23000
+Renault,Scenic,2016,127484,Diesel,Manuelle,88,3,Vert,1,10300
+BMW,Serie 1,2020,61552,Essence,Manuelle,129,5,Rouge,3,16800
+Citroen,C4,2024,100,Essence,Manuelle,85,3,Gris,1,21200
+BMW,X3,2023,3667,Diesel,Automatique,192,5,Vert,3,48300
+Toyota,Corolla,2017,125433,Diesel,Manuelle,117,5,Rouge,3,10800
+Citroen,C5 Aircross,2024,2858,Diesel,Automatique,107,5,Bleu,2,29800
+Audi,Q5,2019,106994,Essence,Automatique,247,5,Argent,3,30300
+BMW,Serie 3,2022,30192,Diesel,Manuelle,119,5,Argent,3,33300
+Renault,Scenic,2021,45610,Essence,Automatique,70,5,Vert,1,21600
+Mercedes,Classe A,2016,173811,Essence,Manuelle,204,5,Argent,2,13500
+Renault,Scenic,2017,74569,Hybride,Automatique,114,5,Bleu,1,16200
+Citroen,C4,2023,26407,Electrique,Manuelle,73,5,Noir,3,20400
+Mercedes,GLC,2018,62669,Essence,Automatique,172,5,Bleu,2,24400
+Toyota,Corolla,2015,152579,Electrique,Automatique,79,5,Noir,1,11100
+Audi,Q5,2015,216845,Diesel,Manuelle,172,5,Argent,2,15500
+Mercedes,Classe C,2024,406,Essence,Manuelle,203,3,Gris,2,47500
+Citroen,C3 Aircross,2019,101694,Diesel,Manuelle,123,5,Gris,2,10400
+Toyota,Yaris,2020,18886,Essence,Automatique,162,5,Vert,1,13900
+BMW,Serie 1,2015,182376,Essence,Manuelle,189,5,Argent,2,11700
+Mercedes,GLC,2019,72728,Essence,Manuelle,131,3,Rouge,2,27400
+Citroen,C3 Aircross,2017,118274,Hybride,Automatique,94,5,Gris,2,11000
+Toyota,Corolla,2022,33987,Essence,Manuelle,94,5,Noir,2,18800
+Audi,Q3,2016,158346,Essence,Manuelle,250,5,Rouge,2,14200
+Peugeot,2008,2022,37244,Diesel,Manuelle,147,5,Vert,1,19900
+Toyota,Yaris,2023,23808,Essence,Automatique,136,5,Blanc,1,13800
+Peugeot,308,2022,29588,Hybride,Automatique,111,5,Gris,1,24300
+Renault,Captur,2017,145811,Diesel,Automatique,161,3,Vert,1,9700
+Mercedes,GLA,2022,45708,Diesel,Automatique,113,5,Blanc,2,26800
+Renault,Scenic,2015,166226,Diesel,Automatique,159,5,Bleu,3,11400
+Peugeot,308,2015,127081,Hybride,Manuelle,135,5,Vert,2,8600
+Citroen,C3,2024,4765,Hybride,Manuelle,132,5,Rouge,3,17900
+Mercedes,GLC,2022,30913,Hybride,Automatique,197,5,Bleu,1,46500
+Peugeot,3008,2020,23783,Electrique,Manuelle,115,5,Noir,1,27600
+Citroen,C5 Aircross,2020,54484,Essence,Automatique,109,5,Bleu,3,17200
+Toyota,Corolla,2015,140526,Diesel,Automatique,116,5,Gris,1,10400
+Mercedes,GLA,2015,192340,Hybride,Manuelle,201,3,Rouge,2,14100
+BMW,X3,2018,80108,Diesel,Manuelle,86,5,Bleu,2,24000
+Renault,Scenic,2021,53046,Hybride,Manuelle,100,5,Bleu,2,21600
+Volkswagen,Passat,2015,96592,Hybride,Automatique,178,5,Vert,3,13900
+Peugeot,3008,2024,321,Hybride,Automatique,98,5,Gris,1,31400
+BMW,Serie 3,2019,91388,Diesel,Manuelle,240,5,Blanc,2,26800
+Citroen,C3 Aircross,2021,45108,Hybride,Manuelle,131,5,Bleu,3,17500
+Toyota,Yaris,2024,1261,Essence,Automatique,165,5,Bleu,1,20100
+Toyota,Corolla,2017,195720,Hybride,Automatique,115,5,Blanc,1,12100
+Renault,Scenic,2017,166782,Hybride,Manuelle,114,5,Vert,3,13900
+Audi,Q5,2023,9873,Essence,Manuelle,164,5,Vert,1,40400
+Toyota,Corolla,2024,488,Essence,Manuelle,112,5,Gris,1,23700
+BMW,Serie 3,2021,62205,Diesel,Manuelle,223,5,Rouge,4,26200
+BMW,X3,2015,163479,Essence,Manuelle,127,5,Vert,3,17600
+Citroen,C3 Aircross,2016,146151,Diesel,Automatique,115,5,Argent,4,8800
+Citroen,C4,2022,29321,Essence,Automatique,136,3,Vert,2,17800
+BMW,Serie 1,2024,4830,Essence,Manuelle,210,5,Rouge,3,30800
+Renault,Kadjar,2024,100,Hybride,Manuelle,81,3,Vert,2,27900
+Renault,Kadjar,2016,103428,Diesel,Manuelle,126,5,Rouge,3,10800
+Volkswagen,Tiguan,2019,99074,Electrique,Manuelle,89,5,Gris,2,16500
+Peugeot,208,2016,113896,Hybride,Manuelle,104,5,Blanc,1,8300
+Volkswagen,Golf,2023,9787,Hybride,Automatique,137,5,Rouge,1,29900
+Renault,Megane,2021,47778,Electrique,Automatique,149,5,Blanc,2,18500
+Peugeot,2008,2023,15369,Essence,Manuelle,91,5,Bleu,2,18600
+Peugeot,3008,2016,133619,Essence,Manuelle,70,5,Noir,2,11000
+Volkswagen,Passat,2016,119346,Hybride,Automatique,151,3,Bleu,3,18700
+Renault,Clio,2015,120300,Essence,Automatique,85,5,Gris,1,6400
+Mercedes,Classe A,2017,76276,Electrique,Manuelle,186,5,Bleu,1,18200
+Toyota,Yaris,2015,182594,Diesel,Automatique,116,5,Bleu,2,7000
+Renault,Clio,2018,122085,Essence,Manuelle,101,5,Argent,1,6900
+BMW,X3,2018,124293,Essence,Automatique,231,5,Bleu,1,25100
+Peugeot,5008,2022,39744,Diesel,Manuelle,167,5,Vert,3,21100
+Toyota,C-HR,2024,100,Hybride,Manuelle,104,5,Noir,2,30000
+Peugeot,5008,2015,115412,Essence,Automatique,70,5,Vert,1,10500
+Volkswagen,T-Roc,2020,71189,Hybride,Automatique,104,5,Bleu,3,18300
+BMW,X3,2023,13951,Essence,Manuelle,251,5,Gris,2,51600
+Peugeot,3008,2023,10554,Hybride,Manuelle,78,5,Blanc,1,27600
+Volkswagen,Polo,2020,88290,Essence,Manuelle,131,5,Gris,2,9500
+Peugeot,2008,2022,39636,Essence,Manuelle,83,3,Argent,3,14700
+Toyota,C-HR,2019,84519,Essence,Manuelle,109,5,Gris,2,13600
+Audi,Q5,2019,69332,Essence,Manuelle,207,5,Vert,1,27600
+Citroen,C3,2022,40379,Hybride,Automatique,110,5,Gris,1,14200
+Citroen,C3 Aircross,2015,140684,Diesel,Automatique,101,5,Blanc,2,7800
+Mercedes,GLA,2023,10822,Hybride,Manuelle,176,5,Rouge,1,42700
+Mercedes,GLC,2022,10301,Electrique,Automatique,165,3,Gris,1,56500
+Audi,A3,2020,54587,Electrique,Manuelle,148,5,Vert,1,25600
+Audi,A1,2023,19623,Diesel,Automatique,175,5,Noir,3,23800
+Renault,Captur,2023,16589,Hybride,Automatique,89,5,Vert,2,21100
+Citroen,C4,2015,186615,Diesel,Automatique,70,5,Vert,1,8000
+Peugeot,5008,2021,46154,Hybride,Manuelle,116,5,Rouge,1,25900
+Audi,A3,2017,150680,Hybride,Manuelle,166,3,Argent,2,16700
+BMW,Serie 1,2017,172653,Electrique,Manuelle,159,5,Vert,2,16800
+Mercedes,GLA,2023,19147,Essence,Manuelle,272,3,Noir,1,43000
+Citroen,C3,2017,99177,Essence,Automatique,147,5,Gris,2,8300
+Citroen,C3,2023,17722,Essence,Manuelle,104,5,Noir,3,11600
+Renault,Captur,2019,90835,Essence,Manuelle,96,5,Bleu,1,13100
+BMW,Serie 1,2015,127744,Electrique,Automatique,294,5,Noir,1,17600
+Renault,Captur,2020,82304,Diesel,Manuelle,119,5,Noir,3,13000
+Toyota,Yaris,2017,98202,Essence,Manuelle,96,5,Vert,1,6800
+BMW,X1,2022,26011,Essence,Manuelle,219,5,Rouge,2,35700
+Audi,Q5,2018,32395,Essence,Automatique,242,3,Vert,2,32200
+Renault,Kadjar,2019,81021,Diesel,Manuelle,139,5,Bleu,1,17300
+Toyota,C-HR,2023,8927,Diesel,Automatique,94,5,Blanc,1,24100
+Toyota,RAV4,2019,82229,Essence,Manuelle,115,5,Gris,3,20500
+Peugeot,5008,2016,43388,Essence,Manuelle,101,5,Bleu,1,13000
+Renault,Clio,2023,16513,Essence,Manuelle,125,5,Argent,2,14100
+Peugeot,3008,2024,1175,Hybride,Manuelle,116,3,Vert,2,29400
+Renault,Clio,2021,32294,Diesel,Automatique,70,5,Bleu,3,12200
+Volkswagen,Polo,2015,154418,Diesel,Automatique,151,5,Vert,1,8400
+Audi,A1,2021,72688,Essence,Manuelle,96,5,Noir,3,14100
+BMW,Serie 3,2017,99810,Diesel,Automatique,178,5,Bleu,1,25400
+Audi,A4,2020,56420,Diesel,Automatique,207,5,Noir,3,26300
+BMW,Serie 3,2019,67526,Essence,Manuelle,172,5,Vert,3,21900
+Toyota,Yaris,2021,60155,Diesel,Automatique,139,5,Vert,2,12200
+Audi,A1,2019,99294,Essence,Manuelle,106,5,Noir,1,13200
+Audi,A3,2023,7455,Essence,Manuelle,196,5,Vert,3,28200
+Toyota,Yaris,2017,52747,Electrique,Automatique,114,5,Vert,1,11100
+Peugeot,208,2020,27846,Essence,Automatique,120,5,Gris,3,12600
+Renault,Megane,2023,15926,Diesel,Manuelle,70,5,Gris,2,18500
+Citroen,C4,2016,153913,Essence,Automatique,115,5,Rouge,2,8900
+Toyota,Yaris,2019,68571,Diesel,Automatique,179,5,Gris,2,11000
+Mercedes,Classe C,2019,81863,Essence,Automatique,76,5,Argent,1,23600
+Volkswagen,Golf,2018,86618,Essence,Manuelle,144,5,Noir,2,13300
+Volkswagen,Tiguan,2016,86361,Essence,Manuelle,80,5,Rouge,3,11300
+Mercedes,Classe C,2017,66897,Essence,Manuelle,288,5,Gris,1,27200
+Mercedes,Classe C,2023,13469,Essence,Manuelle,158,5,Argent,1,37400
+Peugeot,3008,2018,67211,Essence,Manuelle,130,5,Bleu,2,14200
+Peugeot,3008,2016,152434,Hybride,Manuelle,80,5,Rouge,2,14100
+BMW,X3,2021,37773,Essence,Manuelle,95,5,Gris,2,27200
+Mercedes,GLA,2021,49719,Diesel,Automatique,124,3,Noir,3,31700
+Mercedes,Classe C,2019,46362,Essence,Automatique,172,3,Rouge,1,28200
+Audi,Q5,2018,108510,Essence,Manuelle,191,5,Vert,3,22000
+Audi,Q3,2023,10127,Electrique,Manuelle,235,5,Gris,2,49300
+Peugeot,5008,2021,55685,Essence,Automatique,104,5,Argent,2,23500
+Citroen,C3,2022,15951,Essence,Manuelle,84,5,Blanc,1,12000
+Audi,Q3,2020,43351,Essence,Automatique,182,5,Noir,1,25100
+Mercedes,Classe C,2016,102706,Diesel,Automatique,170,5,Bleu,1,18000
+Renault,Captur,2015,164863,Hybride,Manuelle,136,5,Argent,3,9500
+Toyota,C-HR,2022,46057,Hybride,Automatique,91,5,Blanc,2,19400
+Toyota,Yaris,2019,78375,Essence,Manuelle,163,5,Vert,3,10300
+Audi,Q5,2023,17066,Essence,Manuelle,151,5,Noir,1,41100
+Renault,Scenic,2015,60774,Diesel,Automatique,104,5,Argent,1,13100
+Toyota,C-HR,2015,128659,Essence,Automatique,70,5,Noir,3,9800
+BMW,X3,2022,23979,Hybride,Automatique,114,5,Bleu,3,40300
+Citroen,C4,2017,169931,Essence,Manuelle,100,5,Gris,2,8000
+Citroen,C4,2022,39128,Diesel,Manuelle,70,5,Vert,2,16800
+Mercedes,Classe A,2024,100,Essence,Automatique,122,3,Blanc,2,32500
+Citroen,C3,2017,93599,Essence,Manuelle,144,5,Blanc,1,6300
+Volkswagen,T-Roc,2016,121084,Hybride,Manuelle,176,3,Vert,1,15900
+Renault,Clio,2015,180831,Essence,Automatique,90,5,Gris,1,5300
+Toyota,Yaris,2018,156843,Electrique,Manuelle,150,5,Rouge,3,9200
+BMW,X1,2016,143008,Diesel,Manuelle,177,5,Vert,4,14900
+Citroen,C4,2016,84032,Hybride,Automatique,126,5,Gris,1,11500
+Volkswagen,T-Roc,2024,267,Diesel,Manuelle,155,5,Argent,1,27100
+Citroen,C4,2019,87657,Essence,Manuelle,124,3,Vert,1,10000
+BMW,X3,2023,15537,Diesel,Manuelle,122,5,Bleu,3,45800
+Peugeot,2008,2017,148860,Essence,Automatique,127,5,Vert,1,10100
+Audi,A1,2021,49323,Essence,Manuelle,205,5,Vert,3,21100
+Toyota,RAV4,2019,64284,Hybride,Manuelle,117,5,Gris,2,23300
+Renault,Clio,2015,255999,Electrique,Automatique,77,5,Argent,2,6300
+Volkswagen,Polo,2016,112903,Essence,Automatique,70,5,Bleu,2,8700
+Volkswagen,Golf,2015,206106,Hybride,Automatique,144,5,Noir,2,11700
+Renault,Megane,2017,94468,Diesel,Automatique,142,5,Rouge,3,12500
+Mercedes,GLC,2018,86400,Essence,Manuelle,229,5,Bleu,1,29000
+Audi,Q3,2020,82753,Essence,Manuelle,194,5,Blanc,3,20700
+Mercedes,GLC,2023,20295,Diesel,Manuelle,160,3,Bleu,1,42100
+Citroen,C3 Aircross,2024,100,Diesel,Manuelle,122,3,Rouge,1,20300
+BMW,Serie 3,2021,73003,Electrique,Automatique,249,5,Rouge,1,42100
+Citroen,C3,2016,165647,Essence,Manuelle,141,5,Argent,1,5700
+Citroen,C3,2018,168481,Diesel,Automatique,94,5,Argent,4,7500
+Citroen,C3,2024,100,Diesel,Manuelle,143,5,Argent,2,14800
+Audi,Q5,2024,4801,Diesel,Manuelle,100,5,Vert,1,41600
+Peugeot,5008,2015,49272,Essence,Manuelle,88,5,Vert,3,12600
+Mercedes,GLA,2018,88868,Essence,Automatique,198,5,Argent,1,22200
+Toyota,C-HR,2022,29422,Essence,Manuelle,92,5,Vert,1,20700
+Audi,A1,2024,100,Essence,Manuelle,92,5,Blanc,1,23700
+Volkswagen,Golf,2018,114306,Essence,Manuelle,152,5,Argent,1,13500
+Citroen,C4,2017,112149,Diesel,Manuelle,118,3,Noir,1,11000
+Audi,Q5,2017,67192,Hybride,Automatique,232,5,Argent,3,24600
+Mercedes,Classe A,2015,136775,Essence,Manuelle,214,5,Bleu,2,15600
+Mercedes,GLA,2021,39949,Essence,Automatique,192,5,Vert,3,26300
+Audi,A3,2022,21599,Diesel,Automatique,141,3,Argent,2,26600
+Peugeot,208,2021,53858,Hybride,Manuelle,85,3,Gris,1,13400
+Audi,Q3,2018,61665,Hybride,Manuelle,249,5,Noir,1,24900
+Volkswagen,Golf,2016,43650,Essence,Automatique,165,5,Gris,2,11700
+Toyota,RAV4,2020,72813,Hybride,Automatique,94,5,Bleu,4,21900
+Mercedes,Classe C,2023,3723,Hybride,Manuelle,203,5,Rouge,2,44900
+BMW,X1,2015,64006,Diesel,Manuelle,216,3,Gris,1,16900
+Renault,Kadjar,2024,100,Essence,Automatique,97,5,Noir,3,26200
+Peugeot,208,2022,20876,Hybride,Manuelle,147,3,Noir,2,16400
+Audi,A1,2015,185302,Diesel,Manuelle,194,5,Bleu,1,9200
+Mercedes,GLC,2016,89998,Essence,Manuelle,139,5,Blanc,1,22400
+BMW,X1,2017,84744,Essence,Automatique,130,5,Bleu,1,19400
+BMW,Serie 1,2020,35083,Diesel,Automatique,167,5,Argent,2,24900
+Citroen,C5 Aircross,2017,64871,Electrique,Automatique,88,5,Argent,2,16400
+Toyota,RAV4,2020,79707,Electrique,Automatique,70,5,Rouge,2,22600
+BMW,Serie 3,2022,19121,Diesel,Automatique,122,5,Noir,2,37900
+Volkswagen,Golf,2017,52488,Diesel,Automatique,208,5,Noir,3,14600
+Toyota,Yaris,2024,1496,Essence,Manuelle,70,5,Bleu,2,15600
+BMW,Serie 3,2019,46410,Essence,Manuelle,106,5,Rouge,2,20300
+Peugeot,5008,2021,40258,Essence,Automatique,178,5,Noir,3,22200
+Citroen,C3,2015,118309,Diesel,Manuelle,73,5,Rouge,2,5800
+Mercedes,GLA,2021,50023,Essence,Manuelle,125,3,Noir,2,31100
+Mercedes,GLA,2018,83228,Diesel,Automatique,197,5,Bleu,1,24400
+BMW,X3,2019,52831,Essence,Automatique,274,5,Rouge,3,33000
+Volkswagen,Passat,2016,155387,Essence,Automatique,127,5,Noir,1,15400
+Renault,Scenic,2022,11374,Electrique,Manuelle,125,5,Gris,2,28700
+Toyota,C-HR,2023,13265,Hybride,Manuelle,146,5,Vert,2,26600
+Mercedes,GLA,2016,97253,Hybride,Automatique,225,5,Blanc,1,26400
+Audi,A4,2023,7058,Essence,Manuelle,145,5,Vert,1,40000
+Peugeot,2008,2015,136437,Diesel,Manuelle,143,5,Vert,2,8600
+Mercedes,Classe A,2018,109030,Essence,Manuelle,131,5,Gris,1,17400
+Peugeot,5008,2016,176908,Essence,Automatique,130,5,Rouge,1,13300
+Renault,Captur,2016,127908,Hybride,Manuelle,78,5,Rouge,2,9100
+Toyota,Yaris,2016,53198,Essence,Manuelle,116,5,Bleu,2,7700
+Mercedes,Classe A,2017,97396,Essence,Automatique,205,3,Rouge,1,18000
+Toyota,C-HR,2022,39207,Hybride,Manuelle,150,5,Vert,2,21100
+Volkswagen,T-Roc,2024,4500,Essence,Automatique,176,3,Noir,4,28800
+Audi,Q3,2022,30971,Hybride,Automatique,122,5,Gris,1,27900
+BMW,X3,2017,131794,Hybride,Manuelle,245,5,Gris,1,24100
+Toyota,Corolla,2015,124974,Diesel,Manuelle,99,5,Noir,1,8400
+Citroen,C5 Aircross,2022,28919,Essence,Manuelle,95,5,Bleu,1,21400
+Mercedes,Classe A,2015,170313,Diesel,Manuelle,176,3,Bleu,4,9600
+BMW,Serie 1,2017,111169,Diesel,Automatique,137,5,Rouge,2,14500
+Audi,A4,2018,131858,Hybride,Automatique,279,5,Rouge,1,26600
+Toyota,RAV4,2023,30964,Hybride,Manuelle,135,5,Argent,2,27800
+BMW,Serie 3,2024,4080,Essence,Manuelle,222,5,Blanc,1,45200
+Renault,Megane,2020,22840,Hybride,Manuelle,121,5,Gris,2,16300
+Toyota,Yaris,2016,127740,Electrique,Manuelle,108,3,Argent,4,9100
+BMW,Serie 3,2016,78822,Essence,Automatique,229,5,Vert,3,21300
+Peugeot,208,2022,28815,Essence,Manuelle,78,5,Gris,1,12200
+Peugeot,208,2019,55713,Electrique,Automatique,93,5,Rouge,2,12000
+BMW,X1,2015,99455,Electrique,Automatique,160,5,Blanc,3,17400
+Mercedes,Classe C,2020,44789,Essence,Manuelle,139,5,Vert,4,23100
+Volkswagen,Polo,2017,95751,Essence,Manuelle,138,3,Argent,3,9700
+Mercedes,Classe A,2015,162519,Hybride,Automatique,172,5,Gris,1,16500
+Citroen,C3 Aircross,2020,37880,Essence,Automatique,116,5,Noir,3,13300
+Renault,Kadjar,2023,18412,Hybride,Automatique,135,5,Gris,3,27200
+Audi,Q3,2023,10715,Essence,Manuelle,190,3,Gris,1,31200
+Audi,A3,2018,154581,Essence,Manuelle,257,5,Bleu,1,14700
+Citroen,C4,2021,89113,Diesel,Manuelle,86,3,Bleu,2,14400
+Renault,Megane,2021,28687,Diesel,Manuelle,75,3,Vert,1,16200
+Renault,Scenic,2021,54107,Essence,Automatique,70,5,Vert,3,19300
+Peugeot,2008,2021,38824,Essence,Automatique,106,5,Rouge,2,15700
+BMW,X1,2019,49521,Diesel,Manuelle,285,5,Noir,3,25900
+Volkswagen,Polo,2020,26862,Diesel,Automatique,148,3,Gris,1,15700
+Audi,A3,2023,16998,Diesel,Automatique,70,5,Gris,3,26800
+Citroen,C3,2020,58290,Hybride,Manuelle,128,5,Argent,1,11400
+Renault,Megane,2024,100,Hybride,Manuelle,75,5,Blanc,2,23100
+Citroen,C5 Aircross,2023,16559,Hybride,Manuelle,105,5,Noir,3,26400
+Audi,A3,2021,49739,Hybride,Manuelle,197,3,Argent,1,26100
+Toyota,Yaris,2019,70876,Essence,Automatique,112,5,Noir,4,10000
+Citroen,C4,2019,39232,Diesel,Automatique,114,5,Argent,2,14700
+Toyota,C-HR,2024,100,Hybride,Automatique,143,5,Argent,2,33500
+Toyota,C-HR,2019,44630,Essence,Automatique,134,5,Noir,1,16900
+Audi,A3,2017,104983,Hybride,Automatique,252,5,Gris,4,16400
+Toyota,C-HR,2024,100,Essence,Manuelle,92,5,Gris,2,24400
+Peugeot,5008,2024,100,Hybride,Manuelle,154,5,Gris,1,38400
+Peugeot,5008,2015,106095,Essence,Manuelle,74,5,Blanc,1,12700
+BMW,Serie 1,2019,69811,Electrique,Automatique,180,5,Rouge,3,24300
+Audi,A4,2023,6117,Diesel,Manuelle,194,3,Blanc,2,41100
+Volkswagen,Polo,2017,154258,Diesel,Automatique,107,5,Rouge,1,9600
+Renault,Clio,2019,73555,Diesel,Automatique,142,5,Blanc,2,11600
+Peugeot,5008,2016,76011,Hybride,Manuelle,70,5,Argent,1,15500
+Citroen,C5 Aircross,2019,75478,Essence,Manuelle,93,5,Noir,1,15000
+Mercedes,GLC,2017,62653,Diesel,Automatique,145,5,Bleu,3,26500
+BMW,Serie 1,2015,217462,Essence,Manuelle,188,5,Argent,2,10300
+BMW,Serie 3,2019,94225,Diesel,Automatique,143,5,Vert,1,25000
+Citroen,C5 Aircross,2024,100,Hybride,Automatique,140,3,Vert,2,33500
+Toyota,Corolla,2017,102448,Diesel,Manuelle,106,5,Vert,3,10900
+Mercedes,GLA,2020,54943,Diesel,Manuelle,159,5,Argent,1,25500
+Peugeot,3008,2017,101328,Diesel,Automatique,117,5,Blanc,2,14100
+Toyota,RAV4,2015,151693,Essence,Manuelle,83,5,Rouge,1,10600
+Mercedes,Classe C,2020,37724,Diesel,Automatique,188,5,Gris,2,36500
+Citroen,C4,2021,72817,Essence,Manuelle,81,5,Vert,3,13100
+Peugeot,3008,2024,100,Electrique,Automatique,99,5,Rouge,3,34000
+Mercedes,Classe C,2023,19163,Diesel,Manuelle,177,5,Argent,3,39100
+Peugeot,5008,2023,20413,Diesel,Automatique,84,5,Gris,1,28700
+Renault,Megane,2023,20021,Hybride,Automatique,111,5,Gris,3,23100
+Renault,Clio,2018,93109,Hybride,Manuelle,111,5,Vert,3,9100
+BMW,X1,2021,26409,Essence,Manuelle,274,5,Rouge,1,32600
+BMW,Serie 1,2020,18775,Diesel,Automatique,205,5,Vert,1,27400
+Toyota,Yaris,2016,177923,Hybride,Manuelle,111,5,Gris,3,6900
+Renault,Scenic,2022,33909,Diesel,Automatique,97,5,Gris,4,24500
+Mercedes,Classe C,2015,132903,Hybride,Manuelle,229,5,Noir,2,22000
+Mercedes,Classe A,2018,123001,Hybride,Manuelle,206,5,Gris,3,15500
+Mercedes,Classe A,2015,177022,Essence,Manuelle,199,5,Vert,3,11700
+Peugeot,5008,2016,115059,Diesel,Manuelle,128,5,Noir,3,15600
+Renault,Captur,2023,12709,Essence,Manuelle,112,5,Rouge,4,19700
+Mercedes,GLC,2015,103615,Hybride,Manuelle,241,5,Vert,3,23700
+Volkswagen,Passat,2021,34644,Diesel,Manuelle,155,5,Blanc,2,28800
+Toyota,Corolla,2024,100,Hybride,Manuelle,84,5,Argent,2,24400
+Mercedes,GLA,2023,18988,Diesel,Automatique,116,5,Vert,3,30900
+Peugeot,5008,2020,76970,Diesel,Manuelle,106,5,Vert,2,18400
+Volkswagen,Golf,2019,81600,Hybride,Automatique,114,3,Gris,3,18100
+Toyota,C-HR,2019,41719,Hybride,Automatique,125,5,Vert,1,15700
+Volkswagen,Passat,2015,122612,Diesel,Manuelle,122,5,Argent,1,13700
+Toyota,Corolla,2020,49149,Hybride,Manuelle,90,5,Rouge,1,14000
+Citroen,C3 Aircross,2023,18816,Electrique,Manuelle,99,3,Bleu,1,22100
+Peugeot,3008,2015,96555,Essence,Manuelle,126,5,Bleu,3,8200
+Citroen,C3,2018,55875,Diesel,Automatique,144,5,Rouge,1,11400
+Toyota,Yaris,2021,33709,Diesel,Manuelle,183,5,Gris,1,14900
+Renault,Megane,2023,14696,Diesel,Manuelle,172,3,Rouge,3,21200
+Mercedes,GLA,2024,3807,Essence,Automatique,193,5,Argent,3,40800
+Audi,Q3,2020,38223,Essence,Manuelle,176,5,Argent,1,23800
+Citroen,C3 Aircross,2016,114498,Hybride,Manuelle,118,5,Vert,2,10200
+Citroen,C3 Aircross,2022,25908,Diesel,Manuelle,100,5,Blanc,1,15400
+Citroen,C3 Aircross,2021,55559,Hybride,Manuelle,124,5,Bleu,1,17800
+Mercedes,GLA,2024,100,Diesel,Automatique,118,5,Rouge,1,35200
+Audi,A1,2023,14495,Essence,Manuelle,220,5,Bleu,1,29500
+Mercedes,GLA,2016,73782,Hybride,Manuelle,142,5,Argent,1,17000
+Toyota,C-HR,2024,5392,Essence,Automatique,100,5,Rouge,3,22700
+Audi,A4,2018,37629,Diesel,Manuelle,70,5,Blanc,2,18400
+BMW,X1,2016,162765,Essence,Automatique,208,5,Vert,2,14700
+Citroen,C4,2024,986,Hybride,Manuelle,146,5,Noir,4,21600
+BMW,X1,2021,51957,Diesel,Manuelle,147,5,Noir,2,25400
+Mercedes,Classe C,2023,19527,Diesel,Manuelle,93,3,Argent,2,31300
+Toyota,C-HR,2022,27602,Essence,Automatique,144,3,Noir,1,19800
+Renault,Scenic,2022,35850,Diesel,Automatique,123,3,Vert,1,28600
+BMW,Serie 3,2016,131422,Hybride,Manuelle,171,5,Vert,4,16700
+Audi,A4,2023,11392,Diesel,Manuelle,184,5,Blanc,2,40200
+Toyota,C-HR,2015,166857,Essence,Manuelle,107,5,Argent,4,9400
+Renault,Kadjar,2016,118288,Hybride,Automatique,70,5,Argent,3,13600
+Renault,Captur,2019,58164,Hybride,Manuelle,115,5,Blanc,1,12300
+Mercedes,Classe C,2021,33550,Diesel,Automatique,105,3,Vert,3,31400
+Toyota,Corolla,2022,23973,Diesel,Manuelle,70,5,Noir,1,21400
+Volkswagen,Tiguan,2023,6786,Essence,Manuelle,174,5,Blanc,2,34500
+Toyota,C-HR,2021,69136,Diesel,Manuelle,89,5,Vert,1,17100
+Volkswagen,Passat,2016,148551,Essence,Manuelle,116,5,Noir,1,14700
+Audi,A4,2020,38298,Diesel,Automatique,155,5,Rouge,2,25500
+Peugeot,2008,2016,89058,Hybride,Manuelle,70,3,Vert,3,9400
+Citroen,C3,2018,83069,Hybride,Automatique,71,3,Vert,2,8400
+Mercedes,Classe C,2021,50118,Diesel,Manuelle,183,5,Rouge,3,29600
+Volkswagen,Tiguan,2020,79288,Diesel,Manuelle,150,5,Rouge,1,17500
+Volkswagen,Polo,2019,48077,Diesel,Automatique,194,3,Vert,2,16200
+Toyota,Yaris,2024,100,Diesel,Manuelle,196,5,Rouge,2,19100
+Peugeot,3008,2019,52782,Essence,Manuelle,127,5,Rouge,2,17000
+Peugeot,5008,2018,86181,Diesel,Manuelle,98,3,Argent,2,17400
+BMW,Serie 3,2022,35928,Diesel,Manuelle,236,5,Noir,2,36200
+Renault,Clio,2022,53323,Essence,Automatique,83,5,Vert,2,12400
+Volkswagen,Polo,2023,20339,Diesel,Automatique,144,5,Argent,2,18200
+Toyota,C-HR,2020,40101,Diesel,Automatique,85,5,Argent,2,18200
+Citroen,C3 Aircross,2020,31179,Essence,Manuelle,109,5,Blanc,2,13300
+Renault,Captur,2015,158991,Essence,Automatique,112,3,Blanc,1,8400
+BMW,X3,2024,100,Electrique,Manuelle,189,5,Blanc,2,62200
+Renault,Clio,2017,91363,Essence,Automatique,128,3,Blanc,2,9200
+Citroen,C3 Aircross,2020,68094,Essence,Automatique,160,3,Gris,3,13600
+Peugeot,208,2024,100,Essence,Automatique,112,3,Blanc,1,17400
+Volkswagen,Passat,2021,31162,Essence,Automatique,176,5,Argent,1,30800
+Peugeot,3008,2018,94980,Essence,Manuelle,90,5,Rouge,1,17000
+Citroen,C5 Aircross,2019,57598,Essence,Automatique,105,5,Argent,2,15300
+BMW,Serie 3,2015,159355,Diesel,Automatique,186,5,Argent,1,17200
+Peugeot,208,2018,81778,Hybride,Manuelle,98,3,Gris,1,10200
+Citroen,C4,2016,80022,Essence,Manuelle,89,5,Noir,4,8300
+Peugeot,2008,2023,11793,Diesel,Manuelle,89,5,Rouge,1,16400
+Toyota,Corolla,2017,113448,Hybride,Manuelle,118,5,Vert,3,11500
+Peugeot,2008,2019,54511,Essence,Manuelle,112,3,Noir,1,14000
+Mercedes,Classe A,2016,126155,Electrique,Manuelle,131,5,Blanc,3,14600
+Audi,Q5,2018,67074,Essence,Manuelle,109,5,Blanc,3,20300
+Toyota,C-HR,2017,69516,Electrique,Manuelle,98,5,Noir,1,16000
+Volkswagen,Golf,2024,3141,Diesel,Automatique,157,5,Argent,1,29400
+Toyota,RAV4,2017,126582,Diesel,Manuelle,104,5,Blanc,4,15000
+BMW,X1,2019,62074,Hybride,Manuelle,180,5,Blanc,2,23300
+BMW,Serie 3,2016,97732,Hybride,Automatique,228,5,Noir,3,22700
+Renault,Kadjar,2023,13633,Essence,Manuelle,149,5,Argent,2,21400
+Peugeot,3008,2021,34031,Diesel,Manuelle,135,3,Argent,2,17700
+BMW,X3,2021,44852,Diesel,Manuelle,219,3,Rouge,2,34700
+Mercedes,GLA,2023,15946,Electrique,Automatique,188,5,Noir,3,40500
+Peugeot,5008,2015,98208,Essence,Manuelle,132,5,Vert,2,11200
+Peugeot,208,2018,83792,Diesel,Automatique,89,5,Blanc,3,9200
+BMW,Serie 3,2016,105742,Essence,Automatique,104,3,Argent,4,14600
+Mercedes,GLA,2021,23800,Diesel,Manuelle,291,5,Argent,3,33200
+Renault,Kadjar,2021,55624,Diesel,Manuelle,132,5,Gris,1,22300
+Peugeot,5008,2017,60514,Diesel,Automatique,92,5,Noir,2,16500
+Peugeot,2008,2018,95964,Essence,Manuelle,74,5,Rouge,2,10900
+Renault,Scenic,2019,75824,Essence,Manuelle,150,5,Gris,2,15400
+Renault,Megane,2024,2066,Diesel,Automatique,113,5,Vert,2,20600
+Toyota,C-HR,2022,24843,Essence,Manuelle,99,5,Blanc,1,18200
+Toyota,C-HR,2018,58308,Essence,Automatique,107,3,Argent,2,15300
+Renault,Scenic,2023,3087,Diesel,Automatique,107,5,Argent,2,29400
+Volkswagen,Passat,2023,15958,Electrique,Manuelle,236,5,Vert,2,42300
+Renault,Clio,2024,1431,Hybride,Manuelle,149,5,Rouge,1,16600
+Peugeot,308,2020,73812,Essence,Automatique,75,5,Bleu,2,12500
+Renault,Megane,2023,11243,Electrique,Manuelle,81,5,Argent,1,25200
+Audi,Q5,2019,98137,Essence,Manuelle,226,5,Noir,1,26700
+Mercedes,Classe C,2023,17552,Essence,Automatique,88,5,Rouge,2,36800
+Renault,Clio,2022,38870,Diesel,Manuelle,129,5,Argent,3,14000
+Mercedes,GLC,2023,7245,Essence,Manuelle,220,5,Noir,2,49100
+Toyota,Corolla,2018,118319,Diesel,Automatique,108,5,Gris,3,12900
+Peugeot,208,2015,140382,Essence,Automatique,89,5,Bleu,1,6300
+Mercedes,GLA,2020,66957,Hybride,Manuelle,193,5,Blanc,1,26900
+Volkswagen,T-Roc,2016,116236,Essence,Automatique,128,5,Bleu,1,10800
+Mercedes,GLC,2016,183749,Diesel,Manuelle,144,5,Gris,1,18900
+BMW,X1,2024,100,Hybride,Manuelle,161,5,Vert,2,46600
+Peugeot,208,2020,61752,Diesel,Manuelle,142,5,Noir,3,9100
+Toyota,C-HR,2019,119444,Essence,Automatique,70,5,Argent,4,12100
+Toyota,Yaris,2018,59342,Diesel,Automatique,124,5,Vert,1,9900
+Mercedes,GLA,2021,73545,Essence,Manuelle,158,5,Blanc,1,25700
+Volkswagen,Tiguan,2015,65672,Essence,Manuelle,192,5,Argent,1,13000
+Renault,Megane,2021,45519,Diesel,Manuelle,92,5,Noir,3,15900
+Audi,A4,2020,60491,Diesel,Manuelle,220,5,Blanc,2,24000
+Volkswagen,Golf,2022,28229,Essence,Manuelle,124,5,Argent,3,19500
+Audi,A1,2020,60485,Diesel,Manuelle,145,5,Noir,2,19100
+Citroen,C3,2023,21084,Essence,Automatique,92,5,Noir,3,12100
+Audi,A4,2024,311,Essence,Automatique,138,5,Noir,2,32200
+Mercedes,GLC,2019,72000,Essence,Manuelle,271,5,Gris,3,28200
+Citroen,C5 Aircross,2023,18101,Hybride,Automatique,134,5,Bleu,1,29800
+Mercedes,Classe C,2019,35732,Essence,Manuelle,195,5,Blanc,1,27200
+Volkswagen,Passat,2016,128745,Hybride,Manuelle,107,5,Noir,1,18000
+Mercedes,GLC,2016,63338,Hybride,Manuelle,151,5,Gris,1,22800
+Volkswagen,Passat,2015,153049,Diesel,Manuelle,125,3,Vert,2,13200
+Volkswagen,Polo,2015,190558,Electrique,Manuelle,150,5,Rouge,3,8300
+Volkswagen,Tiguan,2019,68676,Hybride,Manuelle,102,5,Vert,2,19800
+Renault,Scenic,2021,55879,Essence,Manuelle,113,5,Noir,1,18500
+Volkswagen,Golf,2015,93451,Electrique,Manuelle,167,5,Bleu,1,13100
+Renault,Megane,2017,107141,Essence,Automatique,71,3,Bleu,1,9300
+BMW,Serie 3,2022,45187,Essence,Automatique,190,5,Blanc,1,33200
+Toyota,Corolla,2015,44378,Essence,Manuelle,132,5,Vert,2,7900
+Toyota,Yaris,2022,19246,Diesel,Manuelle,152,5,Rouge,1,14000
+Renault,Megane,2021,32963,Electrique,Automatique,103,5,Gris,1,20800
+Mercedes,GLA,2022,37053,Hybride,Automatique,158,3,Rouge,1,33400
+Renault,Megane,2017,61388,Essence,Manuelle,97,5,Bleu,2,10000
+Peugeot,2008,2017,122091,Essence,Manuelle,70,5,Bleu,3,9100
+Toyota,C-HR,2019,50767,Electrique,Manuelle,92,5,Rouge,2,20400
+Toyota,RAV4,2021,28325,Diesel,Manuelle,70,3,Bleu,2,25000
+Toyota,RAV4,2020,50027,Diesel,Automatique,72,5,Rouge,2,19800
+Mercedes,Classe C,2021,59531,Diesel,Automatique,201,5,Noir,1,33200
+Mercedes,GLA,2015,181408,Electrique,Manuelle,172,3,Argent,1,14700
+BMW,Serie 1,2017,63058,Electrique,Manuelle,194,5,Rouge,1,19900
+BMW,X1,2016,94615,Diesel,Automatique,274,5,Gris,1,20400
+Audi,A3,2021,59982,Hybride,Automatique,176,5,Vert,1,26700
+Renault,Scenic,2018,82000,Diesel,Automatique,116,5,Argent,3,13700
+Renault,Megane,2015,118550,Hybride,Automatique,163,5,Noir,1,9300
+Mercedes,GLC,2020,36299,Essence,Automatique,163,5,Argent,2,38000
+Toyota,Corolla,2018,43512,Essence,Automatique,129,5,Rouge,2,14300
+Peugeot,3008,2024,636,Diesel,Manuelle,93,5,Argent,2,31500
+Audi,Q3,2022,18568,Diesel,Manuelle,201,5,Gris,1,33400
+Mercedes,GLA,2018,82917,Diesel,Manuelle,176,5,Bleu,3,20500
+Mercedes,Classe C,2017,102423,Diesel,Automatique,218,5,Noir,2,23700
+Renault,Scenic,2024,100,Diesel,Automatique,70,5,Noir,1,27300
+Audi,A3,2023,11980,Electrique,Manuelle,140,5,Rouge,1,35400
+Mercedes,Classe C,2022,52432,Essence,Manuelle,116,5,Noir,2,29700
+Toyota,Yaris,2019,51318,Hybride,Automatique,132,5,Blanc,1,13700
+BMW,X1,2018,102591,Essence,Manuelle,235,5,Rouge,1,20400
+Toyota,C-HR,2023,19207,Hybride,Manuelle,97,5,Vert,1,23100
+Audi,Q3,2023,13489,Essence,Manuelle,257,5,Argent,2,29200
+Audi,Q3,2024,1059,Hybride,Automatique,198,5,Blanc,1,44900
+Audi,Q5,2015,167253,Hybride,Automatique,99,5,Blanc,2,21000
+Mercedes,Classe C,2024,955,Electrique,Automatique,188,5,Argent,2,54900
+Volkswagen,Polo,2017,97310,Essence,Manuelle,132,3,Argent,1,8900
+Toyota,RAV4,2022,43385,Electrique,Automatique,126,5,Rouge,1,29500
+Toyota,Corolla,2024,100,Electrique,Automatique,93,5,Gris,3,29000
+BMW,Serie 1,2022,34172,Diesel,Automatique,238,5,Gris,1,32000
+Renault,Megane,2024,2271,Essence,Automatique,102,5,Blanc,2,20900
+Citroen,C4,2016,104856,Diesel,Manuelle,122,5,Gris,1,10000
+BMW,Serie 3,2019,68890,Diesel,Manuelle,149,5,Rouge,1,22500
+Mercedes,GLA,2018,104692,Essence,Manuelle,218,3,Vert,4,19900
+Audi,A3,2019,46764,Essence,Automatique,96,5,Vert,1,17700
+Volkswagen,Tiguan,2024,1748,Electrique,Manuelle,76,5,Vert,3,36600
+BMW,X3,2015,131368,Essence,Automatique,158,3,Rouge,1,17200
+Citroen,C4,2015,97469,Essence,Manuelle,193,5,Noir,1,7900
+Volkswagen,Passat,2022,28273,Essence,Automatique,110,5,Blanc,1,26700
+Volkswagen,Tiguan,2019,72960,Essence,Automatique,166,5,Rouge,1,20600
+Audi,A1,2020,49052,Essence,Automatique,185,5,Vert,2,15300
+Audi,A1,2020,19945,Essence,Automatique,239,5,Rouge,2,21400
+Renault,Scenic,2022,37262,Hybride,Automatique,88,3,Noir,1,23600
+Renault,Scenic,2022,17156,Essence,Automatique,154,5,Rouge,1,22600
+Peugeot,208,2016,69353,Essence,Manuelle,122,5,Bleu,1,8500
+Citroen,C5 Aircross,2019,101899,Hybride,Automatique,87,5,Argent,3,15600
+Volkswagen,T-Roc,2015,93631,Diesel,Manuelle,70,5,Noir,1,8700
+Citroen,C5 Aircross,2018,75878,Essence,Manuelle,70,3,Argent,2,12000
+Audi,A3,2020,40740,Essence,Manuelle,92,5,Vert,2,20500
+BMW,X3,2018,91646,Hybride,Manuelle,220,5,Noir,1,31200
+Audi,Q5,2018,159920,Diesel,Manuelle,144,5,Vert,1,22800
+Renault,Captur,2020,69088,Essence,Automatique,70,5,Rouge,2,12400
+Renault,Kadjar,2018,97565,Essence,Manuelle,77,5,Rouge,2,11700
+Peugeot,208,2020,65539,Essence,Manuelle,74,5,Gris,2,9900
+Citroen,C4,2016,97162,Essence,Automatique,112,5,Vert,1,8900
+Toyota,Corolla,2015,180217,Essence,Manuelle,106,5,Rouge,4,7000
+Citroen,C3,2017,160174,Hybride,Manuelle,138,5,Noir,2,8200
+Renault,Scenic,2024,967,Diesel,Manuelle,112,5,Rouge,2,25400
+Audi,A3,2018,112391,Essence,Manuelle,235,3,Blanc,3,14800
+Volkswagen,T-Roc,2023,8047,Essence,Automatique,187,3,Bleu,1,26100
+Mercedes,GLA,2023,25274,Diesel,Automatique,151,5,Blanc,1,32900
+Mercedes,GLA,2022,59482,Essence,Manuelle,118,5,Gris,1,27300
+Peugeot,3008,2015,180971,Diesel,Automatique,128,5,Argent,3,10700
+Volkswagen,T-Roc,2018,77423,Essence,Manuelle,157,5,Blanc,2,13900
+Audi,Q3,2024,100,Essence,Manuelle,129,5,Bleu,1,29500
+Toyota,Yaris,2020,92311,Essence,Automatique,70,5,Gris,2,9700
+Volkswagen,T-Roc,2023,15057,Essence,Manuelle,75,5,Vert,2,18700
+Volkswagen,Passat,2019,76505,Hybride,Manuelle,192,5,Rouge,2,22900
+Mercedes,Classe A,2019,86787,Essence,Automatique,149,5,Gris,2,20700
+Mercedes,Classe A,2021,49841,Diesel,Automatique,143,5,Blanc,1,29900
+Volkswagen,Passat,2016,156035,Essence,Manuelle,121,5,Vert,1,13400
+BMW,X1,2024,100,Diesel,Manuelle,135,5,Argent,2,36400
+Mercedes,Classe A,2023,21121,Diesel,Automatique,175,3,Argent,1,28200
+Peugeot,3008,2016,126473,Diesel,Automatique,119,5,Bleu,1,14200
+Citroen,C3 Aircross,2022,30601,Diesel,Automatique,146,3,Blanc,2,15500
+Volkswagen,T-Roc,2015,136746,Essence,Manuelle,110,5,Noir,1,9200
+Volkswagen,Golf,2018,97090,Hybride,Manuelle,111,5,Blanc,3,14400
+Peugeot,5008,2019,68416,Essence,Automatique,129,5,Noir,2,19600
+Renault,Clio,2016,156448,Essence,Automatique,87,5,Rouge,1,6300
+Peugeot,308,2022,33296,Hybride,Manuelle,87,5,Bleu,1,19900
+Citroen,C4,2017,89477,Diesel,Automatique,155,5,Bleu,4,11500
+BMW,Serie 3,2024,517,Hybride,Automatique,104,5,Vert,2,47800
+Mercedes,Classe C,2019,66601,Essence,Manuelle,248,5,Rouge,3,24200
+Toyota,Yaris,2022,35060,Essence,Manuelle,70,5,Gris,3,11300
+Audi,A4,2024,2967,Hybride,Manuelle,148,5,Gris,1,40500
+Volkswagen,Golf,2022,13071,Essence,Automatique,201,3,Noir,3,24400
+Peugeot,208,2015,150773,Essence,Automatique,72,5,Argent,1,6500
+Toyota,Corolla,2018,115757,Diesel,Automatique,120,5,Vert,2,15700
+Toyota,C-HR,2020,67958,Essence,Automatique,120,3,Argent,3,16300
+Volkswagen,Tiguan,2024,100,Hybride,Manuelle,122,5,Rouge,1,34000
+Citroen,C5 Aircross,2016,139934,Electrique,Manuelle,119,5,Argent,3,12000
+BMW,X1,2021,45512,Diesel,Automatique,225,5,Blanc,2,29900
+Volkswagen,Golf,2020,63866,Hybride,Manuelle,129,3,Argent,1,16300
+Peugeot,5008,2019,92696,Essence,Manuelle,70,5,Vert,1,16200
+BMW,Serie 3,2022,37377,Diesel,Manuelle,208,5,Gris,1,34000
+Renault,Clio,2022,28929,Essence,Manuelle,110,3,Blanc,1,12300
+Peugeot,5008,2022,21942,Essence,Automatique,110,5,Argent,1,26500
+Toyota,Corolla,2018,107569,Essence,Automatique,70,5,Argent,2,12300
+Toyota,Corolla,2018,111647,Essence,Manuelle,114,5,Noir,3,11500
+Audi,A3,2023,7977,Essence,Automatique,199,5,Bleu,2,35100
+BMW,X1,2017,34707,Diesel,Automatique,147,5,Vert,1,19300
+Audi,Q5,2020,76472,Essence,Manuelle,236,5,Argent,2,32400
+Renault,Scenic,2015,123968,Essence,Manuelle,105,5,Bleu,2,9100
+Toyota,C-HR,2015,140865,Essence,Manuelle,83,5,Gris,2,9900
+Mercedes,Classe C,2021,40970,Essence,Automatique,128,5,Argent,4,30000
+Citroen,C3,2021,19585,Electrique,Manuelle,160,5,Gris,1,14100
+Peugeot,208,2020,61529,Diesel,Manuelle,89,5,Argent,1,10600
+Citroen,C3 Aircross,2022,16518,Essence,Manuelle,94,5,Bleu,1,15500
+Mercedes,Classe A,2019,116477,Hybride,Automatique,197,3,Gris,1,20500
+Peugeot,308,2018,42557,Essence,Manuelle,123,5,Rouge,1,12100
+Mercedes,Classe C,2016,124258,Diesel,Automatique,218,5,Vert,1,23700
+Volkswagen,T-Roc,2016,43952,Essence,Manuelle,161,5,Vert,2,11700
+BMW,Serie 3,2021,71369,Essence,Manuelle,112,5,Vert,1,27300
+Volkswagen,Golf,2016,132324,Essence,Manuelle,180,5,Noir,1,11700
+Mercedes,Classe C,2021,39400,Essence,Manuelle,244,5,Argent,2,32300
+Volkswagen,T-Roc,2021,55925,Diesel,Automatique,156,5,Vert,1,20400
+Mercedes,GLC,2024,1738,Diesel,Manuelle,203,3,Blanc,1,51700
+Toyota,C-HR,2020,65263,Diesel,Automatique,184,5,Gris,1,20300
+Toyota,C-HR,2019,73623,Hybride,Manuelle,135,5,Noir,1,16400
+Mercedes,GLC,2019,52711,Essence,Automatique,229,5,Bleu,2,35000
+Renault,Kadjar,2018,123266,Essence,Automatique,137,5,Blanc,2,14200
+BMW,Serie 3,2019,89934,Diesel,Automatique,181,5,Gris,1,27300
+Toyota,Corolla,2015,99625,Hybride,Manuelle,123,5,Argent,2,10900
+BMW,Serie 3,2021,35434,Diesel,Manuelle,209,5,Blanc,1,35800
+Renault,Captur,2016,132409,Diesel,Automatique,155,5,Argent,2,9100
+BMW,X1,2016,151286,Essence,Manuelle,176,5,Rouge,1,14500
+Citroen,C3 Aircross,2021,17100,Diesel,Automatique,103,3,Blanc,2,16100
+Toyota,Corolla,2017,90535,Essence,Manuelle,160,5,Blanc,2,10000
+Peugeot,3008,2023,4393,Hybride,Automatique,70,3,Vert,1,27800
+Renault,Megane,2021,56001,Essence,Automatique,139,5,Rouge,2,15000
+Volkswagen,Tiguan,2022,33839,Essence,Automatique,134,5,Rouge,2,26800
+Citroen,C5 Aircross,2017,128114,Essence,Automatique,138,5,Noir,3,13700
+Citroen,C4,2018,128517,Essence,Manuelle,145,5,Vert,2,9900
+BMW,Serie 1,2015,151373,Essence,Automatique,183,5,Blanc,1,15100
+Audi,Q5,2019,125994,Electrique,Automatique,217,5,Bleu,2,34200
+Peugeot,3008,2016,161518,Essence,Automatique,130,5,Blanc,3,12200
+Audi,Q3,2023,24509,Electrique,Manuelle,208,3,Argent,4,29500
+Toyota,Corolla,2024,544,Essence,Manuelle,153,5,Noir,2,21300
+Peugeot,5008,2018,98557,Diesel,Automatique,74,5,Bleu,3,16700
+Mercedes,Classe A,2016,123810,Essence,Manuelle,134,5,Blanc,2,12800
+Audi,A3,2017,111723,Hybride,Automatique,176,5,Blanc,2,18500
+Toyota,Yaris,2023,18427,Diesel,Automatique,107,5,Bleu,3,15600
+Mercedes,GLA,2023,12481,Hybride,Manuelle,164,5,Gris,2,43300
+Citroen,C3,2022,34839,Essence,Automatique,94,5,Bleu,1,13400
+Audi,Q5,2024,100,Hybride,Automatique,156,5,Rouge,2,61200
+Audi,A1,2019,47656,Diesel,Manuelle,197,3,Argent,1,16100
+Peugeot,308,2015,143156,Essence,Automatique,78,5,Noir,1,8200
+Audi,A3,2023,3430,Electrique,Automatique,136,5,Blanc,1,39500
+Renault,Kadjar,2023,22328,Diesel,Automatique,149,5,Noir,2,20000
+Toyota,C-HR,2024,100,Essence,Automatique,112,5,Rouge,1,30400
+Renault,Megane,2020,61031,Essence,Automatique,136,5,Blanc,1,15900
+BMW,X1,2019,84855,Hybride,Manuelle,201,5,Argent,2,23700
+Volkswagen,Tiguan,2018,47744,Essence,Automatique,129,5,Vert,1,20000
+Toyota,C-HR,2019,68761,Diesel,Automatique,184,5,Vert,2,17000
+Toyota,C-HR,2020,76568,Hybride,Automatique,130,5,Gris,1,22300
+Volkswagen,Tiguan,2015,117898,Hybride,Manuelle,76,3,Blanc,2,14300
+Mercedes,Classe C,2023,20227,Hybride,Automatique,177,5,Vert,2,47600
+Citroen,C3,2019,68688,Diesel,Manuelle,150,5,Gris,1,10000
+Toyota,Yaris,2015,192530,Hybride,Automatique,94,5,Argent,2,6500
+Toyota,RAV4,2020,56677,Essence,Automatique,104,5,Gris,3,20800
+BMW,X1,2016,119642,Essence,Automatique,130,5,Blanc,1,14800
+Toyota,C-HR,2019,123729,Hybride,Manuelle,173,5,Vert,1,16700
+Renault,Captur,2020,28386,Hybride,Manuelle,70,5,Blanc,3,13800
+Toyota,RAV4,2016,165742,Electrique,Automatique,157,5,Blanc,1,19100
+Peugeot,308,2018,92381,Essence,Manuelle,139,5,Bleu,3,11800
+Volkswagen,Golf,2019,26158,Essence,Automatique,159,5,Blanc,1,20000
+Citroen,C3,2022,37175,Diesel,Automatique,114,5,Bleu,3,11600
+Mercedes,Classe C,2023,18736,Electrique,Automatique,202,3,Noir,2,49300
+Mercedes,Classe C,2017,97962,Electrique,Manuelle,218,5,Argent,4,24900
+Renault,Megane,2019,93635,Essence,Manuelle,145,5,Gris,1,12600
+Mercedes,Classe A,2017,175132,Essence,Automatique,232,5,Noir,1,16000
+Peugeot,2008,2022,30404,Hybride,Automatique,95,5,Noir,2,20600
+BMW,X3,2021,51727,Hybride,Automatique,241,5,Bleu,3,46100
+Renault,Scenic,2021,29672,Essence,Manuelle,85,5,Bleu,2,18800
+Toyota,Corolla,2017,85796,Hybride,Manuelle,115,5,Blanc,1,11300
+Audi,A3,2022,22313,Diesel,Manuelle,149,5,Blanc,3,24000
+Citroen,C3 Aircross,2024,3201,Electrique,Manuelle,122,5,Rouge,1,21900
+Citroen,C3,2021,47356,Essence,Manuelle,105,5,Argent,3,8100
+Toyota,RAV4,2018,61503,Electrique,Manuelle,100,3,Gris,2,21600
+Toyota,Yaris,2021,46168,Hybride,Automatique,112,5,Blanc,2,16900
+Citroen,C5 Aircross,2018,90435,Hybride,Automatique,127,5,Bleu,4,18800
+Toyota,Corolla,2024,1332,Essence,Manuelle,124,5,Vert,2,23200
+Toyota,Corolla,2017,35768,Diesel,Manuelle,87,5,Gris,3,11500
+Renault,Scenic,2020,69988,Essence,Manuelle,74,5,Vert,3,16900
+Volkswagen,Tiguan,2017,98306,Hybride,Manuelle,177,5,Blanc,2,17500
+Toyota,Yaris,2019,44663,Diesel,Manuelle,119,5,Noir,2,12200
+Peugeot,3008,2022,24354,Essence,Automatique,107,5,Vert,3,24600
+BMW,X1,2023,13454,Diesel,Manuelle,177,5,Vert,4,32300
+Volkswagen,Passat,2016,175914,Hybride,Manuelle,100,3,Bleu,3,13600
+BMW,Serie 3,2017,56696,Hybride,Manuelle,172,5,Bleu,2,21700
+Citroen,C4,2022,31193,Essence,Manuelle,161,3,Noir,2,17100
+BMW,Serie 3,2019,96956,Hybride,Automatique,195,5,Bleu,2,29500
+Volkswagen,Polo,2015,213986,Diesel,Manuelle,157,5,Gris,1,7600
+Peugeot,3008,2020,55341,Electrique,Automatique,70,5,Bleu,3,22100
+Mercedes,GLC,2024,100,Diesel,Automatique,217,5,Gris,1,63000
+Volkswagen,Tiguan,2017,100502,Diesel,Automatique,190,5,Noir,2,18500
+Peugeot,208,2017,136180,Essence,Manuelle,81,5,Blanc,1,8500
+Toyota,RAV4,2016,79385,Essence,Manuelle,104,3,Bleu,1,13700
+Volkswagen,T-Roc,2023,15911,Electrique,Automatique,111,3,Gris,1,31700
+Renault,Kadjar,2018,115491,Essence,Automatique,108,5,Gris,1,15400
+Mercedes,Classe A,2015,78149,Diesel,Manuelle,128,5,Noir,2,12900
+Toyota,C-HR,2020,86842,Diesel,Automatique,97,3,Vert,4,13600
+Volkswagen,Polo,2020,56347,Hybride,Automatique,134,5,Rouge,1,15800
+Audi,Q5,2022,25738,Electrique,Manuelle,216,5,Gris,1,54700
+Peugeot,5008,2023,20234,Diesel,Automatique,96,5,Noir,1,23700
+Volkswagen,Tiguan,2022,42975,Hybride,Manuelle,119,5,Rouge,1,28500
+Renault,Captur,2020,56144,Essence,Automatique,133,5,Blanc,1,12300
+Mercedes,GLA,2021,33652,Diesel,Automatique,248,5,Gris,1,34600
+Toyota,Corolla,2023,21247,Diesel,Manuelle,104,5,Gris,2,18000
+Citroen,C3,2023,11796,Essence,Manuelle,75,5,Blanc,2,11100
+Peugeot,3008,2023,16568,Essence,Automatique,100,5,Argent,4,24600
+Peugeot,308,2019,59334,Diesel,Manuelle,112,5,Bleu,1,14600
+Audi,A1,2018,115240,Essence,Automatique,190,5,Rouge,3,16200
+Volkswagen,T-Roc,2018,67164,Hybride,Manuelle,163,5,Rouge,2,14300
+Audi,Q3,2017,50075,Essence,Manuelle,246,5,Gris,1,16600
+Audi,A1,2016,149467,Essence,Manuelle,112,5,Argent,1,10400
+Volkswagen,Passat,2021,34726,Diesel,Manuelle,101,5,Bleu,4,23000
+Citroen,C3,2019,51874,Essence,Manuelle,146,5,Bleu,3,9200
+Mercedes,Classe A,2020,82944,Diesel,Manuelle,235,3,Rouge,1,23000
+Toyota,Yaris,2022,31194,Electrique,Automatique,85,5,Rouge,4,15200
+BMW,X3,2016,118452,Essence,Automatique,210,5,Blanc,2,23500
+BMW,Serie 3,2023,14019,Diesel,Automatique,252,5,Bleu,2,41300
+BMW,Serie 1,2015,107890,Electrique,Manuelle,170,5,Gris,2,14700
+Renault,Megane,2020,51025,Electrique,Manuelle,120,5,Argent,1,18100
+Mercedes,Classe C,2015,243732,Essence,Automatique,70,5,Vert,1,12400
+Citroen,C3,2024,6336,Essence,Automatique,116,5,Bleu,3,14000
+Audi,A4,2021,50371,Hybride,Automatique,119,5,Gris,1,27900
+Toyota,Corolla,2020,54929,Diesel,Automatique,137,5,Blanc,1,19500
+Toyota,RAV4,2020,24708,Essence,Manuelle,108,5,Vert,1,20000
+Mercedes,GLA,2017,82445,Essence,Automatique,144,5,Noir,1,18400
+Volkswagen,Polo,2019,69049,Essence,Automatique,194,5,Rouge,2,13300
+Audi,Q5,2019,96821,Essence,Manuelle,259,5,Vert,2,32800
+Volkswagen,T-Roc,2015,124565,Electrique,Automatique,131,5,Argent,1,13300
+Citroen,C3,2017,114206,Diesel,Manuelle,151,5,Noir,1,7600
+Citroen,C4,2021,51739,Essence,Automatique,86,5,Gris,3,15700
+Toyota,Yaris,2017,102107,Diesel,Manuelle,177,5,Gris,3,9200
+BMW,Serie 1,2023,15590,Hybride,Manuelle,206,5,Vert,3,31300
+Toyota,Yaris,2017,78593,Essence,Manuelle,89,5,Vert,3,7500
+Citroen,C3 Aircross,2017,116793,Diesel,Manuelle,97,5,Noir,2,9900
+Peugeot,3008,2019,26334,Hybride,Manuelle,105,5,Blanc,2,18500
+Toyota,C-HR,2019,37671,Hybride,Manuelle,131,5,Noir,1,19300
+Toyota,Yaris,2017,78532,Essence,Automatique,81,5,Bleu,3,9100
+Citroen,C4,2020,58230,Diesel,Manuelle,125,3,Blanc,4,12800
+BMW,X3,2018,70730,Essence,Manuelle,268,3,Rouge,2,30100
+BMW,X1,2015,105695,Hybride,Automatique,234,3,Noir,2,18200
+Citroen,C3,2023,20851,Hybride,Manuelle,99,5,Blanc,2,12200
+BMW,Serie 3,2018,143942,Hybride,Automatique,180,5,Argent,1,25000
+BMW,X3,2021,55205,Electrique,Manuelle,179,3,Gris,1,41400
+Toyota,RAV4,2023,7678,Hybride,Automatique,154,5,Vert,1,41100
+Renault,Kadjar,2017,76602,Diesel,Manuelle,96,5,Argent,3,10800
+Toyota,C-HR,2023,19943,Essence,Manuelle,136,5,Bleu,1,22700
+Citroen,C4,2019,53320,Electrique,Manuelle,107,5,Blanc,2,14500
+Audi,A3,2018,78142,Essence,Automatique,267,5,Noir,3,17400
+BMW,Serie 3,2019,77174,Essence,Manuelle,171,5,Blanc,1,17600
+Mercedes,GLC,2016,82298,Diesel,Manuelle,221,5,Blanc,1,25200
+Renault,Kadjar,2024,100,Diesel,Manuelle,136,5,Gris,1,28800
+Toyota,C-HR,2022,25785,Electrique,Automatique,124,5,Gris,2,30000
+Mercedes,Classe C,2021,52354,Essence,Manuelle,101,5,Vert,2,25800
+Peugeot,2008,2018,83593,Essence,Manuelle,151,5,Noir,4,12000
+Audi,Q5,2020,37868,Diesel,Manuelle,163,5,Vert,3,33000
+BMW,Serie 3,2019,47679,Diesel,Manuelle,237,5,Vert,1,30900
+Audi,A4,2018,97090,Essence,Manuelle,241,5,Noir,4,22400
+Mercedes,GLC,2021,42750,Hybride,Manuelle,142,5,Gris,1,37400
+Renault,Megane,2016,111462,Hybride,Automatique,134,5,Vert,1,12600
+Peugeot,308,2022,13263,Essence,Automatique,110,5,Blanc,1,19600
+Peugeot,2008,2018,49360,Diesel,Automatique,132,3,Noir,3,13100
+Citroen,C3 Aircross,2018,151463,Essence,Manuelle,70,5,Vert,2,7300
+Toyota,C-HR,2016,186497,Essence,Manuelle,112,3,Bleu,1,11200
+Citroen,C3,2016,151336,Essence,Automatique,91,5,Gris,2,6700
+Audi,A3,2015,206489,Essence,Automatique,190,3,Noir,3,12100
+Volkswagen,Polo,2017,102348,Essence,Manuelle,177,5,Bleu,2,8500
+Volkswagen,Golf,2020,74816,Diesel,Manuelle,137,5,Vert,2,17700
+Citroen,C3 Aircross,2022,35664,Essence,Automatique,110,3,Bleu,1,19200
+BMW,Serie 3,2016,157984,Hybride,Automatique,163,5,Gris,1,17500
+Audi,Q5,2016,64086,Diesel,Manuelle,228,5,Noir,4,23400
+Volkswagen,Golf,2018,93757,Hybride,Manuelle,108,5,Gris,1,13800
+Audi,A1,2020,33966,Essence,Manuelle,215,5,Blanc,3,17600
+BMW,X3,2024,2644,Hybride,Automatique,275,5,Argent,2,62900
+Citroen,C3 Aircross,2024,100,Diesel,Automatique,95,5,Vert,4,22200
+Peugeot,5008,2020,23044,Essence,Automatique,181,5,Rouge,3,21200
+Mercedes,Classe C,2021,35047,Diesel,Automatique,198,5,Noir,2,33800
+Volkswagen,Passat,2023,17638,Diesel,Manuelle,135,5,Blanc,1,31700
+Toyota,Corolla,2017,157544,Hybride,Automatique,142,5,Bleu,2,12000
+BMW,X3,2024,1161,Diesel,Automatique,234,5,Argent,1,51300
+Peugeot,5008,2020,78612,Essence,Manuelle,150,5,Rouge,1,20900
+Audi,Q3,2023,22504,Hybride,Manuelle,152,5,Rouge,2,27000
+Renault,Megane,2018,94079,Diesel,Automatique,129,5,Gris,3,13500
+Mercedes,Classe A,2023,11361,Diesel,Manuelle,203,5,Vert,1,33700
+Mercedes,Classe A,2020,24013,Essence,Automatique,239,5,Gris,4,24800
+BMW,Serie 3,2022,35588,Essence,Manuelle,191,5,Rouge,2,30700
+Toyota,C-HR,2015,174131,Diesel,Automatique,177,5,Blanc,2,11700
+Citroen,C3,2022,37790,Essence,Automatique,121,5,Rouge,1,11900
+Volkswagen,Passat,2015,187713,Hybride,Automatique,129,3,Vert,1,15700
+Mercedes,Classe A,2023,13677,Essence,Automatique,175,5,Bleu,2,30800
+Citroen,C3 Aircross,2022,45701,Diesel,Manuelle,127,3,Vert,1,17100
+Peugeot,208,2020,59365,Diesel,Manuelle,115,3,Noir,3,11100
+Renault,Kadjar,2023,4326,Hybride,Manuelle,160,5,Argent,1,30000
+Audi,A4,2024,1849,Essence,Manuelle,179,5,Gris,3,37600
+Toyota,RAV4,2024,1398,Essence,Manuelle,114,5,Vert,2,29600
+Citroen,C5 Aircross,2024,100,Essence,Manuelle,127,5,Noir,1,26200
+BMW,X3,2022,34752,Hybride,Manuelle,236,5,Gris,1,46600
+Toyota,C-HR,2021,38930,Essence,Automatique,133,5,Blanc,2,21800
+Toyota,Yaris,2017,45061,Essence,Automatique,98,5,Rouge,3,7800
+Peugeot,208,2024,2592,Essence,Automatique,111,5,Vert,2,15500
+Peugeot,208,2022,17074,Essence,Manuelle,120,5,Gris,2,12800
+Peugeot,3008,2020,63821,Electrique,Automatique,70,5,Vert,1,24100
+Renault,Kadjar,2019,94038,Diesel,Manuelle,150,5,Rouge,2,14700
+Citroen,C3,2019,111509,Essence,Manuelle,70,5,Gris,2,8400
+Peugeot,3008,2022,24567,Essence,Manuelle,98,5,Gris,1,19700
+Toyota,RAV4,2022,32221,Diesel,Manuelle,85,5,Noir,3,26000
+Audi,Q5,2023,10630,Diesel,Automatique,212,5,Argent,3,43300
+BMW,X1,2024,100,Essence,Automatique,201,5,Vert,3,37100
+Volkswagen,Passat,2016,108125,Essence,Manuelle,143,5,Noir,1,15100
+Citroen,C3 Aircross,2021,44013,Hybride,Automatique,133,5,Bleu,1,17700
+Citroen,C5 Aircross,2017,150381,Essence,Automatique,137,5,Blanc,2,11700
+Audi,A4,2017,81739,Essence,Automatique,234,5,Blanc,4,21600
+Citroen,C3 Aircross,2019,36918,Essence,Automatique,98,5,Rouge,3,12700
+Mercedes,GLA,2015,128666,Hybride,Manuelle,150,5,Noir,1,18900
+Volkswagen,T-Roc,2017,78036,Hybride,Manuelle,184,5,Argent,2,13400
+Audi,A1,2020,68610,Essence,Manuelle,174,5,Argent,3,16300
+Renault,Clio,2021,48387,Electrique,Manuelle,141,5,Bleu,1,14500
+Volkswagen,Polo,2020,61536,Essence,Automatique,118,5,Argent,1,12800
+Volkswagen,Passat,2018,28518,Diesel,Manuelle,72,3,Noir,2,18800
+Toyota,RAV4,2018,38210,Diesel,Manuelle,137,3,Argent,2,16700
+Mercedes,GLA,2015,109191,Diesel,Manuelle,156,5,Blanc,1,12000
+Toyota,Yaris,2019,58122,Diesel,Automatique,70,5,Argent,1,10500
+Peugeot,308,2019,48246,Essence,Manuelle,109,5,Noir,1,13400
+Audi,A3,2021,40513,Hybride,Manuelle,264,5,Gris,1,31800
+Audi,A4,2015,141911,Diesel,Automatique,254,5,Bleu,2,17800
+Audi,A3,2017,154236,Essence,Automatique,152,3,Blanc,2,13200
+Citroen,C4,2023,7329,Hybride,Manuelle,116,5,Rouge,2,21600
+Citroen,C3 Aircross,2017,92076,Essence,Automatique,109,5,Rouge,2,9600
+Volkswagen,T-Roc,2016,139011,Diesel,Automatique,151,5,Rouge,1,10600
+Audi,A4,2021,27477,Hybride,Automatique,253,5,Vert,1,41700
+Peugeot,208,2017,147253,Diesel,Manuelle,97,5,Vert,4,6300
+Peugeot,308,2018,49144,Electrique,Automatique,132,3,Gris,2,17900
+Audi,A3,2021,39560,Diesel,Manuelle,168,5,Noir,3,22300
+Audi,A1,2017,101474,Electrique,Manuelle,153,5,Noir,3,15800
+Toyota,C-HR,2018,106338,Hybride,Manuelle,110,5,Gris,1,13800
+Citroen,C3 Aircross,2016,153740,Electrique,Manuelle,78,5,Argent,2,9200
+Citroen,C3,2017,91798,Essence,Manuelle,70,5,Bleu,1,6900
+Renault,Clio,2024,100,Hybride,Manuelle,99,5,Bleu,2,16300
+Renault,Megane,2016,73771,Essence,Manuelle,78,5,Noir,2,9300
+Citroen,C3 Aircross,2015,144287,Hybride,Automatique,147,5,Vert,2,9600
+Peugeot,3008,2019,77661,Essence,Manuelle,103,5,Gris,2,16800
+Mercedes,Classe A,2015,120491,Diesel,Automatique,239,5,Rouge,3,14600
+Volkswagen,Tiguan,2020,91493,Essence,Manuelle,136,5,Argent,4,16900
+Peugeot,3008,2021,47841,Hybride,Automatique,120,5,Noir,2,23800
+Audi,A4,2021,52087,Hybride,Manuelle,186,5,Blanc,2,32700
+Citroen,C5 Aircross,2020,53269,Hybride,Manuelle,87,3,Noir,2,20900
+BMW,X1,2020,79616,Essence,Manuelle,158,5,Blanc,1,22500
+Mercedes,Classe A,2021,55561,Diesel,Automatique,145,5,Noir,1,30000
+Volkswagen,Golf,2022,39758,Diesel,Manuelle,207,5,Argent,2,22100
+Toyota,C-HR,2024,100,Hybride,Manuelle,112,5,Vert,1,32400
+Mercedes,GLC,2016,106699,Hybride,Automatique,148,5,Vert,2,28200
+Peugeot,208,2017,63144,Diesel,Manuelle,92,5,Rouge,1,10000
+BMW,X3,2018,40439,Diesel,Manuelle,248,5,Bleu,1,28500
+Toyota,C-HR,2018,104580,Essence,Manuelle,73,3,Noir,1,13500
+BMW,Serie 1,2023,13732,Essence,Automatique,230,5,Argent,2,29800
+Citroen,C5 Aircross,2016,161037,Essence,Manuelle,129,5,Gris,4,8600
+BMW,Serie 1,2016,140363,Hybride,Manuelle,119,5,Gris,2,15500
+Peugeot,208,2024,100,Hybride,Manuelle,80,5,Bleu,2,16800
+Volkswagen,Tiguan,2016,105351,Diesel,Manuelle,159,5,Bleu,2,15400
+BMW,Serie 1,2022,40028,Hybride,Manuelle,294,5,Vert,3,33100
+Citroen,C3,2015,154790,Diesel,Automatique,101,5,Noir,3,5800
+Mercedes,GLA,2016,176611,Electrique,Manuelle,196,5,Bleu,2,20100
+Volkswagen,Polo,2020,52697,Essence,Manuelle,146,5,Noir,1,12900
+Citroen,C5 Aircross,2020,73680,Essence,Manuelle,125,5,Rouge,1,16300
+Audi,Q5,2017,98068,Essence,Automatique,198,5,Argent,3,25000
+Toyota,Yaris,2016,126047,Electrique,Manuelle,116,5,Noir,1,8400
+Mercedes,GLC,2021,53899,Electrique,Automatique,132,5,Gris,1,43100
+BMW,Serie 1,2019,105556,Hybride,Automatique,149,3,Bleu,3,19100
+Volkswagen,Passat,2021,24501,Essence,Automatique,135,5,Argent,1,30600
+Audi,Q5,2023,20237,Electrique,Manuelle,186,5,Vert,1,48400
+Volkswagen,T-Roc,2017,132547,Hybride,Manuelle,187,5,Argent,2,12400
+Volkswagen,T-Roc,2018,110330,Diesel,Manuelle,182,5,Gris,1,15500
+Toyota,Yaris,2017,105422,Electrique,Automatique,96,3,Vert,2,8800
+Renault,Clio,2016,65351,Essence,Automatique,117,5,Bleu,4,6600
+Citroen,C3,2016,103467,Hybride,Automatique,82,3,Vert,1,6900
+Renault,Kadjar,2024,100,Diesel,Automatique,96,5,Noir,3,27000
+Citroen,C5 Aircross,2018,101693,Hybride,Manuelle,158,5,Argent,3,16900
+BMW,X3,2018,92242,Hybride,Manuelle,193,3,Blanc,2,26100
+Citroen,C3 Aircross,2020,37848,Hybride,Manuelle,97,5,Argent,3,14500
+Toyota,Corolla,2016,171420,Electrique,Manuelle,92,3,Bleu,3,10200
+Toyota,Yaris,2024,100,Diesel,Manuelle,70,5,Vert,1,15100
+Audi,A3,2016,143830,Essence,Manuelle,221,5,Bleu,1,14600
+Peugeot,2008,2023,10967,Diesel,Manuelle,142,3,Rouge,3,15400
+Toyota,RAV4,2022,48692,Essence,Automatique,123,5,Gris,2,25700
+Peugeot,2008,2024,100,Diesel,Manuelle,70,3,Bleu,3,18400
+Volkswagen,Tiguan,2019,92953,Essence,Automatique,172,5,Blanc,2,20600
+Audi,A3,2017,156526,Hybride,Manuelle,181,5,Bleu,2,14800
+Audi,A1,2016,137199,Electrique,Automatique,241,3,Vert,4,15700
+Renault,Kadjar,2016,102360,Essence,Automatique,85,5,Argent,2,8800
+Citroen,C5 Aircross,2019,26425,Essence,Automatique,84,5,Bleu,2,18700
+Toyota,Yaris,2021,51398,Essence,Automatique,83,3,Noir,1,14100
+Volkswagen,Passat,2023,10524,Diesel,Manuelle,163,5,Rouge,2,39300
+Volkswagen,Golf,2020,20279,Electrique,Manuelle,110,5,Gris,3,22500
+Peugeot,208,2015,131314,Hybride,Manuelle,91,5,Rouge,2,7300
+Renault,Scenic,2020,68952,Essence,Automatique,116,5,Rouge,1,19700
+Audi,Q5,2019,88363,Hybride,Automatique,210,5,Noir,2,29800
+Mercedes,GLA,2016,108026,Essence,Automatique,216,5,Vert,3,17500
+Toyota,C-HR,2023,10766,Essence,Automatique,136,3,Gris,1,24100
+Toyota,Yaris,2020,55584,Hybride,Manuelle,137,5,Rouge,3,13800
+Peugeot,208,2017,94306,Diesel,Manuelle,125,5,Noir,1,8100
+Renault,Captur,2020,102025,Essence,Manuelle,157,5,Vert,2,10800
+Renault,Megane,2015,120852,Essence,Manuelle,93,5,Gris,2,6200
+Citroen,C3,2018,116192,Diesel,Manuelle,70,5,Rouge,1,7300
+Mercedes,GLC,2021,25944,Electrique,Automatique,255,5,Argent,2,44600
+Toyota,Corolla,2021,31240,Hybride,Manuelle,148,5,Argent,4,18700
+BMW,X1,2024,1616,Essence,Automatique,212,5,Bleu,3,38500
+BMW,X3,2018,96309,Essence,Manuelle,227,5,Argent,4,27500
+Mercedes,Classe C,2021,26766,Hybride,Automatique,230,5,Bleu,1,41200
+Mercedes,Classe A,2018,57842,Hybride,Manuelle,73,3,Rouge,3,15800
+Renault,Captur,2024,3457,Essence,Manuelle,102,3,Bleu,3,18600
+Audi,A3,2021,50747,Diesel,Manuelle,255,5,Argent,3,25400
+Mercedes,GLC,2019,39311,Hybride,Automatique,170,5,Gris,2,39000
+Mercedes,GLC,2020,34301,Electrique,Automatique,247,5,Bleu,1,50800
+BMW,X3,2022,31797,Diesel,Manuelle,107,5,Vert,1,36800
+BMW,X1,2024,100,Electrique,Automatique,192,5,Vert,2,48500
+Peugeot,5008,2019,91376,Essence,Automatique,93,5,Blanc,4,18300
+Volkswagen,Polo,2018,86031,Diesel,Manuelle,152,5,Bleu,2,11200
+Renault,Megane,2018,154313,Diesel,Manuelle,104,5,Noir,1,10500
+Citroen,C5 Aircross,2023,8664,Hybride,Manuelle,121,3,Vert,1,28900
+BMW,X3,2018,91952,Hybride,Automatique,212,3,Vert,2,32600
+Audi,A1,2024,2662,Essence,Automatique,171,5,Rouge,1,25600
+Mercedes,Classe A,2022,17205,Electrique,Manuelle,175,5,Vert,3,30300
+Peugeot,3008,2021,15846,Diesel,Automatique,117,5,Blanc,1,25900
+BMW,X3,2015,140026,Electrique,Automatique,70,5,Argent,1,22300
+Toyota,Corolla,2015,154108,Essence,Manuelle,72,5,Blanc,3,8400
+Renault,Kadjar,2021,44057,Electrique,Manuelle,103,5,Vert,3,21800
+BMW,X3,2022,18444,Hybride,Automatique,147,3,Vert,1,55500
+Mercedes,Classe A,2020,81472,Diesel,Manuelle,262,5,Bleu,1,24800
+Audi,Q5,2021,17952,Diesel,Automatique,252,5,Bleu,1,41300
+Toyota,C-HR,2017,68118,Hybride,Manuelle,91,5,Argent,3,12000
+Audi,A1,2020,79382,Essence,Manuelle,211,5,Noir,2,17100
+Toyota,C-HR,2020,103737,Hybride,Manuelle,108,5,Rouge,3,15900
+Mercedes,GLA,2023,13902,Essence,Automatique,302,5,Bleu,2,38900
+Volkswagen,T-Roc,2021,38878,Electrique,Automatique,154,5,Gris,2,24000
+Toyota,Corolla,2022,33793,Essence,Manuelle,124,5,Gris,1,18600
+Renault,Kadjar,2019,76170,Essence,Manuelle,118,5,Bleu,1,14300
+Volkswagen,Golf,2018,91311,Hybride,Manuelle,154,5,Bleu,2,15700
+Audi,A3,2019,60160,Essence,Manuelle,246,5,Vert,2,19400
+Mercedes,Classe A,2016,141480,Hybride,Manuelle,149,5,Rouge,4,15000
+Citroen,C3,2017,154955,Essence,Automatique,76,3,Gris,1,6800
+Peugeot,2008,2015,132558,Diesel,Automatique,109,5,Vert,3,8200
+Mercedes,GLC,2019,106644,Diesel,Manuelle,153,5,Bleu,1,25800
+Mercedes,Classe A,2023,10610,Diesel,Manuelle,192,5,Noir,1,34300
+Audi,Q3,2018,93807,Hybride,Automatique,188,5,Noir,3,25200
+Citroen,C5 Aircross,2017,81390,Electrique,Automatique,131,5,Blanc,3,16800
+Mercedes,GLC,2017,65893,Essence,Manuelle,116,3,Blanc,2,22200
+Volkswagen,T-Roc,2022,40570,Hybride,Automatique,109,5,Gris,4,19900
+Volkswagen,Golf,2022,35728,Essence,Automatique,102,5,Blanc,2,21100
+Peugeot,2008,2022,39947,Hybride,Manuelle,84,5,Vert,3,13900
+Renault,Captur,2015,126845,Essence,Manuelle,135,5,Blanc,1,6900
+Mercedes,Classe A,2017,121580,Hybride,Manuelle,178,5,Gris,1,19200
+Mercedes,GLA,2017,107642,Diesel,Manuelle,239,5,Blanc,2,23300
+BMW,Serie 3,2024,100,Essence,Automatique,234,5,Noir,2,46400
+Volkswagen,T-Roc,2015,81924,Essence,Manuelle,161,5,Gris,2,12100
+Audi,A4,2021,24289,Essence,Automatique,185,3,Argent,3,29600
+Peugeot,2008,2016,147611,Hybride,Automatique,109,5,Gris,1,10000
+Toyota,RAV4,2019,125019,Hybride,Manuelle,113,5,Noir,2,19000
+BMW,Serie 1,2015,81198,Essence,Manuelle,213,5,Bleu,2,12100
+Toyota,Yaris,2018,78534,Essence,Automatique,99,5,Rouge,1,10000
+Volkswagen,Passat,2024,1967,Essence,Manuelle,70,5,Argent,1,29700
+Peugeot,3008,2023,21468,Essence,Manuelle,171,5,Vert,1,26500
+BMW,X3,2024,100,Essence,Automatique,72,5,Noir,1,47800
+Renault,Captur,2016,81640,Electrique,Manuelle,70,5,Vert,2,11300
+Audi,A3,2015,141727,Electrique,Automatique,160,5,Blanc,2,14900
+BMW,Serie 1,2018,70797,Essence,Manuelle,147,5,Rouge,2,15900
+Citroen,C4,2024,100,Essence,Automatique,142,5,Gris,3,22700
+Citroen,C3 Aircross,2018,59269,Diesel,Manuelle,115,5,Argent,1,13200
+Audi,Q5,2016,110216,Hybride,Automatique,197,5,Noir,3,22200
+Toyota,C-HR,2019,89884,Essence,Automatique,109,5,Noir,1,15700
+Volkswagen,Polo,2022,33247,Diesel,Manuelle,100,3,Blanc,1,14400
+Renault,Clio,2019,125218,Electrique,Automatique,123,5,Argent,2,9900
+BMW,X1,2016,79209,Electrique,Manuelle,165,3,Rouge,2,20800
+Peugeot,308,2015,152695,Diesel,Manuelle,97,5,Rouge,1,8000
+Audi,A4,2021,41672,Diesel,Manuelle,233,3,Vert,3,30700
+Volkswagen,Tiguan,2024,100,Hybride,Manuelle,232,5,Gris,2,40500
+Citroen,C5 Aircross,2023,19747,Hybride,Manuelle,129,5,Rouge,3,27300
+Audi,A3,2018,76776,Hybride,Manuelle,144,5,Gris,1,19400
+Renault,Clio,2019,70491,Essence,Automatique,90,5,Bleu,3,10900
+Audi,A1,2023,10607,Diesel,Manuelle,180,5,Argent,1,25600
+Volkswagen,Tiguan,2023,26925,Essence,Automatique,70,5,Vert,3,26300
+Mercedes,Classe C,2023,14413,Electrique,Automatique,99,5,Rouge,3,40600
+Peugeot,5008,2023,8242,Essence,Automatique,73,5,Blanc,2,29000
+Toyota,Yaris,2023,16322,Diesel,Automatique,124,5,Gris,1,18400
+Volkswagen,Polo,2024,100,Essence,Manuelle,161,5,Rouge,1,20000
+Toyota,Corolla,2019,65160,Diesel,Automatique,131,3,Noir,1,14800
+Mercedes,GLC,2021,35356,Essence,Automatique,188,5,Blanc,2,40200
+Volkswagen,Golf,2018,61083,Essence,Manuelle,184,5,Argent,2,15000
+Renault,Clio,2023,8728,Diesel,Manuelle,86,5,Bleu,1,15800
+Volkswagen,Passat,2021,46722,Hybride,Manuelle,183,5,Rouge,1,29500
+Volkswagen,Passat,2022,34934,Essence,Automatique,116,5,Vert,3,25700
+Volkswagen,T-Roc,2021,28573,Hybride,Manuelle,217,5,Blanc,2,23700
+BMW,Serie 3,2017,105291,Electrique,Manuelle,79,5,Bleu,1,20300
+Audi,Q5,2020,25580,Electrique,Manuelle,133,5,Blanc,2,36100
+Citroen,C3,2023,10684,Essence,Automatique,86,5,Gris,1,12800
+Renault,Clio,2019,81877,Diesel,Automatique,70,5,Rouge,2,10800
+Toyota,Yaris,2019,95734,Essence,Manuelle,70,5,Blanc,2,9700
+Renault,Kadjar,2015,184142,Essence,Automatique,118,5,Gris,1,9100
+Toyota,Corolla,2016,129451,Diesel,Automatique,73,5,Blanc,1,8500
+Peugeot,308,2018,126769,Essence,Automatique,76,5,Noir,2,11900
+Volkswagen,Tiguan,2016,97621,Essence,Manuelle,213,5,Bleu,2,15200
+BMW,X1,2020,48902,Essence,Manuelle,240,5,Rouge,3,24000
+Toyota,Yaris,2018,77056,Diesel,Manuelle,112,5,Blanc,3,8500
+Volkswagen,T-Roc,2018,63557,Essence,Manuelle,168,3,Argent,1,13900
+Toyota,RAV4,2022,16279,Diesel,Automatique,82,5,Argent,2,27500
+Renault,Clio,2021,43099,Diesel,Automatique,79,5,Rouge,4,11700
+Citroen,C3 Aircross,2019,108562,Essence,Manuelle,70,5,Vert,2,9600
+Citroen,C5 Aircross,2022,16468,Essence,Automatique,70,5,Gris,1,23800
+Renault,Captur,2015,148809,Hybride,Manuelle,120,5,Vert,3,8300
+Renault,Captur,2017,41289,Hybride,Automatique,88,5,Gris,2,12500
+BMW,X3,2019,61716,Diesel,Manuelle,184,5,Blanc,1,32100
+Renault,Scenic,2017,133428,Diesel,Manuelle,117,5,Blanc,2,13600
+Peugeot,3008,2018,105755,Hybride,Automatique,153,5,Blanc,1,19400
+Citroen,C3 Aircross,2024,100,Essence,Automatique,70,5,Gris,1,18600
+Mercedes,GLC,2021,22359,Diesel,Automatique,83,5,Gris,2,36800
+Audi,A4,2021,24618,Diesel,Automatique,221,5,Argent,3,35300
+Peugeot,5008,2023,21337,Diesel,Automatique,114,5,Gris,1,30400
+Citroen,C3,2018,85571,Diesel,Automatique,126,5,Vert,1,9200
+Renault,Megane,2020,50243,Essence,Manuelle,152,5,Bleu,2,14400
+Toyota,C-HR,2015,140998,Diesel,Manuelle,149,5,Argent,4,8300
+Audi,A3,2019,59064,Essence,Manuelle,149,5,Gris,1,19100
+BMW,Serie 3,2023,22113,Essence,Automatique,70,3,Rouge,2,28100
+Citroen,C3,2021,39597,Diesel,Automatique,130,5,Gris,3,10300
+Volkswagen,T-Roc,2019,103689,Essence,Automatique,158,5,Blanc,1,17300
+Renault,Captur,2015,126969,Electrique,Automatique,93,5,Rouge,3,8500
+Peugeot,3008,2018,99774,Essence,Manuelle,111,5,Rouge,2,13700
+Toyota,RAV4,2022,42895,Electrique,Automatique,100,5,Argent,2,30500
+Audi,A1,2015,168933,Essence,Manuelle,180,5,Vert,1,11000
+BMW,Serie 1,2017,55051,Hybride,Manuelle,228,5,Gris,3,19400
+Citroen,C3,2021,38774,Diesel,Manuelle,156,5,Blanc,1,13400
+Toyota,RAV4,2017,93888,Electrique,Automatique,70,5,Noir,2,16700
+Audi,Q5,2017,95343,Essence,Manuelle,210,5,Rouge,3,23900
+Renault,Kadjar,2024,100,Hybride,Automatique,72,5,Noir,3,23000
+Renault,Kadjar,2022,19797,Essence,Automatique,102,5,Argent,3,19500
+Citroen,C3,2022,37610,Essence,Manuelle,127,5,Rouge,1,10800
+Toyota,Yaris,2018,107355,Electrique,Manuelle,136,5,Rouge,1,12400
+Audi,Q3,2023,19068,Hybride,Manuelle,128,5,Gris,1,33800
+Mercedes,Classe C,2019,81581,Hybride,Automatique,152,5,Vert,3,30100
+Peugeot,208,2019,76591,Hybride,Automatique,113,5,Rouge,1,11800
+Volkswagen,Golf,2021,47773,Hybride,Automatique,155,5,Blanc,2,26400
+Audi,A3,2022,25401,Hybride,Manuelle,185,5,Rouge,2,25200
+Citroen,C4,2017,132515,Diesel,Automatique,159,5,Argent,1,12200
+Volkswagen,T-Roc,2020,66712,Hybride,Manuelle,174,5,Argent,3,20400
+Citroen,C3 Aircross,2020,62371,Essence,Automatique,83,5,Blanc,2,10500
+Audi,Q5,2019,31615,Hybride,Manuelle,153,5,Gris,2,30500
+Renault,Kadjar,2020,51764,Hybride,Automatique,134,5,Rouge,4,18700
+Volkswagen,Tiguan,2015,122943,Essence,Automatique,163,5,Vert,1,12100
+Renault,Captur,2024,100,Hybride,Automatique,132,3,Argent,1,22600
+Citroen,C4,2024,1284,Electrique,Automatique,98,5,Vert,2,31100
+Toyota,Corolla,2015,184546,Hybride,Automatique,70,5,Argent,3,7600
+Toyota,RAV4,2020,38263,Electrique,Manuelle,110,5,Bleu,3,24500
+Citroen,C3 Aircross,2015,138569,Essence,Manuelle,70,5,Argent,1,7200
+Toyota,Yaris,2018,89089,Hybride,Manuelle,115,5,Argent,2,10700
+Citroen,C3,2018,82359,Essence,Manuelle,110,5,Rouge,2,7800
+BMW,X1,2020,59978,Essence,Manuelle,117,5,Blanc,1,20100
+Peugeot,3008,2015,149499,Diesel,Manuelle,123,5,Vert,1,11900
+Toyota,RAV4,2016,89261,Diesel,Manuelle,122,5,Gris,1,14800
+Mercedes,GLA,2021,47363,Hybride,Automatique,192,3,Rouge,2,34400
+Citroen,C4,2024,5894,Hybride,Automatique,146,5,Bleu,2,27300
+Citroen,C3 Aircross,2023,12608,Essence,Automatique,145,5,Vert,3,19400
+BMW,X1,2020,37462,Diesel,Automatique,217,5,Argent,1,27800
+Peugeot,208,2019,116513,Hybride,Manuelle,95,5,Rouge,1,8500
+Audi,A4,2022,39770,Essence,Automatique,131,5,Vert,1,28300
+Toyota,Corolla,2015,230699,Hybride,Manuelle,117,5,Vert,1,9300
+Renault,Captur,2020,50909,Hybride,Automatique,169,5,Gris,4,15400
+Peugeot,208,2020,64676,Diesel,Manuelle,129,5,Rouge,2,11400
+Toyota,Corolla,2019,77406,Diesel,Manuelle,123,5,Vert,2,15500
+Toyota,RAV4,2017,145744,Diesel,Manuelle,152,3,Rouge,2,14900
+Renault,Megane,2017,53621,Electrique,Manuelle,109,5,Vert,3,12600
+Renault,Megane,2022,38185,Diesel,Automatique,122,5,Blanc,2,21300
+Peugeot,308,2022,25829,Hybride,Automatique,110,5,Noir,2,21400
+Audi,Q3,2018,105233,Essence,Manuelle,180,5,Rouge,1,17400
+Renault,Captur,2024,1654,Essence,Automatique,97,3,Blanc,2,19200
+Citroen,C3,2019,88347,Diesel,Manuelle,161,5,Gris,1,7700
+Citroen,C4,2015,101906,Diesel,Automatique,160,5,Bleu,3,9400
+BMW,Serie 3,2016,127850,Hybride,Manuelle,79,5,Bleu,1,19300
+BMW,X1,2015,155015,Essence,Automatique,156,5,Gris,3,12300
+Peugeot,5008,2020,68180,Hybride,Automatique,131,3,Blanc,2,24700
+BMW,Serie 3,2022,51126,Diesel,Manuelle,212,5,Gris,3,29100
+Audi,A1,2024,100,Essence,Automatique,243,5,Noir,1,37200
+Peugeot,5008,2016,100501,Hybride,Manuelle,136,3,Rouge,1,16700
+Toyota,RAV4,2022,33478,Electrique,Automatique,97,5,Argent,2,35700
+Toyota,Yaris,2023,16475,Electrique,Automatique,110,5,Blanc,4,16800
+Volkswagen,Polo,2021,67895,Diesel,Automatique,77,5,Bleu,2,12700
+Audi,Q5,2022,45407,Essence,Automatique,176,5,Noir,1,38700
+BMW,Serie 3,2018,55099,Diesel,Manuelle,237,5,Noir,2,23300
+Volkswagen,Tiguan,2020,55304,Hybride,Manuelle,209,5,Rouge,3,25400
+Audi,Q5,2017,137336,Diesel,Manuelle,176,5,Rouge,2,18800
+Toyota,Corolla,2015,244947,Essence,Automatique,97,5,Blanc,2,7000
+Renault,Clio,2023,16582,Essence,Automatique,117,3,Rouge,1,15000
+Citroen,C3,2023,22059,Hybride,Manuelle,99,5,Argent,1,14200
+Volkswagen,Golf,2020,71327,Essence,Automatique,97,3,Vert,1,18100
+Peugeot,5008,2023,14580,Electrique,Automatique,152,5,Argent,2,35000
+Volkswagen,Tiguan,2016,92390,Diesel,Automatique,145,5,Blanc,3,17200
+BMW,X1,2016,82534,Hybride,Automatique,209,5,Noir,3,20300
+Audi,Q3,2015,114617,Electrique,Automatique,172,5,Bleu,2,16500
+BMW,Serie 1,2020,66667,Electrique,Manuelle,219,5,Argent,1,28000
+Renault,Kadjar,2019,65472,Essence,Automatique,103,5,Gris,3,15800
+Mercedes,Classe C,2022,10304,Diesel,Manuelle,111,5,Gris,3,37000
+BMW,Serie 1,2016,85171,Electrique,Automatique,208,5,Gris,1,18100
+Toyota,C-HR,2016,98132,Essence,Automatique,93,5,Blanc,3,11000
+BMW,X1,2020,40103,Hybride,Manuelle,194,5,Vert,3,24500
+Citroen,C4,2017,84535,Essence,Manuelle,104,5,Rouge,3,9500
+Audi,Q3,2018,103467,Essence,Manuelle,150,5,Bleu,2,16100
+Volkswagen,Passat,2020,65382,Diesel,Manuelle,156,5,Rouge,1,21100
+Citroen,C3,2023,14470,Hybride,Manuelle,82,5,Bleu,1,14000
+Renault,Clio,2019,63819,Essence,Manuelle,87,5,Bleu,2,8700
+Mercedes,Classe A,2021,53993,Essence,Manuelle,170,5,Noir,3,24600
+Audi,A3,2022,49422,Essence,Manuelle,187,5,Bleu,2,24500
+Citroen,C3 Aircross,2023,16369,Essence,Manuelle,88,5,Gris,3,15900
+Volkswagen,Passat,2022,34749,Hybride,Manuelle,190,5,Rouge,1,36300
+Volkswagen,Passat,2017,76889,Essence,Manuelle,141,5,Bleu,2,17900
+Mercedes,Classe C,2018,76116,Diesel,Manuelle,129,5,Blanc,3,20500
+Mercedes,GLA,2018,141247,Diesel,Manuelle,231,5,Bleu,3,21700
+Volkswagen,Passat,2016,171460,Essence,Manuelle,115,5,Vert,1,12800
+Mercedes,GLC,2017,83389,Essence,Automatique,114,5,Bleu,3,22700
+Peugeot,308,2021,39280,Hybride,Automatique,70,5,Argent,1,19300
+Peugeot,3008,2019,99049,Essence,Manuelle,107,5,Rouge,1,16800
+Volkswagen,Passat,2017,99475,Diesel,Manuelle,145,3,Vert,1,18200
+Citroen,C3,2019,74370,Hybride,Manuelle,116,5,Rouge,1,8600
+Audi,A1,2015,209676,Essence,Manuelle,153,5,Noir,2,7900
+Renault,Kadjar,2016,112470,Essence,Manuelle,117,5,Argent,2,9400
+Peugeot,2008,2022,24980,Essence,Manuelle,132,3,Rouge,2,16200
+Volkswagen,Golf,2016,98168,Diesel,Manuelle,130,5,Blanc,2,12300
+Peugeot,208,2015,151674,Electrique,Automatique,70,3,Noir,2,9000
+Volkswagen,Passat,2018,77737,Diesel,Manuelle,163,5,Rouge,1,19500
+Volkswagen,Golf,2023,11544,Essence,Automatique,128,5,Rouge,2,23000
