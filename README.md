@@ -1,98 +1,54 @@
-\# Estimation du Prix de Vehicules d'Occasion
+# Telecom Customer Churn Analysis
 
+## Description
+Analysis of telecom customer data to predict and understand customer churn using Machine Learning (Logistic Regression and Random Forest).
 
+## Objectives
+- Understand key factors driving customer churn
+- Build predictive models to identify at-risk customers
+- Provide data-driven business recommendations
 
-\## Description
+## Technologies
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
 
-Modele de Machine Learning (Random Forest) pour estimer le prix de revente de vehicules d'occasion en France. Le modele prend en compte le kilometrage, l'age, la motorisation, la puissance et la marque pour predire la decote.
+## Results
+| Model | Accuracy | AUC |
+|-------|----------|-----|
+| Logistic Regression | ~79% | ~0.82 |
+| Random Forest | ~82% | ~0.85 |
 
+## Visualizations
 
+### Churn Distribution
+![Churn](outputs/churn_distribution.png)
 
-\## Objectifs
+### Monthly Charges vs Churn
+![Charges](outputs/monthly_charges_churn.png)
 
-\- Analyser les facteurs influencant le prix des vehicules d'occasion
+### Churn by Contract Type
+![Contract](outputs/churn_by_contract.png)
 
-\- Construire un modele predictif performant (Random Forest)
+### Churn by Tenure
+![Tenure](outputs/churn_by_tenure.png)
 
-\- Identifier les variables les plus impactantes (Feature Importance)
+### Feature Importance
+![Features](outputs/feature_importance.png)
 
-\- Fournir un outil d'estimation fiable
+### ROC Curve
+![ROC](outputs/roc_curve.png)
 
+### Correlation Heatmap
+![Correlation](outputs/correlation_heatmap.png)
 
+### Confusion Matrix
+![Confusion](outputs/confusion_matrix.png)
 
-\## Technologies
-
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Scikit-learn
-
-\- Matplotlib
-
-\- Seaborn
-
-
-
-\## Resultats
-
-| Metrique | Valeur |
-
-|----------|--------|
-
-| R2 Score | 0.74 |
-
-| MAE | 3 592 EUR |
-
-| RMSE | 4 765 EUR |
-
-| MAPE | 20.3% |
-
-
-
-\## Visualisations
-
-
-
-\### Distribution des prix
-
-!\[Distribution](outputs/distribution\_prix.png)
-
-
-
-\### Prix vs Kilometrage
-
-!\[Prix vs KM](outputs/prix\_vs\_kilometrage.png)
-
-
-
-\### Matrice de correlation
-
-!\[Correlation](outputs/correlation\_matrix.png)
-
-
-
-\### Importance des variables
-
-!\[Feature Importance](outputs/feature\_importance.png)
-
-
-
-\### Predictions vs Reel
-
-!\[Predictions](outputs/predictions\_vs\_reel.png)
-
-
-
-\## Installation
-
+## Installation
 ```bash
-
 pip install -r requirements.txt
-
-python generate\_data.py
-
+python generate_data.py
 python analysis.py
-
